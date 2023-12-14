@@ -1,0 +1,7 @@
+source "/home/filipe/esp/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/filipe/esp/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/home/filipe/esp/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/filipe/esp/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/filipe/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/components/Network_softAP/Kconfig.projbuild"
+source "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/components/file_server/Kconfig.projbuild"
