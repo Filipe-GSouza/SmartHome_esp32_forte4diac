@@ -7,6 +7,7 @@ add_prebuilt_library(forte "lib/${CONFIG_IDF_TARGET}/src/libforte-static.a"
                  led_strip
                  forte_main
                  lua
-                 nvs_flash)
+                 nvs_flash
+                 esp_adc)
 
 target_link_libraries(${COMPONENT_LIB} INTERFACE forte)

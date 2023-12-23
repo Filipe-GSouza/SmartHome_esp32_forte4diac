@@ -1,0 +1,70 @@
+Compiler supported targets: xtensa-esp32s3-elf
+
+CMake Warning at /home/filipe/esp/esp-idf/components/partition_table/project_include.cmake:18 (message):
+  Partition table CSV file
+  /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/partitions.csv not
+  found.  Change custom partition CSV path in menuconfig.
+Call Stack (most recent call first):
+  /home/filipe/esp/esp-idf/tools/cmake/build.cmake:398 (include)
+  /home/filipe/esp/esp-idf/tools/cmake/build.cmake:620 (__build_process_project_includes)
+  /home/filipe/esp/esp-idf/tools/cmake/project.cmake:547 (idf_build_process)
+  CMakeLists.txt:6 (project)
+
+
+Traceback (most recent call last):
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/partitions.csv'
+Traceback (most recent call last):
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/partitions.csv'
+Traceback (most recent call last):
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/partitions.csv'
+Traceback (most recent call last):
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/partitions.csv'
+Traceback (most recent call last):
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/filipe/esp/esp-idf/components/partition_table/parttool.py", line 88, in __init__
+    with open(partition_table_file, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/partitions.csv'
+CMake Error at /home/filipe/esp/esp-idf/tools/cmake/component.cmake:381 (__component_get_property):
+  __component_get_property Function invoked with incorrect arguments for
+  function named: __component_get_property
+Call Stack (most recent call first):
+  /home/filipe/esp/esp-idf/tools/cmake/utilities.cmake:316 (idf_component_get_property)
+  components/4diac-forte-esp32-component/CMakeLists.txt:3 (add_prebuilt_library)
+
+
+CMake Error at /home/filipe/esp/esp-idf/tools/cmake/component.cmake:381 (__component_get_property):
+  __component_get_property Function invoked with incorrect arguments for
+  function named: __component_get_property
+Call Stack (most recent call first):
+  /home/filipe/esp/esp-idf/tools/cmake/utilities.cmake:316 (idf_component_get_property)
+  components/4diac-forte-esp32-component/CMakeLists.txt:3 (add_prebuilt_library)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

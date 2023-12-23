@@ -29,6 +29,7 @@ extern void Network_softAP_main(void);
 #define EXAMPLE_ESP_WIFI_PASS      CONFIG_ESP_WIFI_AP_PASSWORD
 #define EXAMPLE_ESP_WIFI_CHANNEL   CONFIG_ESP_WIFI_AP_CHANNEL
 #define EXAMPLE_MAX_STA_CONN       CONFIG_ESP_MAX_STA_CONN
+#define EXAMPLE_WIFI_SSID "ESP32_SmartHome"
 
 static const char *TAG = "wifi softAP";
 
@@ -63,8 +64,8 @@ void wifi_init_softap(void)
 
     wifi_config_t wifi_config = {
         .ap = {
-            .ssid = "XX",
-            .ssid_len = 2,
+            .ssid = EXAMPLE_WIFI_SSID,//"XX",
+            //.ssid_len = 2,
             .channel = EXAMPLE_ESP_WIFI_CHANNEL,
             .password = EXAMPLE_ESP_WIFI_PASS,
             .max_connection = EXAMPLE_MAX_STA_CONN,
@@ -80,8 +81,8 @@ void wifi_init_softap(void)
         },
     };
 
-    wifi_config.ap.ssid[0] = 0XFF;
-    wifi_config.ap.ssid[1] = 0XFF;
+   // wifi_config.ap.ssid[0] = 0XFF;
+  // wifi_config.ap.ssid[1] = 0XFF;
 
     if (strlen(EXAMPLE_ESP_WIFI_PASS) == 0) {
         wifi_config.ap.authmode = WIFI_AUTH_OPEN;

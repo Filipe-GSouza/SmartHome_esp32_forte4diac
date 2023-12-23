@@ -1,0 +1,183 @@
+[0;33m--- esp-idf-monitor 1.3.3 on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4037590c: call_start_cpu1 at /home/filipe/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x420ca3f0: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420ca3ed: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x420cca83: CProcessInterfaceBase::STATUS() at ??:?
+[0m
+[0;33m0x42020b2b: CEsp32ProcessInterface::CEsp32ProcessInterface(CResource*, SFBInterfaceSpec const*, unsigned int) at ??:?
+[0m
+[0;33m0x4202121c: FORTE_IX::FORTE_IX(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4202133e: FORTE_IX::createFB(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x420cbd91: CTypeLib::CFBTypeEntry::createFBInstance(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b65d: CTypeLib::createFB(unsigned int, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x42019c74: forte::core::CFBContainer::createFB(forte::core::util::CFixedCapazityVector<unsigned int, 30u, forte::core::util::CArray<unsigned int, 30u> >::CIterator&, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b009: CResource::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x42018db1: CDevice::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x420290e7: DEV_MGR::parseAndExecuteMGMCommand(char const*, char*) at ??:?
+[0m
+[0;33m0x42029144: DEV_MGR::executeRQST() at ??:?
+[0m
+[0;33m0x420292bb: DEV_MGR::executeEvent(unsigned int) at ??:?
+[0m
+[0;33m0x420ca442: CFunctionBlock::executeEvent(unsigned int, CEventChainExecutionThread*) at ??:?
+[0m
+[0;33m0x4201b8ab: CEventChainExecutionThread::mainRun() at ??:?
+[0m
+[0;33m0x4201b8b8: CEventChainExecutionThread::run() at ??:?
+[0m
+[0;33m0x42029960: CFreeRTOSThread::threadFunction(void*) at ??:?
+[0m
+[0;33m0x40380b31: vPortTaskWrapper at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40380d8e: xPortEnterCriticalTimeout at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:515
+[0m
+[0;33m0x4037590c: call_start_cpu1 at /home/filipe/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x420ca3f0: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420ca3ed: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x420cca83: CProcessInterfaceBase::STATUS() at ??:?
+[0m
+[0;33m0x42020b2b: CEsp32ProcessInterface::CEsp32ProcessInterface(CResource*, SFBInterfaceSpec const*, unsigned int) at ??:?
+[0m
+[0;33m0x4202121c: FORTE_IX::FORTE_IX(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4202133e: FORTE_IX::createFB(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x420cbd91: CTypeLib::CFBTypeEntry::createFBInstance(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b65d: CTypeLib::createFB(unsigned int, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x42019c74: forte::core::CFBContainer::createFB(forte::core::util::CFixedCapazityVector<unsigned int, 30u, forte::core::util::CArray<unsigned int, 30u> >::CIterator&, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b009: CResource::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x42018db1: CDevice::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x420290e7: DEV_MGR::parseAndExecuteMGMCommand(char const*, char*) at ??:?
+[0m
+[0;33m0x42029144: DEV_MGR::executeRQST() at ??:?
+[0m
+[0;33m0x420292bb: DEV_MGR::executeEvent(unsigned int) at ??:?
+[0m
+[0;33m0x420ca442: CFunctionBlock::executeEvent(unsigned int, CEventChainExecutionThread*) at ??:?
+[0m
+[0;33m0x4201b8ab: CEventChainExecutionThread::mainRun() at ??:?
+[0m
+[0;33m0x4201b8b8: CEventChainExecutionThread::run() at ??:?
+[0m
+[0;33m0x42029960: CFreeRTOSThread::threadFunction(void*) at ??:?
+[0m
+[0;33m0x40380b31: vPortTaskWrapper at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40381295: _xt_context_save at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S:195
+[0m
+[0;33m0x4037590c: call_start_cpu1 at /home/filipe/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x420ca3f0: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420ca3ed: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x420cca83: CProcessInterfaceBase::STATUS() at ??:?
+[0m
+[0;33m0x42020b2b: CEsp32ProcessInterface::CEsp32ProcessInterface(CResource*, SFBInterfaceSpec const*, unsigned int) at ??:?
+[0m
+[0;33m0x4202121c: FORTE_IX::FORTE_IX(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4202133e: FORTE_IX::createFB(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x420cbd91: CTypeLib::CFBTypeEntry::createFBInstance(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b65d: CTypeLib::createFB(unsigned int, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x42019c74: forte::core::CFBContainer::createFB(forte::core::util::CFixedCapazityVector<unsigned int, 30u, forte::core::util::CArray<unsigned int, 30u> >::CIterator&, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b009: CResource::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x42018db1: CDevice::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x420290e7: DEV_MGR::parseAndExecuteMGMCommand(char const*, char*) at ??:?
+[0m
+[0;33m0x42029144: DEV_MGR::executeRQST() at ??:?
+[0m
+[0;33m0x420292bb: DEV_MGR::executeEvent(unsigned int) at ??:?
+[0m
+[0;33m0x420ca442: CFunctionBlock::executeEvent(unsigned int, CEventChainExecutionThread*) at ??:?
+[0m
+[0;33m0x4201b8ab: CEventChainExecutionThread::mainRun() at ??:?
+[0m
+[0;33m0x4201b8b8: CEventChainExecutionThread::run() at ??:?
+[0m
+[0;33m0x42029960: CFreeRTOSThread::threadFunction(void*) at ??:?
+[0m
+[0;33m0x40380b31: vPortTaskWrapper at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40381298: _xt_context_save at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_context.S:197
+[0m
+[0;33m0x4037590c: call_start_cpu1 at /home/filipe/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x420ca3f0: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x420ca3ed: CFunctionBlock::getDO(unsigned int) at ??:?
+[0m
+[0;33m0x420cca83: CProcessInterfaceBase::STATUS() at ??:?
+[0m
+[0;33m0x42020b2b: CEsp32ProcessInterface::CEsp32ProcessInterface(CResource*, SFBInterfaceSpec const*, unsigned int) at ??:?
+[0m
+[0;33m0x4202121c: FORTE_IX::FORTE_IX(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4202133e: FORTE_IX::createFB(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x420cbd91: CTypeLib::CFBTypeEntry::createFBInstance(unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b65d: CTypeLib::createFB(unsigned int, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x42019c74: forte::core::CFBContainer::createFB(forte::core::util::CFixedCapazityVector<unsigned int, 30u, forte::core::util::CArray<unsigned int, 30u> >::CIterator&, unsigned int, CResource*) at ??:?
+[0m
+[0;33m0x4201b009: CResource::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x42018db1: CDevice::executeMGMCommand(forte::core::SManagementCMD&) at ??:?
+[0m
+[0;33m0x420290e7: DEV_MGR::parseAndExecuteMGMCommand(char const*, char*) at ??:?
+[0m
+[0;33m0x42029144: DEV_MGR::executeRQST() at ??:?
+[0m
+[0;33m0x420292bb: DEV_MGR::executeEvent(unsigned int) at ??:?
+[0m
+[0;33m0x420ca442: CFunctionBlock::executeEvent(unsigned int, CEventChainExecutionThread*) at ??:?
+[0m
+[0;33m0x4201b8ab: CEventChainExecutionThread::mainRun() at ??:?
+[0m
+[0;33m0x4201b8b8: CEventChainExecutionThread::run() at ??:?
+[0m
+[0;33m0x42029960: CFreeRTOSThread::threadFunction(void*) at ??:?
+[0m
+[0;33m0x40380b31: vPortTaskWrapper at /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162

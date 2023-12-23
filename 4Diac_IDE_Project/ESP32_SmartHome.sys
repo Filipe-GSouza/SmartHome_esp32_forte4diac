@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System Name="ESP32_SmartHome" Comment="">
+	<VersionInfo Version="1.0" Author="filipe" Date="2023-12-16">
+	</VersionInfo>
+	<Application Name="ESP32_SmartHomeApp" Comment="">
+		<SubAppNetwork>
+		</SubAppNetwork>
+	</Application>
+</System>

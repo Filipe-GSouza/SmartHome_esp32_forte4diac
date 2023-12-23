@@ -37,19 +37,3 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/BistableElements/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Counters/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/EdgeDetection/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Timers/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Conversion/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Numerical/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/BitwiseOperators/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Selection/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Comparison/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/Arithmetic/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/modules/IEC61131-3/CharacterString/cmake_install.cmake")
-
-endif()
-

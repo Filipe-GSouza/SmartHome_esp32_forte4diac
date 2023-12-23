@@ -1,0 +1,5 @@
+[1/4] cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/esp-idf/esptool_py && /home/filipe/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/filipe/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/partition_table/partition-table.bin /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/Application.bin
+Application.bin binary size 0x1310d0 bytes. Smallest app partition is 0x400000 bytes. 0x2cef30 bytes (70%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader/esp-idf/esptool_py && /home/filipe/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/filipe/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader/bootloader.bin
+Bootloader binary size 0x52f0 bytes. 0x2d10 bytes (35%) free.

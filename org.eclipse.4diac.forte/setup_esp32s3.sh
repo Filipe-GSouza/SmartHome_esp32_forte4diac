@@ -50,6 +50,7 @@ if [ -d "$forte_bin_dir" ]; then
     -DFORTE_BUILD_STATIC_LIBRARY=ON \
     -DFORTE_IO=ON \
     -DFORTE_MODULE_ESP32=ON \
+    //-DFORTE_MODULE_ESP32IO=ON \
     -DCMAKE_BUILD_TYPE=MINSIZEREL \
     -DFORTE_LOGLEVEL=LOGINFO \
     -DFORTE_COM_ETH=ON \
@@ -58,13 +59,18 @@ if [ -d "$forte_bin_dir" ]; then
     -DFORTE_SUPPORT_BOOT_FILE=ON \
     -DFORTE_BootfileLocation="/data/test_FORTE_PC.fboot" \
     -DFORTE_TESTS=OFF \
-    -DFORTE_MODULE_IEC61131=ON \
+    //-DFORTE_MODULE_IEC61131=ON \
     -DFORTE_MODULE_CONVERT=ON \
     -DFORTE_MODULE_UTILS=ON \
     -DFORTE_MODULE_EXTERNAL_ESPIO=ON \
+    //-DFORTE_MODULE_EXTERNAL_TESTE=ON \
     -DFORTE_EXTERNAL_MODULES_DIRECTORY="/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external" \
     -DFORTE_USE_LUATYPES=Lua \
     -DLUA_INCLUDE_DIR="../../Application/components/lua/src" \
+    //-DFORTE_COM_PAHOMQTT=ON \
+    //-DFORTE_COM_PAHOMQTT_LIB="libpaho-mqtt3a.so" \
+    //-DFORTE_COM_PAHOMQTT_LIB_DIR="/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/paho.mqtt.c/buildPaho/src" \
+    //-DFORTE_COM_PAHOMQTT_INCLUDE_DIR="/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/paho.mqtt.c/src" \
     ../../
 else
   echo "unable to create ${forte_bin_dir}"

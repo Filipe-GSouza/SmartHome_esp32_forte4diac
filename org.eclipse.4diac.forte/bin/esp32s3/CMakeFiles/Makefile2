@@ -85,6 +85,7 @@ src/all: src/core/all
 src/all: src/modules/all
 src/all: src/com/all
 src/all: src/external/ESPIO/all
+src/all: src/external/TESTE/all
 src/all: src/stdfblib/all
 .PHONY : src/all
 
@@ -94,6 +95,7 @@ src/preinstall: src/core/preinstall
 src/preinstall: src/modules/preinstall
 src/preinstall: src/com/preinstall
 src/preinstall: src/external/ESPIO/preinstall
+src/preinstall: src/external/TESTE/preinstall
 src/preinstall: src/stdfblib/preinstall
 .PHONY : src/preinstall
 
@@ -108,6 +110,7 @@ src/clean: src/core/clean
 src/clean: src/modules/clean
 src/clean: src/com/clean
 src/clean: src/external/ESPIO/clean
+src/clean: src/external/TESTE/clean
 src/clean: src/stdfblib/clean
 .PHONY : src/clean
 
@@ -781,6 +784,21 @@ src/external/ESPIO/clean:
 .PHONY : src/external/ESPIO/clean
 
 #=============================================================================
+# Directory level rules for directory src/external/TESTE
+
+# Recursive "all" directory target.
+src/external/TESTE/all:
+.PHONY : src/external/TESTE/all
+
+# Recursive "preinstall" directory target.
+src/external/TESTE/preinstall:
+.PHONY : src/external/TESTE/preinstall
+
+# Recursive "clean" directory target.
+src/external/TESTE/clean:
+.PHONY : src/external/TESTE/clean
+
+#=============================================================================
 # Directory level rules for directory src/modules
 
 # Recursive "all" directory target.
@@ -795,6 +813,7 @@ src/modules/all: src/modules/datapanel/all
 src/modules/all: src/modules/embrick/all
 src/modules/all: src/modules/esp-addons/all
 src/modules/all: src/modules/esp32/all
+src/modules/all: src/modules/esp32io/all
 src/modules/all: src/modules/i2c_dev/all
 src/modules/all: src/modules/lms_ev3/all
 src/modules/all: src/modules/mlpi/all
@@ -822,6 +841,7 @@ src/modules/preinstall: src/modules/datapanel/preinstall
 src/modules/preinstall: src/modules/embrick/preinstall
 src/modules/preinstall: src/modules/esp-addons/preinstall
 src/modules/preinstall: src/modules/esp32/preinstall
+src/modules/preinstall: src/modules/esp32io/preinstall
 src/modules/preinstall: src/modules/i2c_dev/preinstall
 src/modules/preinstall: src/modules/lms_ev3/preinstall
 src/modules/preinstall: src/modules/mlpi/preinstall
@@ -849,6 +869,7 @@ src/modules/clean: src/modules/datapanel/clean
 src/modules/clean: src/modules/embrick/clean
 src/modules/clean: src/modules/esp-addons/clean
 src/modules/clean: src/modules/esp32/clean
+src/modules/clean: src/modules/esp32io/clean
 src/modules/clean: src/modules/i2c_dev/clean
 src/modules/clean: src/modules/lms_ev3/clean
 src/modules/clean: src/modules/mlpi/clean
@@ -868,568 +889,16 @@ src/modules/clean: src/modules/wagokbus/clean
 # Directory level rules for directory src/modules/IEC61131-3
 
 # Recursive "all" directory target.
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/BistableElements/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Counters/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/EdgeDetection/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Timers/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Conversion/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Numerical/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/BitwiseOperators/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Selection/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Comparison/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/Arithmetic/all
-src/modules/IEC61131-3/all: src/modules/IEC61131-3/CharacterString/all
+src/modules/IEC61131-3/all:
 .PHONY : src/modules/IEC61131-3/all
 
 # Recursive "preinstall" directory target.
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/BistableElements/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Counters/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/EdgeDetection/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Timers/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Conversion/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Numerical/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/BitwiseOperators/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Selection/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Comparison/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/Arithmetic/preinstall
-src/modules/IEC61131-3/preinstall: src/modules/IEC61131-3/CharacterString/preinstall
+src/modules/IEC61131-3/preinstall:
 .PHONY : src/modules/IEC61131-3/preinstall
 
 # Recursive "clean" directory target.
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/BistableElements/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Counters/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/EdgeDetection/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Timers/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Conversion/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Numerical/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/BitwiseOperators/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Selection/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Comparison/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/Arithmetic/clean
-src/modules/IEC61131-3/clean: src/modules/IEC61131-3/CharacterString/clean
+src/modules/IEC61131-3/clean:
 .PHONY : src/modules/IEC61131-3/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Arithmetic
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Arithmetic/all:
-.PHONY : src/modules/IEC61131-3/Arithmetic/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Arithmetic/preinstall:
-.PHONY : src/modules/IEC61131-3/Arithmetic/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Arithmetic/clean:
-.PHONY : src/modules/IEC61131-3/Arithmetic/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/BistableElements
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/BistableElements/all:
-.PHONY : src/modules/IEC61131-3/BistableElements/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/BistableElements/preinstall:
-.PHONY : src/modules/IEC61131-3/BistableElements/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/BistableElements/clean:
-.PHONY : src/modules/IEC61131-3/BistableElements/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/BitwiseOperators
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/BitwiseOperators/all:
-.PHONY : src/modules/IEC61131-3/BitwiseOperators/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/BitwiseOperators/preinstall:
-.PHONY : src/modules/IEC61131-3/BitwiseOperators/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/BitwiseOperators/clean:
-.PHONY : src/modules/IEC61131-3/BitwiseOperators/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/CharacterString
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/CharacterString/all:
-.PHONY : src/modules/IEC61131-3/CharacterString/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/CharacterString/preinstall:
-.PHONY : src/modules/IEC61131-3/CharacterString/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/CharacterString/clean:
-.PHONY : src/modules/IEC61131-3/CharacterString/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Comparison
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Comparison/all:
-.PHONY : src/modules/IEC61131-3/Comparison/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Comparison/preinstall:
-.PHONY : src/modules/IEC61131-3/Comparison/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Comparison/clean:
-.PHONY : src/modules/IEC61131-3/Comparison/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/BOOL/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/BYTE/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/DINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/DWORD/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/INT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/SINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/STRING/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/TIME/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/UDINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/UINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/USINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/WORD/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/BCD/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/WSTRING/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/REAL/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/LREAL/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/ULINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/LWORD/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/LINT/all
-src/modules/IEC61131-3/Conversion/all: src/modules/IEC61131-3/Conversion/DT/all
-.PHONY : src/modules/IEC61131-3/Conversion/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/BOOL/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/BYTE/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/DINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/DWORD/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/INT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/SINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/STRING/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/TIME/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/UDINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/UINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/USINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/WORD/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/BCD/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/WSTRING/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/REAL/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/LREAL/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/ULINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/LWORD/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/LINT/preinstall
-src/modules/IEC61131-3/Conversion/preinstall: src/modules/IEC61131-3/Conversion/DT/preinstall
-.PHONY : src/modules/IEC61131-3/Conversion/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/BOOL/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/BYTE/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/DINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/DWORD/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/INT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/SINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/STRING/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/TIME/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/UDINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/UINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/USINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/WORD/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/BCD/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/WSTRING/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/REAL/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/LREAL/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/ULINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/LWORD/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/LINT/clean
-src/modules/IEC61131-3/Conversion/clean: src/modules/IEC61131-3/Conversion/DT/clean
-.PHONY : src/modules/IEC61131-3/Conversion/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/BCD
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/BCD/all:
-.PHONY : src/modules/IEC61131-3/Conversion/BCD/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/BCD/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/BCD/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/BCD/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/BCD/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/BOOL
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/BOOL/all:
-.PHONY : src/modules/IEC61131-3/Conversion/BOOL/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/BOOL/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/BOOL/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/BOOL/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/BOOL/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/BYTE
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/BYTE/all:
-.PHONY : src/modules/IEC61131-3/Conversion/BYTE/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/BYTE/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/BYTE/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/BYTE/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/BYTE/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/DINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/DINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/DINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/DINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/DINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/DINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/DINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/DT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/DT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/DT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/DT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/DT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/DT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/DT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/DWORD
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/DWORD/all:
-.PHONY : src/modules/IEC61131-3/Conversion/DWORD/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/DWORD/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/DWORD/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/DWORD/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/DWORD/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/INT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/INT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/INT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/INT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/INT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/INT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/INT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/LINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/LINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/LINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/LINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/LINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/LINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/LINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/LREAL
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/LREAL/all:
-.PHONY : src/modules/IEC61131-3/Conversion/LREAL/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/LREAL/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/LREAL/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/LREAL/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/LREAL/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/LWORD
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/LWORD/all:
-.PHONY : src/modules/IEC61131-3/Conversion/LWORD/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/LWORD/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/LWORD/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/LWORD/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/LWORD/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/REAL
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/REAL/all:
-.PHONY : src/modules/IEC61131-3/Conversion/REAL/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/REAL/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/REAL/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/REAL/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/REAL/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/SINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/SINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/SINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/SINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/SINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/SINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/SINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/STRING
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/STRING/all:
-.PHONY : src/modules/IEC61131-3/Conversion/STRING/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/STRING/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/STRING/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/STRING/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/STRING/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/TIME
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/TIME/all:
-.PHONY : src/modules/IEC61131-3/Conversion/TIME/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/TIME/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/TIME/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/TIME/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/TIME/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/UDINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/UDINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/UDINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/UDINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/UDINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/UDINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/UDINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/UINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/UINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/UINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/UINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/UINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/UINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/UINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/ULINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/ULINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/ULINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/ULINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/ULINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/ULINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/ULINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/USINT
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/USINT/all:
-.PHONY : src/modules/IEC61131-3/Conversion/USINT/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/USINT/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/USINT/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/USINT/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/USINT/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/WORD
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/WORD/all:
-.PHONY : src/modules/IEC61131-3/Conversion/WORD/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/WORD/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/WORD/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/WORD/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/WORD/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Conversion/WSTRING
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Conversion/WSTRING/all:
-.PHONY : src/modules/IEC61131-3/Conversion/WSTRING/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Conversion/WSTRING/preinstall:
-.PHONY : src/modules/IEC61131-3/Conversion/WSTRING/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Conversion/WSTRING/clean:
-.PHONY : src/modules/IEC61131-3/Conversion/WSTRING/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Counters
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Counters/all:
-.PHONY : src/modules/IEC61131-3/Counters/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Counters/preinstall:
-.PHONY : src/modules/IEC61131-3/Counters/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Counters/clean:
-.PHONY : src/modules/IEC61131-3/Counters/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/EdgeDetection
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/EdgeDetection/all:
-.PHONY : src/modules/IEC61131-3/EdgeDetection/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/EdgeDetection/preinstall:
-.PHONY : src/modules/IEC61131-3/EdgeDetection/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/EdgeDetection/clean:
-.PHONY : src/modules/IEC61131-3/EdgeDetection/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Numerical
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Numerical/all:
-.PHONY : src/modules/IEC61131-3/Numerical/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Numerical/preinstall:
-.PHONY : src/modules/IEC61131-3/Numerical/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Numerical/clean:
-.PHONY : src/modules/IEC61131-3/Numerical/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Selection
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Selection/all:
-.PHONY : src/modules/IEC61131-3/Selection/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Selection/preinstall:
-.PHONY : src/modules/IEC61131-3/Selection/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Selection/clean:
-.PHONY : src/modules/IEC61131-3/Selection/clean
-
-#=============================================================================
-# Directory level rules for directory src/modules/IEC61131-3/Timers
-
-# Recursive "all" directory target.
-src/modules/IEC61131-3/Timers/all:
-.PHONY : src/modules/IEC61131-3/Timers/all
-
-# Recursive "preinstall" directory target.
-src/modules/IEC61131-3/Timers/preinstall:
-.PHONY : src/modules/IEC61131-3/Timers/preinstall
-
-# Recursive "clean" directory target.
-src/modules/IEC61131-3/Timers/clean:
-.PHONY : src/modules/IEC61131-3/Timers/clean
 
 #=============================================================================
 # Directory level rules for directory src/modules/PLC01A1
@@ -1595,6 +1064,21 @@ src/modules/esp32/nvs/preinstall:
 # Recursive "clean" directory target.
 src/modules/esp32/nvs/clean:
 .PHONY : src/modules/esp32/nvs/clean
+
+#=============================================================================
+# Directory level rules for directory src/modules/esp32io
+
+# Recursive "all" directory target.
+src/modules/esp32io/all:
+.PHONY : src/modules/esp32io/all
+
+# Recursive "preinstall" directory target.
+src/modules/esp32io/preinstall:
+.PHONY : src/modules/esp32io/preinstall
+
+# Recursive "clean" directory target.
+src/modules/esp32io/clean:
+.PHONY : src/modules/esp32io/clean
 
 #=============================================================================
 # Directory level rules for directory src/modules/i2c_dev

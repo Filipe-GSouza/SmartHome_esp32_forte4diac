@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FBType Name="D_IN" Comment="Service Interface Function Block Type to ESP32 Module">
+	<Identification Standard="61499-2" Description="configurable I/O - INPUT" >
+	</Identification>
+	<VersionInfo Version="1.0" Author="Filipe Gomes" Date="2023-12-12">
+	</VersionInfo>
+	<CompilerInfo>
+		<Compiler Language="Cpp" Vendor="Unknown" Product="Unknown" Version="1.0"/>
+	</CompilerInfo>
+	<InterfaceList>
+		<EventInputs>
+			<Event Name="INIT" Type="Event" Comment="Service Initialization">
+				<With Var="QI"/>
+				<With Var="PARAMS"/>
+			</Event>
+			<Event Name="REQ" Type="Event" Comment="Service Request">
+				<With Var="QI"/>
+			</Event>
+		</EventInputs>
+		<EventOutputs>
+			<Event Name="INITO" Type="Event" Comment="Initialization Confirm">
+				<With Var="QO"/>
+				<With Var="STATUS"/>
+			</Event>
+			<Event Name="CNF" Type="Event" Comment="Confirmation of Requested Service">
+				<With Var="QO"/>
+				<With Var="STATUS"/>
+				<With Var="IN"/>
+			</Event>
+		</EventOutputs>
+		<InputVars>
+			<VarDeclaration Name="QI" Type="BOOL" Comment="Event Input Qualifier" InitialValue="TRUE"/>
+			<VarDeclaration Name="PARAMS" Type="WSTRING" Comment="Service Parameters"/>
+		</InputVars>
+		<OutputVars>
+			<VarDeclaration Name="QO" Type="BOOL" Comment="Event Output Qualifier"/>
+			<VarDeclaration Name="STATUS" Type="WSTRING" Comment="Service Status"/>
+			<VarDeclaration Name="IN" Type="BOOL" Comment="Input data from resource"/>
+		</OutputVars>
+	</InterfaceList>
+	<Service RightInterface="" LeftInterface="" Comment="Service Interface Function Block Type to ESP32 Module">
+	</Service>
+</FBType>

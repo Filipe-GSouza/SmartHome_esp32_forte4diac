@@ -49,7 +49,13 @@ if [ -d "$forte_bin_dir" ]; then
     -DFORTE_BUILD_EXECUTABLE=OFF \
     -DFORTE_BUILD_STATIC_LIBRARY=ON \
     -DFORTE_IO=ON \
+    -DFORTE_IO_COMMON_IO=ON \
     -DFORTE_MODULE_ESP32=ON \
+    -DFORTE_MODULE_signalprocessing=ON \
+    -DFORTE_MODULE_esp-addons=ON \
+    -DFORTE_MODULE_HUTSCHIENENMOPED=ON \
+    -DFORTE_MODULE_ESP32_DIGITAL_IN=ON \
+    -DFORTE_MODULE_ESP32_DIGITAL_OUT=ON \
     -DCMAKE_BUILD_TYPE=MINSIZEREL \
     -DFORTE_LOGLEVEL=LOGINFO \
     -DFORTE_COM_ETH=ON \
@@ -58,11 +64,9 @@ if [ -d "$forte_bin_dir" ]; then
     -DFORTE_SUPPORT_BOOT_FILE=ON \
     -DFORTE_BootfileLocation="/data/test_FORTE_PC.fboot" \
     -DFORTE_TESTS=OFF \
-    \\-DFORTE_MODULE_IEC61131=ON \
+    -DFORTE_MODULE_IEC61131=ON \
     -DFORTE_MODULE_CONVERT=ON \
     -DFORTE_MODULE_UTILS=ON \
-    -DFORTE_MODULE_EXTERNAL_ESPIO=ON \
-    -DFORTE_EXTERNAL_MODULES_DIRECTORY="/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external" \
     -DFORTE_USE_LUATYPES=Lua \
     -DLUA_INCLUDE_DIR="../../Application/components/lua/src" \
     ../../
