@@ -1,4 +1,4 @@
-# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/components/4diac-forte-esp32-component
+# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/components/4diac-forte-esp32-component
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application
+# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/esp-idf/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
 
 endif()
 

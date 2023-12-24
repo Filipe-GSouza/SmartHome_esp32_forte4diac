@@ -1,4 +1,4 @@
-# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/bootloader_components/my_boot_hooks
+# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/bootloader_components/my_boot_hooks
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

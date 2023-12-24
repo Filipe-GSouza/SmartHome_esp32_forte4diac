@@ -8,7 +8,7 @@
 #include "esp_flash.h"
 #include "esp_err.h"
 #include "driver/gpio.h"
-
+#include "driver/ledc.h"
 
 extern void Network_softAP_main(void);
 extern void forte_main(void);

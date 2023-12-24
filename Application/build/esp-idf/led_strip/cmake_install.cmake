@@ -1,4 +1,4 @@
-# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/components/led_strip
+# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/components/led_strip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

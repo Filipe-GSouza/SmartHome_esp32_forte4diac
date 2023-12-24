@@ -1,4 +1,4 @@
-/* * Data converted from /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/components/file_server/upload_script.html
+/* * Data converted from /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/components/file_server/upload_script.html
  */
 .data
 .section .rodata.embedded

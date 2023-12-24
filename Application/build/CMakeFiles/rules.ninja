@@ -1537,7 +1537,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_lua_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application -B/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application -B/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build
   description = Re-running CMake...
   generator = 1
 

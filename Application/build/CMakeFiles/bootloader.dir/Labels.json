@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/CMakeFiles/bootloader"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/CMakeFiles/bootloader.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

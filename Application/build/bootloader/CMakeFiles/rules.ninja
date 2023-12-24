@@ -337,7 +337,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_my_boot_hooks_
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/filipe/esp/esp-idf/components/bootloader/subproject -B/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/bootloader
+  command = /usr/bin/cmake --regenerate-during-build -S/home/filipe/esp/esp-idf/components/bootloader/subproject -B/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/bootloader
   description = Re-running CMake...
   generator = 1
 

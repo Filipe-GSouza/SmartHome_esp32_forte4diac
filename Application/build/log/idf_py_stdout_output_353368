@@ -1,0 +1,1885 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x1784
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc50
+load:0x403cc700,len:0x2eb0
+entry 0x403c9918
+[0;32mI (22) HOOK: This hook is called BEFORE bootloader initialization[0m
+[0;32mI (33) boot: ESP-IDF v5.1.1-dirty 2nd stage bootloader[0m
+[0;32mI (34) boot: compile time Dec 23 2023 21:11:27[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v0.1[0m
+[0;32mI (41) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (46) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) HOOK: This hook is called AFTER bootloader initialization[0m
+[0;32mI (67) boot: Partition Table:[0m
+[0;32mI (71) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (78) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (86) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  2 factory          factory app      00 00 00010000 00400000[0m
+[0;32mI (101) boot:  3 storage          Unknown data     01 82 00410000 000f0000[0m
+[0;32mI (108) boot: End of partition table[0m
+[0;32mI (113) esp_image: segment 0: paddr=00010020 vaddr=3c110020 size=4b234h (307764) map[0m
+[0;32mI (176) esp_image: segment 1: paddr=0005b25c vaddr=3fc9bb00 size=04974h ( 18804) load[0m
+[0;32mI (181) esp_image: segment 2: paddr=0005fbd8 vaddr=40374000 size=00440h (  1088) load[0m
+[0;32mI (182) esp_image: segment 3: paddr=00060020 vaddr=42000020 size=103420h (1061920) map[0m
+[0;32mI (381) esp_image: segment 4: paddr=00163448 vaddr=40374440 size=175f0h ( 95728) load[0m
+[0;32mI (403) esp_image: segment 5: paddr=0017aa40 vaddr=600fe010 size=00004h (     4) load[0m
+[0;32mI (413) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (413) boot: Disabling RNG early entropy source...[0m
+[0;32mI (424) cpu_start: Multicore app[0m
+[0;32mI (425) octal_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (425) octal_psram: dev id       : 0x02 (generation 3)[0m
+[0;32mI (428) octal_psram: density      : 0x03 (64 Mbit)[0m
+[0;32mI (433) octal_psram: good-die     : 0x01 (Pass)[0m
+[0;32mI (439) octal_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (444) octal_psram: VCC          : 0x01 (3V)[0m
+[0;32mI (449) octal_psram: SRF          : 0x01 (Fast Refresh)[0m
+[0;32mI (455) octal_psram: BurstType    : 0x01 (Hybrid Wrap)[0m
+[0;32mI (461) octal_psram: BurstLen     : 0x01 (32 Byte)[0m
+[0;32mI (466) octal_psram: Readlatency  : 0x02 (10 cycles@Fixed)[0m
+[0;32mI (472) octal_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (478) MSPI Timing: PSRAM timing tuning index: 4[0m
+[0;32mI (483) esp_psram: Found 8MB PSRAM device[0m
+[0;32mI (488) esp_psram: Speed: 80MHz[0m
+[0;32mI (491) cpu_start: Pro cpu up.[0m
+[0;32mI (495) cpu_start: Starting app cpu, entry point is 0x4037592c[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (947) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (957) cpu_start: Pro cpu start user code[0m
+[0;32mI (957) cpu_start: cpu freq: 240000000 Hz[0m
+[0;32mI (957) cpu_start: Application information:[0m
+[0;32mI (960) cpu_start: Project name:     Application[0m
+[0;32mI (965) cpu_start: App version:      189f4c1-dirty[0m
+[0;32mI (971) cpu_start: Compile time:     Dec 23 2023 21:11:20[0m
+[0;32mI (977) cpu_start: ELF file SHA256:  fc048c836c4a9386...[0m
+[0;32mI (983) cpu_start: ESP-IDF:          v5.1.1-dirty[0m
+[0;32mI (988) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (993) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (997) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (1002) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1010) heap_init: At 3FCA6728 len 00042FE8 (267 KiB): DRAM[0m
+[0;32mI (1016) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (1023) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (1029) heap_init: At 600FE014 len 00001FD4 (7 KiB): RTCRAM[0m
+[0;32mI (1035) esp_psram: Adding pool of 8192K of PSRAM memory to heap allocator[0m
+[0;32mI (1043) spi_flash: detected chip: gd[0m
+[0;32mI (1047) spi_flash: flash io: dio[0m
+[0;33mW (1051) spi_flash: Detected size(16384k) larger than the size in the binary image header(8192k). Using the size in the binary image header.[0m
+[0;32mI (1068) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (1071) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (1079) app_start: Starting scheduler on CPU0[0m
+[0;32mI (1084) app_start: Starting scheduler on CPU1[0m
+[0;32mI (1084) main_task: Started on CPU0[0m
+[0;32mI (1094) esp_psram: Reserving pool of 32K of internal memory for DMA/internal allocations[0m
+[0;32mI (1102) main_task: Calling app_main()[0m
+sample without isobus!
+This is esp32s3 chip with 2 CPU core(s), WiFi/BLE, silicon revision v0.1, 8MB external flash
+Minimum free heap size: 8664120 bytes
+CONFIG_FREERTOS_HZ: 1000 must be 1000 !!!! (200Hz at least for 5ms )
+app_main starting 
+[0;32mI (1142) wifi softAP: ESP_WIFI_MODE_AP[0m
+[0;32mI (1144) pp: pp rom version: e7ae62f[0m
+[0;32mI (1144) net80211: net80211 rom version: e7ae62f[0m
+I (1146) wifi:wifi driver task: 3fcb8dac, prio:23, stack:3584, core=0
+I (1157) wifi:wifi firmware version: ce9244d
+I (1158) wifi:wifi certification version: v7.0
+I (1159) wifi:config NVS flash: enabled
+I (1163) wifi:config nano formating: disabled
+I (1167) wifi:Init data frame dynamic rx buffer num: 32
+I (1172) wifi:Init management frame dynamic rx buffer num: 32
+I (1177) wifi:Init management short buffer num: 32
+I (1182) wifi:Init static tx buffer num: 16
+I (1186) wifi:Init tx cache buffer num: 32
+I (1190) wifi:Init static tx FG buffer num: 2
+I (1194) wifi:Init static rx buffer size: 1600
+I (1198) wifi:Init static rx buffer num: 10
+I (1202) wifi:Init dynamic rx buffer num: 32
+[0;32mI (1206) wifi_init: rx ba win: 6[0m
+[0;32mI (1210) wifi_init: tcpip mbox: 32[0m
+[0;32mI (1214) wifi_init: udp mbox: 6[0m
+[0;32mI (1217) wifi_init: tcp mbox: 6[0m
+[0;32mI (1221) wifi_init: tcp tx win: 5744[0m
+[0;32mI (1226) wifi_init: tcp rx win: 5744[0m
+[0;32mI (1230) wifi_init: tcp mss: 1440[0m
+[0;32mI (1234) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (1238) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1243) wifi_init: LWIP IRAM OP enabled[0m
+[0;32mI (1252) phy_init: phy_version 601,98f2a71,Jun 29 2023,09:58:12[0m
+I (1307) wifi:mode : softAP (34:85:18:99:fd:7d)
+I (1310) wifi:Total power save buffer number: 8
+I (1311) wifi:Init max length of beacon: 752/752
+I (1311) wifi:Init max length of beacon: 752/752
+[0;32mI (1314) wifi softAP: wifi_init_softap finished. SSID:ESP32_SmartHome password:*sm@rtH0m3* channel:1[0m
+[0;32mI (1315) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (1333) example_mount: Initializing SPIFFS[0m
+[0;32mI (1394) example_mount: Partition size: total: 896321, used: 0[0m
+[0;32mI (1395) file_server: Starting HTTP Server on port: '80'[0m
+[0;32mI (1398) example: File server started[0m
+[0;32mI (1401) MAIN: Executing forte...[0m
+INFO: T#340000000: Using provided bootfile location set in CMake: /data/test_FORTE_PC.fboot
+INFO: T#340000000: FORTE is up and running
+[0;32mI (1425) MAIN: OK 0 , Could start forte
+[0m
+INFO: T#365000000: Boot file /data/test_FORTE_PC.fboot could not be opened. Skipping...
+INFO: T#366000000: CBSDSocketInterface: Opening TCP-Server connection at: localhost:61499
+forte_main done 
+[0;32mI (3400) main_task: Returned from app_main()[0m
+I (5521) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<255,255>, prof:1
+I (5522) wifi:station: 5c:62:8b:67:aa:ca join, AID=1, bgn, 40U
+[0;32mI (5536) wifi softAP: station 5c:62:8b:67:aa:ca join, AID=1[0m
+[0;32mI (5542) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (7403) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (9107) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+I (9156) wifi:<ba-add>idx:2 (ifx:1, 5c:62:8b:67:aa:ca), tid:0, ssn:71, winSize:64
+INFO: T#17028000000: Connection established by client
+ERROR: T#17235000000: Calibration SuccessINFO: T#17238000000: Connection closed by peer
+INFO: T#17299000000: Connection established by client
+ERROR: T#17333000000: resolucao: 8191
+ERROR: T#17333000000: Porcentagem: 5
+ERROR: T#17333000000: duty calc: 40955
+ERROR: T#17333000000: duty: 0
+ERROR: T#17432000000: resolucao: 8191
+ERROR: T#17433000000: Porcentagem: 5
+ERROR: T#17433000000: duty calc: 40955
+ERROR: T#17433000000: duty: 0
+ERROR: T#17532000000: resolucao: 8191
+ERROR: T#17533000000: Porcentagem: 5
+ERROR: T#17533000000: duty calc: 40955
+ERROR: T#17533000000: duty: 0
+ERROR: T#17632000000: resolucao: 8191
+ERROR: T#17633000000: Porcentagem: 5
+ERROR: T#17633000000: duty calc: 40955
+ERROR: T#17633000000: duty: 0
+ERROR: T#17732000000: resolucao: 8191
+ERROR: T#17733000000: Porcentagem: 5
+ERROR: T#17733000000: duty calc: 40955
+ERROR: T#17733000000: duty: 0
+ERROR: T#17832000000: resolucao: 8191
+ERROR: T#17833000000: Porcentagem: 5
+ERROR: T#17833000000: duty calc: 40955
+ERROR: T#17833000000: duty: 0
+ERROR: T#17932000000: resolucao: 8191
+ERROR: T#17933000000: Porcentagem: 5
+ERROR: T#17933000000: duty calc: 40955
+ERROR: T#17933000000: duty: 0
+ERROR: T#18032000000: resolucao: 8191
+ERROR: T#18033000000: Porcentagem: 5
+ERROR: T#18033000000: duty calc: 40955
+ERROR: T#18033000000: duty: 0
+ERROR: T#18132000000: resolucao: 8191
+ERROR: T#18133000000: Porcentagem: 5
+ERROR: T#18133000000: duty calc: 40955
+ERROR: T#18133000000: duty: 0
+ERROR: T#18232000000: resolucao: 8191
+ERROR: T#18233000000: Porcentagem: 5
+ERROR: T#18233000000: duty calc: 40955
+ERROR: T#18233000000: duty: 0
+ERROR: T#18332000000: resolucao: 8191
+ERROR: T#18333000000: Porcentagem: 5
+ERROR: T#18333000000: duty calc: 40955
+ERROR: T#18333000000: duty: 0
+ERROR: T#18432000000: resolucao: 8191
+ERROR: T#18433000000: Porcentagem: 5
+ERROR: T#18433000000: duty calc: 40955
+ERROR: T#18433000000: duty: 0
+ERROR: T#18532000000: resolucao: 8191
+ERROR: T#18533000000: Porcentagem: 5
+ERROR: T#18533000000: duty calc: 40955
+ERROR: T#18533000000: duty: 0
+ERROR: T#18632000000: resolucao: 8191
+ERROR: T#18633000000: Porcentagem: 5
+ERROR: T#18633000000: duty calc: 40955
+ERROR: T#18633000000: duty: 0
+ERROR: T#18732000000: resolucao: 8191
+ERROR: T#18733000000: Porcentagem: 5
+ERROR: T#18733000000: duty calc: 40955
+ERROR: T#18733000000: duty: 0
+ERROR: T#18832000000: resolucao: 8191
+ERROR: T#18833000000: Porcentagem: 5
+ERROR: T#18833000000: duty calc: 40955
+ERROR: T#18833000000: duty: 0
+ERROR: T#18932000000: resolucao: 8191
+ERROR: T#18933000000: Porcentagem: 5
+ERROR: T#18933000000: duty calc: 40955
+ERROR: T#18933000000: duty: 0
+ERROR: T#19032000000: resolucao: 8191
+ERROR: T#19033000000: Porcentagem: 5
+ERROR: T#19033000000: duty calc: 40955
+ERROR: T#19033000000: duty: 0
+ERROR: T#19132000000: resolucao: 8191
+ERROR: T#19133000000: Porcentagem: 5
+ERROR: T#19133000000: duty calc: 40955
+ERROR: T#19133000000: duty: 0
+ERROR: T#19232000000: resolucao: 8191
+ERROR: T#19233000000: Porcentagem: 5
+ERROR: T#19233000000: duty calc: 40955
+ERROR: T#19233000000: duty: 0
+ERROR: T#19332000000: resolucao: 8191
+ERROR: T#19333000000: Porcentagem: 5
+ERROR: T#19333000000: duty calc: 40955
+ERROR: T#19333000000: duty: 0
+ERROR: T#19432000000: resolucao: 8191
+ERROR: T#19433000000: Porcentagem: 5
+ERROR: T#19433000000: duty calc: 40955
+ERROR: T#19433000000: duty: 0
+ERROR: T#19532000000: resolucao: 8191
+ERROR: T#19533000000: Porcentagem: 5
+ERROR: T#19533000000: duty calc: 40955
+ERROR: T#19533000000: duty: 0
+ERROR: T#19632000000: resolucao: 8191
+ERROR: T#19633000000: Porcentagem: 5
+ERROR: T#19633000000: duty calc: 40955
+ERROR: T#19633000000: duty: 0
+ERROR: T#19732000000: resolucao: 8191
+ERROR: T#19733000000: Porcentagem: 5
+ERROR: T#19733000000: duty calc: 40955
+ERROR: T#19733000000: duty: 0
+ERROR: T#19832000000: resolucao: 8191
+ERROR: T#19833000000: Porcentagem: 5
+ERROR: T#19833000000: duty calc: 40955
+ERROR: T#19833000000: duty: 0
+ERROR: T#19932000000: resolucao: 8191
+ERROR: T#19933000000: Porcentagem: 5
+ERROR: T#19933000000: duty calc: 40955
+ERROR: T#19933000000: duty: 0
+ERROR: T#20032000000: resolucao: 8191
+ERROR: T#20033000000: Porcentagem: 5
+ERROR: T#20033000000: duty calc: 40955
+ERROR: T#20033000000: duty: 0
+ERROR: T#20132000000: resolucao: 8191
+ERROR: T#20133000000: Porcentagem: 5
+ERROR: T#20133000000: duty calc: 40955
+ERROR: T#20133000000: duty: 0
+ERROR: T#20232000000: resolucao: 8191
+ERROR: T#20233000000: Porcentagem: 5
+ERROR: T#20233000000: duty calc: 40955
+ERROR: T#20234000000: duty: 0
+ERROR: T#20332000000: resolucao: 8191
+ERROR: T#20333000000: Porcentagem: 5
+ERROR: T#20333000000: duty calc: 40955
+ERROR: T#20333000000: duty: 0
+ERROR: T#20432000000: resolucao: 8191
+ERROR: T#20433000000: Porcentagem: 5
+ERROR: T#20433000000: duty calc: 40955
+ERROR: T#20433000000: duty: 0
+ERROR: T#20532000000: resolucao: 8191
+ERROR: T#20533000000: Porcentagem: 5
+ERROR: T#20533000000: duty calc: 40955
+ERROR: T#20533000000: duty: 0
+ERROR: T#20632000000: resolucao: 8191
+ERROR: T#20633000000: Porcentagem: 5
+ERROR: T#20633000000: duty calc: 40955
+ERROR: T#20633000000: duty: 0
+ERROR: T#20732000000: resolucao: 8191
+ERROR: T#20733000000: Porcentagem: 5
+ERROR: T#20733000000: duty calc: 40955
+ERROR: T#20733000000: duty: 0
+ERROR: T#20832000000: resolucao: 8191
+ERROR: T#20833000000: Porcentagem: 5
+ERROR: T#20833000000: duty calc: 40955
+ERROR: T#20833000000: duty: 0
+ERROR: T#20932000000: resolucao: 8191
+ERROR: T#20933000000: Porcentagem: 5
+ERROR: T#20933000000: duty calc: 40955
+ERROR: T#20933000000: duty: 0
+ERROR: T#21032000000: resolucao: 8191
+ERROR: T#21033000000: Porcentagem: 5
+ERROR: T#21033000000: duty calc: 40955
+ERROR: T#21033000000: duty: 0
+ERROR: T#21132000000: resolucao: 8191
+ERROR: T#21133000000: Porcentagem: 5
+ERROR: T#21133000000: duty calc: 40955
+ERROR: T#21133000000: duty: 0
+ERROR: T#21232000000: resolucao: 8191
+ERROR: T#21233000000: Porcentagem: 5
+ERROR: T#21233000000: duty calc: 40955
+ERROR: T#21233000000: duty: 0
+ERROR: T#21332000000: resolucao: 8191
+ERROR: T#21333000000: Porcentagem: 5
+ERROR: T#21333000000: duty calc: 40955
+ERROR: T#21333000000: duty: 0
+ERROR: T#21432000000: resolucao: 8191
+ERROR: T#21433000000: Porcentagem: 5
+ERROR: T#21433000000: duty calc: 40955
+ERROR: T#21433000000: duty: 0
+ERROR: T#21533000000: resolucao: 8191
+ERROR: T#21533000000: Porcentagem: 5
+ERROR: T#21533000000: duty calc: 40955
+ERROR: T#21533000000: duty: 0
+ERROR: T#21632000000: resolucao: 8191
+ERROR: T#21633000000: Porcentagem: 5
+ERROR: T#21633000000: duty calc: 40955
+ERROR: T#21633000000: duty: 0
+ERROR: T#21732000000: resolucao: 8191
+ERROR: T#21733000000: Porcentagem: 5
+ERROR: T#21733000000: duty calc: 40955
+ERROR: T#21733000000: duty: 0
+ERROR: T#21832000000: resolucao: 8191
+ERROR: T#21833000000: Porcentagem: 5
+ERROR: T#21833000000: duty calc: 40955
+ERROR: T#21833000000: duty: 0
+ERROR: T#21932000000: resolucao: 8191
+ERROR: T#21933000000: Porcentagem: 5
+ERROR: T#21933000000: duty calc: 40955
+ERROR: T#21933000000: duty: 0
+ERROR: T#22032000000: resolucao: 8191
+ERROR: T#22033000000: Porcentagem: 5
+ERROR: T#22033000000: duty calc: 40955
+ERROR: T#22033000000: duty: 0
+ERROR: T#22132000000: resolucao: 8191
+ERROR: T#22133000000: Porcentagem: 5
+ERROR: T#22133000000: duty calc: 40955
+ERROR: T#22133000000: duty: 0
+ERROR: T#22232000000: resolucao: 8191
+ERROR: T#22233000000: Porcentagem: 5
+ERROR: T#22233000000: duty calc: 40955
+ERROR: T#22233000000: duty: 0
+ERROR: T#22332000000: resolucao: 8191
+ERROR: T#22333000000: Porcentagem: 5
+ERROR: T#22333000000: duty calc: 40955
+ERROR: T#22333000000: duty: 0
+ERROR: T#22432000000: resolucao: 8191
+ERROR: T#22433000000: Porcentagem: 5
+ERROR: T#22433000000: duty calc: 40955
+ERROR: T#22433000000: duty: 0
+ERROR: T#22532000000: resolucao: 8191
+ERROR: T#22533000000: Porcentagem: 5
+ERROR: T#22533000000: duty calc: 40955
+ERROR: T#22533000000: duty: 0
+ERROR: T#22632000000: resolucao: 8191
+ERROR: T#22633000000: Porcentagem: 5
+ERROR: T#22633000000: duty calc: 40955
+ERROR: T#22633000000: duty: 0
+ERROR: T#22732000000: resolucao: 8191
+ERROR: T#22733000000: Porcentagem: 5
+ERROR: T#22733000000: duty calc: 40955
+ERROR: T#22733000000: duty: 0
+ERROR: T#22832000000: resolucao: 8191
+ERROR: T#22833000000: Porcentagem: 5
+ERROR: T#22833000000: duty calc: 40955
+ERROR: T#22833000000: duty: 0
+ERROR: T#22932000000: resolucao: 8191
+ERROR: T#22933000000: Porcentagem: 5
+ERROR: T#22933000000: duty calc: 40955
+ERROR: T#22933000000: duty: 0
+ERROR: T#23032000000: resolucao: 8191
+ERROR: T#23033000000: Porcentagem: 5
+ERROR: T#23033000000: duty calc: 40955
+ERROR: T#23033000000: duty: 0
+ERROR: T#23132000000: resolucao: 8191
+ERROR: T#23133000000: Porcentagem: 5
+ERROR: T#23133000000: duty calc: 40955
+ERROR: T#23133000000: duty: 0
+ERROR: T#23232000000: resolucao: 8191
+ERROR: T#23233000000: Porcentagem: 5
+ERROR: T#23233000000: duty calc: 40955
+ERROR: T#23233000000: duty: 0
+ERROR: T#23332000000: resolucao: 8191
+ERROR: T#23333000000: Porcentagem: 5
+ERROR: T#23333000000: duty calc: 40955
+ERROR: T#23333000000: duty: 0
+ERROR: T#23432000000: resolucao: 8191
+ERROR: T#23433000000: Porcentagem: 5
+ERROR: T#23433000000: duty calc: 40955
+ERROR: T#23433000000: duty: 0
+ERROR: T#23532000000: resolucao: 8191
+ERROR: T#23533000000: Porcentagem: 5
+ERROR: T#23533000000: duty calc: 40955
+ERROR: T#23533000000: duty: 0
+ERROR: T#23632000000: resolucao: 8191
+ERROR: T#23633000000: Porcentagem: 5
+ERROR: T#23633000000: duty calc: 40955
+ERROR: T#23633000000: duty: 0
+ERROR: T#23732000000: resolucao: 8191
+ERROR: T#23733000000: Porcentagem: 5
+ERROR: T#23733000000: duty calc: 40955
+ERROR: T#23733000000: duty: 0
+ERROR: T#23832000000: resolucao: 8191
+ERROR: T#23833000000: Porcentagem: 5
+ERROR: T#23833000000: duty calc: 40955
+ERROR: T#23833000000: duty: 0
+ERROR: T#23932000000: resolucao: 8191
+ERROR: T#23933000000: Porcentagem: 5
+ERROR: T#23933000000: duty calc: 40955
+ERROR: T#23933000000: duty: 0
+ERROR: T#24032000000: resolucao: 8191
+ERROR: T#24033000000: Porcentagem: 5
+ERROR: T#24033000000: duty calc: 40955
+ERROR: T#24033000000: duty: 0
+ERROR: T#24132000000: resolucao: 8191
+ERROR: T#24133000000: Porcentagem: 5
+ERROR: T#24133000000: duty calc: 40955
+ERROR: T#24133000000: duty: 0
+ERROR: T#24232000000: resolucao: 8191
+ERROR: T#24233000000: Porcentagem: 5
+ERROR: T#24233000000: duty calc: 40955
+ERROR: T#24233000000: duty: 0
+ERROR: T#24332000000: resolucao: 8191
+ERROR: T#24333000000: Porcentagem: 5
+ERROR: T#24333000000: duty calc: 40955
+ERROR: T#24333000000: duty: 0
+ERROR: T#24432000000: resolucao: 8191
+ERROR: T#24433000000: Porcentagem: 5
+ERROR: T#24433000000: duty calc: 40955
+ERROR: T#24433000000: duty: 0
+ERROR: T#24532000000: resolucao: 8191
+ERROR: T#24533000000: Porcentagem: 5
+ERROR: T#24533000000: duty calc: 40955
+ERROR: T#24533000000: duty: 0
+ERROR: T#24632000000: resolucao: 8191
+ERROR: T#24633000000: Porcentagem: 5
+ERROR: T#24633000000: duty calc: 40955
+ERROR: T#24633000000: duty: 0
+ERROR: T#24732000000: resolucao: 8191
+ERROR: T#24733000000: Porcentagem: 5
+ERROR: T#24733000000: duty calc: 40955
+ERROR: T#24733000000: duty: 0
+ERROR: T#24832000000: resolucao: 8191
+ERROR: T#24833000000: Porcentagem: 5
+ERROR: T#24833000000: duty calc: 40955
+ERROR: T#24833000000: duty: 0
+ERROR: T#24934000000: resolucao: 8191
+ERROR: T#24935000000: Porcentagem: 5
+ERROR: T#24935000000: duty calc: 40955
+ERROR: T#24935000000: duty: 0
+ERROR: T#25032000000: resolucao: 8191
+ERROR: T#25033000000: Porcentagem: 5
+ERROR: T#25033000000: duty calc: 40955
+ERROR: T#25033000000: duty: 0
+ERROR: T#25132000000: resolucao: 8191
+ERROR: T#25133000000: Porcentagem: 5
+ERROR: T#25133000000: duty calc: 40955
+ERROR: T#25133000000: duty: 0
+ERROR: T#25232000000: resolucao: 8191
+ERROR: T#25233000000: Porcentagem: 5
+ERROR: T#25233000000: duty calc: 40955
+ERROR: T#25233000000: duty: 0
+ERROR: T#25332000000: resolucao: 8191
+ERROR: T#25333000000: Porcentagem: 5
+ERROR: T#25333000000: duty calc: 40955
+ERROR: T#25333000000: duty: 0
+ERROR: T#25432000000: resolucao: 8191
+ERROR: T#25433000000: Porcentagem: 5
+ERROR: T#25433000000: duty calc: 40955
+ERROR: T#25433000000: duty: 0
+ERROR: T#25532000000: resolucao: 8191
+ERROR: T#25533000000: Porcentagem: 5
+ERROR: T#25533000000: duty calc: 40955
+ERROR: T#25533000000: duty: 0
+ERROR: T#25632000000: resolucao: 8191
+ERROR: T#25633000000: Porcentagem: 5
+ERROR: T#25633000000: duty calc: 40955
+ERROR: T#25633000000: duty: 0
+ERROR: T#25732000000: resolucao: 8191
+ERROR: T#25733000000: Porcentagem: 5
+ERROR: T#25733000000: duty calc: 40955
+ERROR: T#25733000000: duty: 0
+ERROR: T#25832000000: resolucao: 8191
+ERROR: T#25833000000: Porcentagem: 5
+ERROR: T#25833000000: duty calc: 40955
+ERROR: T#25833000000: duty: 0
+ERROR: T#25932000000: resolucao: 8191
+ERROR: T#25933000000: Porcentagem: 5
+ERROR: T#25933000000: duty calc: 40955
+ERROR: T#25933000000: duty: 0
+ERROR: T#26032000000: resolucao: 8191
+ERROR: T#26033000000: Porcentagem: 5
+ERROR: T#26033000000: duty calc: 40955
+ERROR: T#26033000000: duty: 0
+ERROR: T#26132000000: resolucao: 8191
+ERROR: T#26133000000: Porcentagem: 5
+ERROR: T#26133000000: duty calc: 40955
+ERROR: T#26133000000: duty: 0
+ERROR: T#26232000000: resolucao: 8191
+ERROR: T#26233000000: Porcentagem: 5
+ERROR: T#26233000000: duty calc: 40955
+ERROR: T#26233000000: duty: 0
+ERROR: T#26332000000: resolucao: 8191
+ERROR: T#26333000000: Porcentagem: 5
+ERROR: T#26333000000: duty calc: 40955
+ERROR: T#26333000000: duty: 0
+ERROR: T#26432000000: resolucao: 8191
+ERROR: T#26433000000: Porcentagem: 5
+ERROR: T#26433000000: duty calc: 40955
+ERROR: T#26433000000: duty: 0
+ERROR: T#26532000000: resolucao: 8191
+ERROR: T#26533000000: Porcentagem: 5
+ERROR: T#26533000000: duty calc: 40955
+ERROR: T#26533000000: duty: 0
+ERROR: T#26632000000: resolucao: 8191
+ERROR: T#26633000000: Porcentagem: 5
+ERROR: T#26633000000: duty calc: 40955
+ERROR: T#26633000000: duty: 0
+ERROR: T#26732000000: resolucao: 8191
+ERROR: T#26733000000: Porcentagem: 5
+ERROR: T#26733000000: duty calc: 40955
+ERROR: T#26733000000: duty: 0
+ERROR: T#26832000000: resolucao: 8191
+ERROR: T#26833000000: Porcentagem: 5
+ERROR: T#26833000000: duty calc: 40955
+ERROR: T#26833000000: duty: 0
+ERROR: T#26932000000: resolucao: 8191
+ERROR: T#26933000000: Porcentagem: 5
+ERROR: T#26933000000: duty calc: 40955
+ERROR: T#26933000000: duty: 0
+ERROR: T#27032000000: resolucao: 8191
+ERROR: T#27033000000: Porcentagem: 5
+ERROR: T#27033000000: duty calc: 40955
+ERROR: T#27033000000: duty: 0
+ERROR: T#27132000000: resolucao: 8191
+ERROR: T#27133000000: Porcentagem: 5
+ERROR: T#27133000000: duty calc: 40955
+ERROR: T#27133000000: duty: 0
+ERROR: T#27232000000: resolucao: 8191
+ERROR: T#27233000000: Porcentagem: 5
+ERROR: T#27233000000: duty calc: 40955
+ERROR: T#27233000000: duty: 0
+ERROR: T#27332000000: resolucao: 8191
+ERROR: T#27333000000: Porcentagem: 5
+ERROR: T#27333000000: duty calc: 40955
+ERROR: T#27333000000: duty: 0
+ERROR: T#27432000000: resolucao: 8191
+ERROR: T#27433000000: Porcentagem: 5
+ERROR: T#27433000000: duty calc: 40955
+ERROR: T#27433000000: duty: 0
+ERROR: T#27532000000: resolucao: 8191
+ERROR: T#27533000000: Porcentagem: 5
+ERROR: T#27533000000: duty calc: 40955
+ERROR: T#27533000000: duty: 0
+ERROR: T#27632000000: resolucao: 8191
+ERROR: T#27633000000: Porcentagem: 5
+ERROR: T#27633000000: duty calc: 40955
+ERROR: T#27633000000: duty: 0
+ERROR: T#27732000000: resolucao: 8191
+ERROR: T#27733000000: Porcentagem: 6
+ERROR: T#27733000000: duty calc: 49146
+ERROR: T#27733000000: duty: 0
+ERROR: T#27832000000: resolucao: 8191
+ERROR: T#27833000000: Porcentagem: 6
+ERROR: T#27833000000: duty calc: 49146
+ERROR: T#27833000000: duty: 0
+ERROR: T#27932000000: resolucao: 8191
+ERROR: T#27933000000: Porcentagem: 7
+ERROR: T#27933000000: duty calc: 57337
+ERROR: T#27933000000: duty: 0
+ERROR: T#28032000000: resolucao: 8191
+ERROR: T#28033000000: Porcentagem: 7
+ERROR: T#28033000000: duty calc: 57337
+ERROR: T#28033000000: duty: 0
+ERROR: T#28132000000: resolucao: 8191
+ERROR: T#28133000000: Porcentagem: 8
+ERROR: T#28133000000: duty calc: 65528
+ERROR: T#28133000000: duty: 0
+ERROR: T#28232000000: resolucao: 8191
+ERROR: T#28233000000: Porcentagem: 8
+ERROR: T#28233000000: duty calc: 65528
+ERROR: T#28233000000: duty: 0
+ERROR: T#28332000000: resolucao: 8191
+ERROR: T#28333000000: Porcentagem: 8
+ERROR: T#28333000000: duty calc: 65528
+ERROR: T#28333000000: duty: 0
+ERROR: T#28432000000: resolucao: 8191
+ERROR: T#28433000000: Porcentagem: 8
+ERROR: T#28433000000: duty calc: 65528
+ERROR: T#28433000000: duty: 0
+ERROR: T#28532000000: resolucao: 8191
+ERROR: T#28533000000: Porcentagem: 8
+ERROR: T#28533000000: duty calc: 65528
+ERROR: T#28533000000: duty: 0
+ERROR: T#28632000000: resolucao: 8191
+ERROR: T#28633000000: Porcentagem: 9
+ERROR: T#28633000000: duty calc: 73719
+ERROR: T#28633000000: duty: 0
+ERROR: T#28732000000: resolucao: 8191
+ERROR: T#28733000000: Porcentagem: 9
+ERROR: T#28733000000: duty calc: 73719
+ERROR: T#28733000000: duty: 0
+ERROR: T#28832000000: resolucao: 8191
+ERROR: T#28833000000: Porcentagem: 9
+ERROR: T#28833000000: duty calc: 73719
+ERROR: T#28833000000: duty: 0
+ERROR: T#28932000000: resolucao: 8191
+ERROR: T#28933000000: Porcentagem: 10
+ERROR: T#28933000000: duty calc: 81910
+ERROR: T#28933000000: duty: 0
+ERROR: T#29032000000: resolucao: 8191
+ERROR: T#29033000000: Porcentagem: 10
+ERROR: T#29033000000: duty calc: 81910
+ERROR: T#29033000000: duty: 0
+ERROR: T#29132000000: resolucao: 8191
+ERROR: T#29133000000: Porcentagem: 10
+ERROR: T#29133000000: duty calc: 81910
+ERROR: T#29133000000: duty: 0
+ERROR: T#29232000000: resolucao: 8191
+ERROR: T#29233000000: Porcentagem: 10
+ERROR: T#29233000000: duty calc: 81910
+ERROR: T#29233000000: duty: 0
+ERROR: T#29332000000: resolucao: 8191
+ERROR: T#29333000000: Porcentagem: 11
+ERROR: T#29333000000: duty calc: 90101
+ERROR: T#29333000000: duty: 0
+ERROR: T#29432000000: resolucao: 8191
+ERROR: T#29433000000: Porcentagem: 11
+ERROR: T#29433000000: duty calc: 90101
+ERROR: T#29433000000: duty: 0
+ERROR: T#29532000000: resolucao: 8191
+ERROR: T#29533000000: Porcentagem: 11
+ERROR: T#29533000000: duty calc: 90101
+ERROR: T#29533000000: duty: 0
+ERROR: T#29632000000: resolucao: 8191
+ERROR: T#29633000000: Porcentagem: 11
+ERROR: T#29633000000: duty calc: 90101
+ERROR: T#29633000000: duty: 0
+ERROR: T#29732000000: resolucao: 8191
+ERROR: T#29733000000: Porcentagem: 12
+ERROR: T#29733000000: duty calc: 98292
+ERROR: T#29733000000: duty: 0
+ERROR: T#29832000000: resolucao: 8191
+ERROR: T#29833000000: Porcentagem: 12
+ERROR: T#29833000000: duty calc: 98292
+ERROR: T#29833000000: duty: 0
+ERROR: T#29932000000: resolucao: 8191
+ERROR: T#29933000000: Porcentagem: 12
+ERROR: T#29933000000: duty calc: 98292
+ERROR: T#29933000000: duty: 0
+ERROR: T#30032000000: resolucao: 8191
+ERROR: T#30033000000: Porcentagem: 12
+ERROR: T#30033000000: duty calc: 98292
+ERROR: T#30033000000: duty: 0
+ERROR: T#30132000000: resolucao: 8191
+ERROR: T#30133000000: Porcentagem: 13
+ERROR: T#30133000000: duty calc: 106483
+ERROR: T#30133000000: duty: 0
+ERROR: T#30232000000: resolucao: 8191
+ERROR: T#30233000000: Porcentagem: 13
+ERROR: T#30233000000: duty calc: 106483
+ERROR: T#30233000000: duty: 0
+ERROR: T#30332000000: resolucao: 8191
+ERROR: T#30333000000: Porcentagem: 13
+ERROR: T#30333000000: duty calc: 106483
+ERROR: T#30333000000: duty: 0
+ERROR: T#30432000000: resolucao: 8191
+ERROR: T#30433000000: Porcentagem: 13
+ERROR: T#30433000000: duty calc: 106483
+ERROR: T#30433000000: duty: 0
+ERROR: T#30532000000: resolucao: 8191
+ERROR: T#30533000000: Porcentagem: 14
+ERROR: T#30533000000: duty calc: 114674
+ERROR: T#30533000000: duty: 0
+ERROR: T#30632000000: resolucao: 8191
+ERROR: T#30633000000: Porcentagem: 14
+ERROR: T#30633000000: duty calc: 114674
+ERROR: T#30633000000: duty: 0
+ERROR: T#30732000000: resolucao: 8191
+ERROR: T#30733000000: Porcentagem: 14
+ERROR: T#30733000000: duty calc: 114674
+ERROR: T#30733000000: duty: 0
+ERROR: T#30832000000: resolucao: 8191
+ERROR: T#30833000000: Porcentagem: 14
+ERROR: T#30833000000: duty calc: 114674
+ERROR: T#30833000000: duty: 0
+ERROR: T#30932000000: resolucao: 8191
+ERROR: T#30933000000: Porcentagem: 15
+ERROR: T#30933000000: duty calc: 122865
+ERROR: T#30933000000: duty: 0
+ERROR: T#31032000000: resolucao: 8191
+ERROR: T#31033000000: Porcentagem: 15
+ERROR: T#31033000000: duty calc: 122865
+ERROR: T#31033000000: duty: 0
+ERROR: T#31132000000: resolucao: 8191
+ERROR: T#31133000000: Porcentagem: 15
+ERROR: T#31133000000: duty calc: 122865
+ERROR: T#31133000000: duty: 0
+ERROR: T#31232000000: resolucao: 8191
+ERROR: T#31233000000: Porcentagem: 15
+ERROR: T#31233000000: duty calc: 122865
+ERROR: T#31233000000: duty: 0
+ERROR: T#31332000000: resolucao: 8191
+ERROR: T#31333000000: Porcentagem: 16
+ERROR: T#31333000000: duty calc: 131056
+ERROR: T#31333000000: duty: 0
+ERROR: T#31432000000: resolucao: 8191
+ERROR: T#31433000000: Porcentagem: 16
+ERROR: T#31433000000: duty calc: 131056
+ERROR: T#31433000000: duty: 0
+ERROR: T#31532000000: resolucao: 8191
+ERROR: T#31533000000: Porcentagem: 16
+ERROR: T#31533000000: duty calc: 131056
+ERROR: T#31533000000: duty: 0
+ERROR: T#31632000000: resolucao: 8191
+ERROR: T#31633000000: Porcentagem: 16
+ERROR: T#31633000000: duty calc: 131056
+ERROR: T#31633000000: duty: 0
+ERROR: T#31732000000: resolucao: 8191
+ERROR: T#31733000000: Porcentagem: 16
+ERROR: T#31733000000: duty calc: 131056
+ERROR: T#31733000000: duty: 0
+ERROR: T#31832000000: resolucao: 8191
+ERROR: T#31833000000: Porcentagem: 17
+ERROR: T#31833000000: duty calc: 139247
+ERROR: T#31833000000: duty: 0
+ERROR: T#31932000000: resolucao: 8191
+ERROR: T#31933000000: Porcentagem: 17
+ERROR: T#31933000000: duty calc: 139247
+ERROR: T#31933000000: duty: 0
+ERROR: T#32032000000: resolucao: 8191
+ERROR: T#32033000000: Porcentagem: 17
+ERROR: T#32033000000: duty calc: 139247
+ERROR: T#32033000000: duty: 0
+ERROR: T#32132000000: resolucao: 8191
+ERROR: T#32133000000: Porcentagem: 17
+ERROR: T#32133000000: duty calc: 139247
+ERROR: T#32133000000: duty: 0
+ERROR: T#32232000000: resolucao: 8191
+ERROR: T#32233000000: Porcentagem: 17
+ERROR: T#32233000000: duty calc: 139247
+ERROR: T#32233000000: duty: 0
+ERROR: T#32332000000: resolucao: 8191
+ERROR: T#32333000000: Porcentagem: 17
+ERROR: T#32333000000: duty calc: 139247
+ERROR: T#32333000000: duty: 0
+ERROR: T#32432000000: resolucao: 8191
+ERROR: T#32433000000: Porcentagem: 17
+ERROR: T#32433000000: duty calc: 139247
+ERROR: T#32433000000: duty: 0
+ERROR: T#32532000000: resolucao: 8191
+ERROR: T#32533000000: Porcentagem: 17
+ERROR: T#32533000000: duty calc: 139247
+ERROR: T#32533000000: duty: 0
+ERROR: T#32632000000: resolucao: 8191
+ERROR: T#32633000000: Porcentagem: 17
+ERROR: T#32633000000: duty calc: 139247
+ERROR: T#32633000000: duty: 0
+ERROR: T#32732000000: resolucao: 8191
+ERROR: T#32733000000: Porcentagem: 17
+ERROR: T#32733000000: duty calc: 139247
+ERROR: T#32733000000: duty: 0
+ERROR: T#32832000000: resolucao: 8191
+ERROR: T#32833000000: Porcentagem: 17
+ERROR: T#32833000000: duty calc: 139247
+ERROR: T#32833000000: duty: 0
+ERROR: T#32932000000: resolucao: 8191
+ERROR: T#32933000000: Porcentagem: 17
+ERROR: T#32933000000: duty calc: 139247
+ERROR: T#32933000000: duty: 0
+ERROR: T#33032000000: resolucao: 8191
+ERROR: T#33033000000: Porcentagem: 17
+ERROR: T#33033000000: duty calc: 139247
+ERROR: T#33033000000: duty: 0
+ERROR: T#33132000000: resolucao: 8191
+ERROR: T#33133000000: Porcentagem: 18
+ERROR: T#33133000000: duty calc: 147438
+ERROR: T#33133000000: duty: 0
+ERROR: T#33232000000: resolucao: 8191
+ERROR: T#33233000000: Porcentagem: 19
+ERROR: T#33233000000: duty calc: 155629
+ERROR: T#33233000000: duty: 0
+ERROR: T#33332000000: resolucao: 8191
+ERROR: T#33333000000: Porcentagem: 20
+ERROR: T#33333000000: duty calc: 163820
+ERROR: T#33333000000: duty: 0
+ERROR: T#33432000000: resolucao: 8191
+ERROR: T#33433000000: Porcentagem: 21
+ERROR: T#33433000000: duty calc: 172011
+ERROR: T#33433000000: duty: 0
+ERROR: T#33532000000: resolucao: 8191
+ERROR: T#33533000000: Porcentagem: 22
+ERROR: T#33533000000: duty calc: 180202
+ERROR: T#33533000000: duty: 0
+ERROR: T#33632000000: resolucao: 8191
+ERROR: T#33633000000: Porcentagem: 24
+ERROR: T#33633000000: duty calc: 196584
+ERROR: T#33633000000: duty: 0
+ERROR: T#33732000000: resolucao: 8191
+ERROR: T#33733000000: Porcentagem: 25
+ERROR: T#33733000000: duty calc: 204775
+ERROR: T#33733000000: duty: 0
+ERROR: T#33832000000: resolucao: 8191
+ERROR: T#33833000000: Porcentagem: 25
+ERROR: T#33833000000: duty calc: 204775
+ERROR: T#33833000000: duty: 0
+ERROR: T#33932000000: resolucao: 8191
+ERROR: T#33933000000: Porcentagem: 25
+ERROR: T#33933000000: duty calc: 204775
+ERROR: T#33933000000: duty: 0
+ERROR: T#34032000000: resolucao: 8191
+ERROR: T#34033000000: Porcentagem: 25
+ERROR: T#34033000000: duty calc: 204775
+ERROR: T#34033000000: duty: 0
+ERROR: T#34132000000: resolucao: 8191
+ERROR: T#34133000000: Porcentagem: 25
+ERROR: T#34133000000: duty calc: 204775
+ERROR: T#34133000000: duty: 0
+ERROR: T#34232000000: resolucao: 8191
+ERROR: T#34233000000: Porcentagem: 25
+ERROR: T#34233000000: duty calc: 204775
+ERROR: T#34233000000: duty: 0
+ERROR: T#34332000000: resolucao: 8191
+ERROR: T#34333000000: Porcentagem: 25
+ERROR: T#34333000000: duty calc: 204775
+ERROR: T#34333000000: duty: 0
+ERROR: T#34432000000: resolucao: 8191
+ERROR: T#34432000000: Porcentagem: 25
+ERROR: T#34433000000: duty calc: 204775
+ERROR: T#34433000000: duty: 0
+ERROR: T#34532000000: resolucao: 8191
+ERROR: T#34533000000: Porcentagem: 25
+ERROR: T#34533000000: duty calc: 204775
+ERROR: T#34533000000: duty: 0
+ERROR: T#34632000000: resolucao: 8191
+ERROR: T#34633000000: Porcentagem: 25
+ERROR: T#34633000000: duty calc: 204775
+ERROR: T#34633000000: duty: 0
+ERROR: T#34732000000: resolucao: 8191
+ERROR: T#34733000000: Porcentagem: 25
+ERROR: T#34733000000: duty calc: 204775
+ERROR: T#34733000000: duty: 0
+ERROR: T#34832000000: resolucao: 8191
+ERROR: T#34833000000: Porcentagem: 25
+ERROR: T#34833000000: duty calc: 204775
+ERROR: T#34833000000: duty: 0
+ERROR: T#34932000000: resolucao: 8191
+ERROR: T#34933000000: Porcentagem: 25
+ERROR: T#34933000000: duty calc: 204775
+ERROR: T#34933000000: duty: 0
+ERROR: T#35032000000: resolucao: 8191
+ERROR: T#35033000000: Porcentagem: 25
+ERROR: T#35033000000: duty calc: 204775
+ERROR: T#35033000000: duty: 0
+ERROR: T#35132000000: resolucao: 8191
+ERROR: T#35133000000: Porcentagem: 25
+ERROR: T#35133000000: duty calc: 204775
+ERROR: T#35133000000: duty: 0
+ERROR: T#35232000000: resolucao: 8191
+ERROR: T#35233000000: Porcentagem: 25
+ERROR: T#35233000000: duty calc: 204775
+ERROR: T#35233000000: duty: 0
+ERROR: T#35332000000: resolucao: 8191
+ERROR: T#35333000000: Porcentagem: 25
+ERROR: T#35333000000: duty calc: 204775
+ERROR: T#35333000000: duty: 0
+ERROR: T#35432000000: resolucao: 8191
+ERROR: T#35433000000: Porcentagem: 25
+ERROR: T#35433000000: duty calc: 204775
+ERROR: T#35433000000: duty: 0
+ERROR: T#35533000000: resolucao: 8191
+ERROR: T#35533000000: Porcentagem: 25
+ERROR: T#35534000000: duty calc: 204775
+ERROR: T#35534000000: duty: 0
+ERROR: T#35632000000: resolucao: 8191
+ERROR: T#35633000000: Porcentagem: 25
+ERROR: T#35633000000: duty calc: 204775
+ERROR: T#35633000000: duty: 0
+ERROR: T#35732000000: resolucao: 8191
+ERROR: T#35733000000: Porcentagem: 25
+ERROR: T#35733000000: duty calc: 204775
+ERROR: T#35733000000: duty: 0
+ERROR: T#35832000000: resolucao: 8191
+ERROR: T#35833000000: Porcentagem: 25
+ERROR: T#35833000000: duty calc: 204775
+ERROR: T#35833000000: duty: 0
+ERROR: T#35932000000: resolucao: 8191
+ERROR: T#35933000000: Porcentagem: 25
+ERROR: T#35933000000: duty calc: 204775
+ERROR: T#35933000000: duty: 0
+ERROR: T#36032000000: resolucao: 8191
+ERROR: T#36033000000: Porcentagem: 25
+ERROR: T#36033000000: duty calc: 204775
+ERROR: T#36033000000: duty: 0
+ERROR: T#36132000000: resolucao: 8191
+ERROR: T#36133000000: Porcentagem: 25
+ERROR: T#36133000000: duty calc: 204775
+ERROR: T#36133000000: duty: 0
+ERROR: T#36232000000: resolucao: 8191
+ERROR: T#36233000000: Porcentagem: 25
+ERROR: T#36233000000: duty calc: 204775
+ERROR: T#36233000000: duty: 0
+ERROR: T#36332000000: resolucao: 8191
+ERROR: T#36333000000: Porcentagem: 25
+ERROR: T#36333000000: duty calc: 204775
+ERROR: T#36333000000: duty: 0
+ERROR: T#36432000000: resolucao: 8191
+ERROR: T#36433000000: Porcentagem: 25
+ERROR: T#36433000000: duty calc: 204775
+ERROR: T#36433000000: duty: 0
+ERROR: T#36532000000: resolucao: 8191
+ERROR: T#36533000000: Porcentagem: 25
+ERROR: T#36533000000: duty calc: 204775
+ERROR: T#36533000000: duty: 0
+ERROR: T#36632000000: resolucao: 8191
+ERROR: T#36633000000: Porcentagem: 25
+ERROR: T#36633000000: duty calc: 204775
+ERROR: T#36633000000: duty: 0
+ERROR: T#36732000000: resolucao: 8191
+ERROR: T#36733000000: Porcentagem: 25
+ERROR: T#36733000000: duty calc: 204775
+ERROR: T#36733000000: duty: 0
+ERROR: T#36832000000: resolucao: 8191
+ERROR: T#36833000000: Porcentagem: 25
+ERROR: T#36833000000: duty calc: 204775
+ERROR: T#36833000000: duty: 0
+ERROR: T#36932000000: resolucao: 8191
+ERROR: T#36933000000: Porcentagem: 25
+ERROR: T#36933000000: duty calc: 204775
+ERROR: T#36933000000: duty: 0
+ERROR: T#37032000000: resolucao: 8191
+ERROR: T#37033000000: Porcentagem: 25
+ERROR: T#37033000000: duty calc: 204775
+ERROR: T#37033000000: duty: 0
+ERROR: T#37132000000: resolucao: 8191
+ERROR: T#37133000000: Porcentagem: 25
+ERROR: T#37133000000: duty calc: 204775
+ERROR: T#37133000000: duty: 0
+ERROR: T#37232000000: resolucao: 8191
+ERROR: T#37233000000: Porcentagem: 25
+ERROR: T#37233000000: duty calc: 204775
+ERROR: T#37233000000: duty: 0
+ERROR: T#37332000000: resolucao: 8191
+ERROR: T#37333000000: Porcentagem: 25
+ERROR: T#37333000000: duty calc: 204775
+ERROR: T#37333000000: duty: 0
+ERROR: T#37432000000: resolucao: 8191
+ERROR: T#37433000000: Porcentagem: 25
+ERROR: T#37433000000: duty calc: 204775
+ERROR: T#37433000000: duty: 0
+ERROR: T#37532000000: resolucao: 8191
+ERROR: T#37533000000: Porcentagem: 25
+ERROR: T#37533000000: duty calc: 204775
+ERROR: T#37533000000: duty: 0
+ERROR: T#37632000000: resolucao: 8191
+ERROR: T#37633000000: Porcentagem: 25
+ERROR: T#37633000000: duty calc: 204775
+ERROR: T#37633000000: duty: 0
+ERROR: T#37732000000: resolucao: 8191
+ERROR: T#37733000000: Porcentagem: 25
+ERROR: T#37733000000: duty calc: 204775
+ERROR: T#37733000000: duty: 0
+ERROR: T#37832000000: resolucao: 8191
+ERROR: T#37833000000: Porcentagem: 25
+ERROR: T#37833000000: duty calc: 204775
+ERROR: T#37833000000: duty: 0
+ERROR: T#37932000000: resolucao: 8191
+ERROR: T#37933000000: Porcentagem: 25
+ERROR: T#37933000000: duty calc: 204775
+ERROR: T#37933000000: duty: 0
+ERROR: T#38032000000: resolucao: 8191
+ERROR: T#38033000000: Porcentagem: 25
+ERROR: T#38033000000: duty calc: 204775
+ERROR: T#38033000000: duty: 0
+ERROR: T#38132000000: resolucao: 8191
+ERROR: T#38133000000: Porcentagem: 25
+ERROR: T#38133000000: duty calc: 204775
+ERROR: T#38133000000: duty: 0
+ERROR: T#38232000000: resolucao: 8191
+ERROR: T#38233000000: Porcentagem: 25
+ERROR: T#38233000000: duty calc: 204775
+ERROR: T#38233000000: duty: 0
+ERROR: T#38332000000: resolucao: 8191
+ERROR: T#38333000000: Porcentagem: 25
+ERROR: T#38333000000: duty calc: 204775
+ERROR: T#38333000000: duty: 0
+ERROR: T#38432000000: resolucao: 8191
+ERROR: T#38433000000: Porcentagem: 25
+ERROR: T#38433000000: duty calc: 204775
+ERROR: T#38433000000: duty: 0
+ERROR: T#38532000000: resolucao: 8191
+ERROR: T#38533000000: Porcentagem: 25
+ERROR: T#38533000000: duty calc: 204775
+ERROR: T#38533000000: duty: 0
+ERROR: T#38632000000: resolucao: 8191
+ERROR: T#38633000000: Porcentagem: 25
+ERROR: T#38633000000: duty calc: 204775
+ERROR: T#38633000000: duty: 0
+ERROR: T#38732000000: resolucao: 8191
+ERROR: T#38733000000: Porcentagem: 25
+ERROR: T#38733000000: duty calc: 204775
+ERROR: T#38733000000: duty: 0
+ERROR: T#38832000000: resolucao: 8191
+ERROR: T#38833000000: Porcentagem: 25
+ERROR: T#38833000000: duty calc: 204775
+ERROR: T#38833000000: duty: 0
+ERROR: T#38932000000: resolucao: 8191
+ERROR: T#38933000000: Porcentagem: 25
+ERROR: T#38933000000: duty calc: 204775
+ERROR: T#38933000000: duty: 0
+ERROR: T#39032000000: resolucao: 8191
+ERROR: T#39033000000: Porcentagem: 25
+ERROR: T#39033000000: duty calc: 204775
+ERROR: T#39033000000: duty: 0
+ERROR: T#39132000000: resolucao: 8191
+ERROR: T#39133000000: Porcentagem: 25
+ERROR: T#39133000000: duty calc: 204775
+ERROR: T#39133000000: duty: 0
+ERROR: T#39232000000: resolucao: 8191
+ERROR: T#39233000000: Porcentagem: 25
+ERROR: T#39233000000: duty calc: 204775
+ERROR: T#39233000000: duty: 0
+ERROR: T#39332000000: resolucao: 8191
+ERROR: T#39333000000: Porcentagem: 25
+ERROR: T#39333000000: duty calc: 204775
+ERROR: T#39333000000: duty: 0
+ERROR: T#39432000000: resolucao: 8191
+ERROR: T#39433000000: Porcentagem: 25
+ERROR: T#39433000000: duty calc: 204775
+ERROR: T#39433000000: duty: 0
+ERROR: T#39532000000: resolucao: 8191
+ERROR: T#39533000000: Porcentagem: 25
+ERROR: T#39533000000: duty calc: 204775
+ERROR: T#39533000000: duty: 0
+ERROR: T#39632000000: resolucao: 8191
+ERROR: T#39633000000: Porcentagem: 25
+ERROR: T#39633000000: duty calc: 204775
+ERROR: T#39633000000: duty: 0
+ERROR: T#39732000000: resolucao: 8191
+ERROR: T#39733000000: Porcentagem: 25
+ERROR: T#39733000000: duty calc: 204775
+ERROR: T#39733000000: duty: 0
+ERROR: T#39832000000: resolucao: 8191
+ERROR: T#39833000000: Porcentagem: 25
+ERROR: T#39833000000: duty calc: 204775
+ERROR: T#39833000000: duty: 0
+ERROR: T#39932000000: resolucao: 8191
+ERROR: T#39933000000: Porcentagem: 25
+ERROR: T#39933000000: duty calc: 204775
+ERROR: T#39933000000: duty: 0
+ERROR: T#40033000000: resolucao: 8191
+ERROR: T#40033000000: Porcentagem: 25
+ERROR: T#40033000000: duty calc: 204775
+ERROR: T#40033000000: duty: 0
+ERROR: T#40132000000: resolucao: 8191
+ERROR: T#40133000000: Porcentagem: 25
+ERROR: T#40133000000: duty calc: 204775
+ERROR: T#40133000000: duty: 0
+ERROR: T#40232000000: resolucao: 8191
+ERROR: T#40233000000: Porcentagem: 25
+ERROR: T#40233000000: duty calc: 204775
+ERROR: T#40233000000: duty: 0
+ERROR: T#40332000000: resolucao: 8191
+ERROR: T#40333000000: Porcentagem: 25
+ERROR: T#40333000000: duty calc: 204775
+ERROR: T#40333000000: duty: 0
+ERROR: T#40432000000: resolucao: 8191
+ERROR: T#40433000000: Porcentagem: 25
+ERROR: T#40433000000: duty calc: 204775
+ERROR: T#40433000000: duty: 0
+ERROR: T#40532000000: resolucao: 8191
+ERROR: T#40533000000: Porcentagem: 25
+ERROR: T#40533000000: duty calc: 204775
+ERROR: T#40533000000: duty: 0
+ERROR: T#40632000000: resolucao: 8191
+ERROR: T#40633000000: Porcentagem: 25
+ERROR: T#40633000000: duty calc: 204775
+ERROR: T#40633000000: duty: 0
+ERROR: T#40732000000: resolucao: 8191
+ERROR: T#40733000000: Porcentagem: 25
+ERROR: T#40733000000: duty calc: 204775
+ERROR: T#40733000000: duty: 0
+ERROR: T#40832000000: resolucao: 8191
+ERROR: T#40833000000: Porcentagem: 25
+ERROR: T#40833000000: duty calc: 204775
+ERROR: T#40833000000: duty: 0
+ERROR: T#40932000000: resolucao: 8191
+ERROR: T#40933000000: Porcentagem: 25
+ERROR: T#40933000000: duty calc: 204775
+ERROR: T#40933000000: duty: 0
+ERROR: T#41032000000: resolucao: 8191
+ERROR: T#41033000000: Porcentagem: 25
+ERROR: T#41033000000: duty calc: 204775
+ERROR: T#41033000000: duty: 0
+ERROR: T#41132000000: resolucao: 8191
+ERROR: T#41133000000: Porcentagem: 25
+ERROR: T#41133000000: duty calc: 204775
+ERROR: T#41133000000: duty: 0
+ERROR: T#41232000000: resolucao: 8191
+ERROR: T#41233000000: Porcentagem: 25
+ERROR: T#41233000000: duty calc: 204775
+ERROR: T#41233000000: duty: 0
+ERROR: T#41332000000: resolucao: 8191
+ERROR: T#41333000000: Porcentagem: 25
+ERROR: T#41333000000: duty calc: 204775
+ERROR: T#41333000000: duty: 0
+ERROR: T#41432000000: resolucao: 8191
+ERROR: T#41433000000: Porcentagem: 25
+ERROR: T#41433000000: duty calc: 204775
+ERROR: T#41433000000: duty: 0
+ERROR: T#41532000000: resolucao: 8191
+ERROR: T#41533000000: Porcentagem: 25
+ERROR: T#41533000000: duty calc: 204775
+ERROR: T#41533000000: duty: 0
+ERROR: T#41632000000: resolucao: 8191
+ERROR: T#41633000000: Porcentagem: 25
+ERROR: T#41633000000: duty calc: 204775
+ERROR: T#41633000000: duty: 0
+ERROR: T#41732000000: resolucao: 8191
+ERROR: T#41733000000: Porcentagem: 25
+ERROR: T#41733000000: duty calc: 204775
+ERROR: T#41733000000: duty: 0
+ERROR: T#41832000000: resolucao: 8191
+ERROR: T#41833000000: Porcentagem: 25
+ERROR: T#41833000000: duty calc: 204775
+ERROR: T#41833000000: duty: 0
+ERROR: T#41932000000: resolucao: 8191
+ERROR: T#41933000000: Porcentagem: 25
+ERROR: T#41933000000: duty calc: 204775
+ERROR: T#41933000000: duty: 0
+ERROR: T#42032000000: resolucao: 8191
+ERROR: T#42033000000: Porcentagem: 25
+ERROR: T#42033000000: duty calc: 204775
+ERROR: T#42033000000: duty: 0
+ERROR: T#42132000000: resolucao: 8191
+ERROR: T#42133000000: Porcentagem: 25
+ERROR: T#42133000000: duty calc: 204775
+ERROR: T#42133000000: duty: 0
+ERROR: T#42232000000: resolucao: 8191
+ERROR: T#42233000000: Porcentagem: 25
+ERROR: T#42233000000: duty calc: 204775
+ERROR: T#42233000000: duty: 0
+ERROR: T#42332000000: resolucao: 8191
+ERROR: T#42333000000: Porcentagem: 25
+ERROR: T#42333000000: duty calc: 204775
+ERROR: T#42333000000: duty: 0
+ERROR: T#42432000000: resolucao: 8191
+ERROR: T#42433000000: Porcentagem: 25
+ERROR: T#42433000000: duty calc: 204775
+ERROR: T#42433000000: duty: 0
+ERROR: T#42532000000: resolucao: 8191
+ERROR: T#42533000000: Porcentagem: 25
+ERROR: T#42533000000: duty calc: 204775
+ERROR: T#42534000000: duty: 0
+ERROR: T#42632000000: resolucao: 8191
+ERROR: T#42633000000: Porcentagem: 25
+ERROR: T#42633000000: duty calc: 204775
+ERROR: T#42633000000: duty: 0
+ERROR: T#42732000000: resolucao: 8191
+ERROR: T#42733000000: Porcentagem: 25
+ERROR: T#42733000000: duty calc: 204775
+ERROR: T#42733000000: duty: 0
+ERROR: T#42832000000: resolucao: 8191
+ERROR: T#42833000000: Porcentagem: 25
+ERROR: T#42833000000: duty calc: 204775
+ERROR: T#42833000000: duty: 0
+ERROR: T#42933000000: resolucao: 8191
+ERROR: T#42933000000: Porcentagem: 25
+ERROR: T#42933000000: duty calc: 204775
+ERROR: T#42933000000: duty: 0
+ERROR: T#43032000000: resolucao: 8191
+ERROR: T#43033000000: Porcentagem: 25
+ERROR: T#43033000000: duty calc: 204775
+ERROR: T#43033000000: duty: 0
+ERROR: T#43132000000: resolucao: 8191
+ERROR: T#43133000000: Porcentagem: 25
+ERROR: T#43133000000: duty calc: 204775
+ERROR: T#43133000000: duty: 0
+ERROR: T#43232000000: resolucao: 8191
+ERROR: T#43233000000: Porcentagem: 25
+ERROR: T#43233000000: duty calc: 204775
+ERROR: T#43233000000: duty: 0
+ERROR: T#43332000000: resolucao: 8191
+ERROR: T#43333000000: Porcentagem: 25
+ERROR: T#43333000000: duty calc: 204775
+ERROR: T#43333000000: duty: 0
+ERROR: T#43432000000: resolucao: 8191
+ERROR: T#43433000000: Porcentagem: 25
+ERROR: T#43433000000: duty calc: 204775
+ERROR: T#43433000000: duty: 0
+ERROR: T#43532000000: resolucao: 8191
+ERROR: T#43533000000: Porcentagem: 25
+ERROR: T#43533000000: duty calc: 204775
+ERROR: T#43533000000: duty: 0
+ERROR: T#43632000000: resolucao: 8191
+ERROR: T#43633000000: Porcentagem: 25
+ERROR: T#43633000000: duty calc: 204775
+ERROR: T#43633000000: duty: 0
+ERROR: T#43732000000: resolucao: 8191
+ERROR: T#43733000000: Porcentagem: 25
+ERROR: T#43733000000: duty calc: 204775
+ERROR: T#43733000000: duty: 0
+ERROR: T#43832000000: resolucao: 8191
+ERROR: T#43833000000: Porcentagem: 25
+ERROR: T#43833000000: duty calc: 204775
+ERROR: T#43833000000: duty: 0
+ERROR: T#43932000000: resolucao: 8191
+ERROR: T#43933000000: Porcentagem: 25
+ERROR: T#43933000000: duty calc: 204775
+ERROR: T#43933000000: duty: 0
+ERROR: T#44032000000: resolucao: 8191
+ERROR: T#44033000000: Porcentagem: 25
+ERROR: T#44033000000: duty calc: 204775
+ERROR: T#44033000000: duty: 0
+ERROR: T#44132000000: resolucao: 8191
+ERROR: T#44133000000: Porcentagem: 25
+ERROR: T#44133000000: duty calc: 204775
+ERROR: T#44133000000: duty: 0
+ERROR: T#44232000000: resolucao: 8191
+ERROR: T#44233000000: Porcentagem: 25
+ERROR: T#44233000000: duty calc: 204775
+ERROR: T#44233000000: duty: 0
+ERROR: T#44332000000: resolucao: 8191
+ERROR: T#44333000000: Porcentagem: 25
+ERROR: T#44333000000: duty calc: 204775
+ERROR: T#44333000000: duty: 0
+ERROR: T#44432000000: resolucao: 8191
+ERROR: T#44433000000: Porcentagem: 25
+ERROR: T#44433000000: duty calc: 204775
+ERROR: T#44433000000: duty: 0
+ERROR: T#44532000000: resolucao: 8191
+ERROR: T#44533000000: Porcentagem: 25
+ERROR: T#44533000000: duty calc: 204775
+ERROR: T#44533000000: duty: 0
+ERROR: T#44632000000: resolucao: 8191
+ERROR: T#44633000000: Porcentagem: 25
+ERROR: T#44633000000: duty calc: 204775
+ERROR: T#44633000000: duty: 0
+ERROR: T#44732000000: resolucao: 8191
+ERROR: T#44733000000: Porcentagem: 25
+ERROR: T#44733000000: duty calc: 204775
+ERROR: T#44733000000: duty: 0
+ERROR: T#44832000000: resolucao: 8191
+ERROR: T#44833000000: Porcentagem: 25
+ERROR: T#44833000000: duty calc: 204775
+ERROR: T#44833000000: duty: 0
+ERROR: T#44932000000: resolucao: 8191
+ERROR: T#44933000000: Porcentagem: 25
+ERROR: T#44933000000: duty calc: 204775
+ERROR: T#44933000000: duty: 0
+ERROR: T#45032000000: resolucao: 8191
+ERROR: T#45033000000: Porcentagem: 25
+ERROR: T#45033000000: duty calc: 204775
+ERROR: T#45033000000: duty: 0
+ERROR: T#45132000000: resolucao: 8191
+ERROR: T#45133000000: Porcentagem: 25
+ERROR: T#45133000000: duty calc: 204775
+ERROR: T#45133000000: duty: 0
+ERROR: T#45232000000: resolucao: 8191
+ERROR: T#45233000000: Porcentagem: 25
+ERROR: T#45233000000: duty calc: 204775
+ERROR: T#45233000000: duty: 0
+ERROR: T#45332000000: resolucao: 8191
+ERROR: T#45333000000: Porcentagem: 25
+ERROR: T#45333000000: duty calc: 204775
+ERROR: T#45333000000: duty: 0
+ERROR: T#45432000000: resolucao: 8191
+ERROR: T#45433000000: Porcentagem: 25
+ERROR: T#45433000000: duty calc: 204775
+ERROR: T#45433000000: duty: 0
+ERROR: T#45532000000: resolucao: 8191
+ERROR: T#45533000000: Porcentagem: 25
+ERROR: T#45533000000: duty calc: 204775
+ERROR: T#45533000000: duty: 0
+ERROR: T#45632000000: resolucao: 8191
+ERROR: T#45633000000: Porcentagem: 25
+ERROR: T#45633000000: duty calc: 204775
+ERROR: T#45633000000: duty: 0
+ERROR: T#45732000000: resolucao: 8191
+ERROR: T#45733000000: Porcentagem: 25
+ERROR: T#45733000000: duty calc: 204775
+ERROR: T#45733000000: duty: 0
+ERROR: T#45832000000: resolucao: 8191
+ERROR: T#45833000000: Porcentagem: 25
+ERROR: T#45833000000: duty calc: 204775
+ERROR: T#45833000000: duty: 0
+ERROR: T#45932000000: resolucao: 8191
+ERROR: T#45933000000: Porcentagem: 25
+ERROR: T#45933000000: duty calc: 204775
+ERROR: T#45933000000: duty: 0
+ERROR: T#46032000000: resolucao: 8191
+ERROR: T#46033000000: Porcentagem: 25
+ERROR: T#46033000000: duty calc: 204775
+ERROR: T#46033000000: duty: 0
+ERROR: T#46132000000: resolucao: 8191
+ERROR: T#46133000000: Porcentagem: 25
+ERROR: T#46133000000: duty calc: 204775
+ERROR: T#46133000000: duty: 0
+ERROR: T#46234000000: resolucao: 8191
+ERROR: T#46235000000: Porcentagem: 25
+ERROR: T#46235000000: duty calc: 204775
+ERROR: T#46235000000: duty: 0
+ERROR: T#46332000000: resolucao: 8191
+ERROR: T#46333000000: Porcentagem: 25
+ERROR: T#46333000000: duty calc: 204775
+ERROR: T#46333000000: duty: 0
+ERROR: T#46432000000: resolucao: 8191
+ERROR: T#46433000000: Porcentagem: 25
+ERROR: T#46433000000: duty calc: 204775
+ERROR: T#46433000000: duty: 0
+ERROR: T#46532000000: resolucao: 8191
+ERROR: T#46533000000: Porcentagem: 25
+ERROR: T#46533000000: duty calc: 204775
+ERROR: T#46533000000: duty: 0
+ERROR: T#46632000000: resolucao: 8191
+ERROR: T#46633000000: Porcentagem: 25
+ERROR: T#46633000000: duty calc: 204775
+ERROR: T#46633000000: duty: 0
+ERROR: T#46732000000: resolucao: 8191
+ERROR: T#46733000000: Porcentagem: 25
+ERROR: T#46733000000: duty calc: 204775
+ERROR: T#46733000000: duty: 0
+ERROR: T#46832000000: resolucao: 8191
+ERROR: T#46833000000: Porcentagem: 25
+ERROR: T#46833000000: duty calc: 204775
+ERROR: T#46833000000: duty: 0
+ERROR: T#46932000000: resolucao: 8191
+ERROR: T#46933000000: Porcentagem: 25
+ERROR: T#46933000000: duty calc: 204775
+ERROR: T#46933000000: duty: 0
+ERROR: T#47032000000: resolucao: 8191
+ERROR: T#47033000000: Porcentagem: 25
+ERROR: T#47033000000: duty calc: 204775
+ERROR: T#47033000000: duty: 0
+ERROR: T#47132000000: resolucao: 8191
+ERROR: T#47133000000: Porcentagem: 25
+ERROR: T#47133000000: duty calc: 204775
+ERROR: T#47133000000: duty: 0
+ERROR: T#47233000000: resolucao: 8191
+ERROR: T#47233000000: Porcentagem: 25
+ERROR: T#47233000000: duty calc: 204775
+ERROR: T#47233000000: duty: 0
+ERROR: T#47332000000: resolucao: 8191
+ERROR: T#47333000000: Porcentagem: 25
+ERROR: T#47333000000: duty calc: 204775
+ERROR: T#47333000000: duty: 0
+ERROR: T#47432000000: resolucao: 8191
+ERROR: T#47433000000: Porcentagem: 25
+ERROR: T#47433000000: duty calc: 204775
+ERROR: T#47433000000: duty: 0
+ERROR: T#47532000000: resolucao: 8191
+ERROR: T#47533000000: Porcentagem: 25
+ERROR: T#47533000000: duty calc: 204775
+ERROR: T#47533000000: duty: 0
+ERROR: T#47632000000: resolucao: 8191
+ERROR: T#47633000000: Porcentagem: 25
+ERROR: T#47633000000: duty calc: 204775
+ERROR: T#47633000000: duty: 0
+ERROR: T#47732000000: resolucao: 8191
+ERROR: T#47733000000: Porcentagem: 25
+ERROR: T#47733000000: duty calc: 204775
+ERROR: T#47733000000: duty: 0
+ERROR: T#47832000000: resolucao: 8191
+ERROR: T#47833000000: Porcentagem: 25
+ERROR: T#47833000000: duty calc: 204775
+ERROR: T#47833000000: duty: 0
+ERROR: T#47932000000: resolucao: 8191
+ERROR: T#47933000000: Porcentagem: 25
+ERROR: T#47933000000: duty calc: 204775
+ERROR: T#47933000000: duty: 0
+ERROR: T#48032000000: resolucao: 8191
+ERROR: T#48033000000: Porcentagem: 25
+ERROR: T#48033000000: duty calc: 204775
+ERROR: T#48033000000: duty: 0
+ERROR: T#48132000000: resolucao: 8191
+ERROR: T#48133000000: Porcentagem: 25
+ERROR: T#48133000000: duty calc: 204775
+ERROR: T#48133000000: duty: 0
+ERROR: T#48232000000: resolucao: 8191
+ERROR: T#48233000000: Porcentagem: 25
+ERROR: T#48233000000: duty calc: 204775
+ERROR: T#48233000000: duty: 0
+ERROR: T#48332000000: resolucao: 8191
+ERROR: T#48333000000: Porcentagem: 25
+ERROR: T#48333000000: duty calc: 204775
+ERROR: T#48333000000: duty: 0
+ERROR: T#48432000000: resolucao: 8191
+ERROR: T#48433000000: Porcentagem: 25
+ERROR: T#48433000000: duty calc: 204775
+ERROR: T#48433000000: duty: 0
+ERROR: T#48532000000: resolucao: 8191
+ERROR: T#48533000000: Porcentagem: 25
+ERROR: T#48533000000: duty calc: 204775
+ERROR: T#48533000000: duty: 0
+ERROR: T#48632000000: resolucao: 8191
+ERROR: T#48633000000: Porcentagem: 25
+ERROR: T#48633000000: duty calc: 204775
+ERROR: T#48633000000: duty: 0
+ERROR: T#48732000000: resolucao: 8191
+ERROR: T#48733000000: Porcentagem: 25
+ERROR: T#48733000000: duty calc: 204775
+ERROR: T#48733000000: duty: 0
+ERROR: T#48832000000: resolucao: 8191
+ERROR: T#48833000000: Porcentagem: 25
+ERROR: T#48833000000: duty calc: 204775
+ERROR: T#48833000000: duty: 0
+ERROR: T#48932000000: resolucao: 8191
+ERROR: T#48933000000: Porcentagem: 25
+ERROR: T#48933000000: duty calc: 204775
+ERROR: T#48933000000: duty: 0
+ERROR: T#49032000000: resolucao: 8191
+ERROR: T#49033000000: Porcentagem: 25
+ERROR: T#49033000000: duty calc: 204775
+ERROR: T#49033000000: duty: 0
+ERROR: T#49132000000: resolucao: 8191
+ERROR: T#49133000000: Porcentagem: 25
+ERROR: T#49133000000: duty calc: 204775
+ERROR: T#49133000000: duty: 0
+ERROR: T#49232000000: resolucao: 8191
+ERROR: T#49233000000: Porcentagem: 25
+ERROR: T#49233000000: duty calc: 204775
+ERROR: T#49233000000: duty: 0
+ERROR: T#49332000000: resolucao: 8191
+ERROR: T#49333000000: Porcentagem: 25
+ERROR: T#49333000000: duty calc: 204775
+ERROR: T#49333000000: duty: 0
+ERROR: T#49432000000: resolucao: 8191
+ERROR: T#49433000000: Porcentagem: 25
+ERROR: T#49433000000: duty calc: 204775
+ERROR: T#49433000000: duty: 0
+ERROR: T#49532000000: resolucao: 8191
+ERROR: T#49533000000: Porcentagem: 25
+ERROR: T#49533000000: duty calc: 204775
+ERROR: T#49533000000: duty: 0
+ERROR: T#49632000000: resolucao: 8191
+ERROR: T#49633000000: Porcentagem: 25
+ERROR: T#49633000000: duty calc: 204775
+ERROR: T#49633000000: duty: 0
+ERROR: T#49732000000: resolucao: 8191
+ERROR: T#49733000000: Porcentagem: 25
+ERROR: T#49733000000: duty calc: 204775
+ERROR: T#49733000000: duty: 0
+ERROR: T#49832000000: resolucao: 8191
+ERROR: T#49833000000: Porcentagem: 25
+ERROR: T#49833000000: duty calc: 204775
+ERROR: T#49833000000: duty: 0
+ERROR: T#49932000000: resolucao: 8191
+ERROR: T#49933000000: Porcentagem: 25
+ERROR: T#49933000000: duty calc: 204775
+ERROR: T#49933000000: duty: 0
+ERROR: T#50032000000: resolucao: 8191
+ERROR: T#50033000000: Porcentagem: 25
+ERROR: T#50033000000: duty calc: 204775
+ERROR: T#50033000000: duty: 0
+ERROR: T#50132000000: resolucao: 8191
+ERROR: T#50133000000: Porcentagem: 25
+ERROR: T#50133000000: duty calc: 204775
+ERROR: T#50133000000: duty: 0
+ERROR: T#50232000000: resolucao: 8191
+ERROR: T#50233000000: Porcentagem: 25
+ERROR: T#50233000000: duty calc: 204775
+ERROR: T#50233000000: duty: 0
+ERROR: T#50332000000: resolucao: 8191
+ERROR: T#50333000000: Porcentagem: 25
+ERROR: T#50333000000: duty calc: 204775
+ERROR: T#50333000000: duty: 0
+ERROR: T#50432000000: resolucao: 8191
+ERROR: T#50433000000: Porcentagem: 25
+ERROR: T#50433000000: duty calc: 204775
+ERROR: T#50433000000: duty: 0
+ERROR: T#50532000000: resolucao: 8191
+ERROR: T#50533000000: Porcentagem: 25
+ERROR: T#50533000000: duty calc: 204775
+ERROR: T#50533000000: duty: 0
+ERROR: T#50632000000: resolucao: 8191
+ERROR: T#50633000000: Porcentagem: 25
+ERROR: T#50633000000: duty calc: 204775
+ERROR: T#50633000000: duty: 0
+ERROR: T#50732000000: resolucao: 8191
+ERROR: T#50733000000: Porcentagem: 25
+ERROR: T#50733000000: duty calc: 204775
+ERROR: T#50733000000: duty: 0
+ERROR: T#50832000000: resolucao: 8191
+ERROR: T#50833000000: Porcentagem: 25
+ERROR: T#50833000000: duty calc: 204775
+ERROR: T#50833000000: duty: 0
+ERROR: T#50932000000: resolucao: 8191
+ERROR: T#50933000000: Porcentagem: 25
+ERROR: T#50933000000: duty calc: 204775
+ERROR: T#50933000000: duty: 0
+ERROR: T#51032000000: resolucao: 8191
+ERROR: T#51033000000: Porcentagem: 25
+ERROR: T#51033000000: duty calc: 204775
+ERROR: T#51033000000: duty: 0
+ERROR: T#51132000000: resolucao: 8191
+ERROR: T#51133000000: Porcentagem: 25
+ERROR: T#51133000000: duty calc: 204775
+ERROR: T#51133000000: duty: 0
+ERROR: T#51232000000: resolucao: 8191
+ERROR: T#51233000000: Porcentagem: 25
+ERROR: T#51233000000: duty calc: 204775
+ERROR: T#51233000000: duty: 0
+ERROR: T#51332000000: resolucao: 8191
+ERROR: T#51333000000: Porcentagem: 25
+ERROR: T#51333000000: duty calc: 204775
+ERROR: T#51333000000: duty: 0
+ERROR: T#51432000000: resolucao: 8191
+ERROR: T#51433000000: Porcentagem: 25
+ERROR: T#51433000000: duty calc: 204775
+ERROR: T#51433000000: duty: 0
+ERROR: T#51532000000: resolucao: 8191
+ERROR: T#51533000000: Porcentagem: 25
+ERROR: T#51533000000: duty calc: 204775
+ERROR: T#51533000000: duty: 0
+ERROR: T#51632000000: resolucao: 8191
+ERROR: T#51633000000: Porcentagem: 25
+ERROR: T#51633000000: duty calc: 204775
+ERROR: T#51633000000: duty: 0
+ERROR: T#51732000000: resolucao: 8191
+ERROR: T#51733000000: Porcentagem: 25
+ERROR: T#51733000000: duty calc: 204775
+ERROR: T#51733000000: duty: 0
+ERROR: T#51832000000: resolucao: 8191
+ERROR: T#51833000000: Porcentagem: 25
+ERROR: T#51833000000: duty calc: 204775
+ERROR: T#51833000000: duty: 0
+ERROR: T#51932000000: resolucao: 8191
+ERROR: T#51933000000: Porcentagem: 25
+ERROR: T#51933000000: duty calc: 204775
+ERROR: T#51933000000: duty: 0
+ERROR: T#52032000000: resolucao: 8191
+ERROR: T#52033000000: Porcentagem: 25
+ERROR: T#52033000000: duty calc: 204775
+ERROR: T#52033000000: duty: 0
+ERROR: T#52132000000: resolucao: 8191
+ERROR: T#52133000000: Porcentagem: 25
+ERROR: T#52133000000: duty calc: 204775
+ERROR: T#52133000000: duty: 0
+ERROR: T#52232000000: resolucao: 8191
+ERROR: T#52233000000: Porcentagem: 25
+ERROR: T#52233000000: duty calc: 204775
+ERROR: T#52233000000: duty: 0
+ERROR: T#52332000000: resolucao: 8191
+ERROR: T#52333000000: Porcentagem: 25
+ERROR: T#52333000000: duty calc: 204775
+ERROR: T#52333000000: duty: 0
+ERROR: T#52432000000: resolucao: 8191
+ERROR: T#52433000000: Porcentagem: 25
+ERROR: T#52433000000: duty calc: 204775
+ERROR: T#52433000000: duty: 0
+ERROR: T#52532000000: resolucao: 8191
+ERROR: T#52533000000: Porcentagem: 25
+ERROR: T#52533000000: duty calc: 204775
+ERROR: T#52533000000: duty: 0
+ERROR: T#52632000000: resolucao: 8191
+ERROR: T#52633000000: Porcentagem: 25
+ERROR: T#52633000000: duty calc: 204775
+ERROR: T#52633000000: duty: 0
+ERROR: T#52732000000: resolucao: 8191
+ERROR: T#52733000000: Porcentagem: 25
+ERROR: T#52733000000: duty calc: 204775
+ERROR: T#52733000000: duty: 0
+ERROR: T#52832000000: resolucao: 8191
+ERROR: T#52833000000: Porcentagem: 25
+ERROR: T#52833000000: duty calc: 204775
+ERROR: T#52833000000: duty: 0
+ERROR: T#52932000000: resolucao: 8191
+ERROR: T#52933000000: Porcentagem: 25
+ERROR: T#52933000000: duty calc: 204775
+ERROR: T#52933000000: duty: 0
+ERROR: T#53032000000: resolucao: 8191
+ERROR: T#53033000000: Porcentagem: 25
+ERROR: T#53033000000: duty calc: 204775
+ERROR: T#53033000000: duty: 0
+ERROR: T#53132000000: resolucao: 8191
+ERROR: T#53133000000: Porcentagem: 25
+ERROR: T#53133000000: duty calc: 204775
+ERROR: T#53133000000: duty: 0
+ERROR: T#53232000000: resolucao: 8191
+ERROR: T#53233000000: Porcentagem: 25
+ERROR: T#53233000000: duty calc: 204775
+ERROR: T#53233000000: duty: 0
+ERROR: T#53332000000: resolucao: 8191
+ERROR: T#53333000000: Porcentagem: 25
+ERROR: T#53333000000: duty calc: 204775
+ERROR: T#53333000000: duty: 0
+ERROR: T#53432000000: resolucao: 8191
+ERROR: T#53433000000: Porcentagem: 25
+ERROR: T#53433000000: duty calc: 204775
+ERROR: T#53433000000: duty: 0
+ERROR: T#53532000000: resolucao: 8191
+ERROR: T#53533000000: Porcentagem: 25
+ERROR: T#53533000000: duty calc: 204775
+ERROR: T#53533000000: duty: 0
+ERROR: T#53632000000: resolucao: 8191
+ERROR: T#53633000000: Porcentagem: 25
+ERROR: T#53633000000: duty calc: 204775
+ERROR: T#53633000000: duty: 0
+ERROR: T#53732000000: resolucao: 8191
+ERROR: T#53733000000: Porcentagem: 25
+ERROR: T#53733000000: duty calc: 204775
+ERROR: T#53733000000: duty: 0
+ERROR: T#53832000000: resolucao: 8191
+ERROR: T#53833000000: Porcentagem: 25
+ERROR: T#53833000000: duty calc: 204775
+ERROR: T#53833000000: duty: 0
+ERROR: T#53932000000: resolucao: 8191
+ERROR: T#53933000000: Porcentagem: 25
+ERROR: T#53933000000: duty calc: 204775
+ERROR: T#53933000000: duty: 0
+ERROR: T#54032000000: resolucao: 8191
+ERROR: T#54033000000: Porcentagem: 25
+ERROR: T#54033000000: duty calc: 204775
+ERROR: T#54033000000: duty: 0
+ERROR: T#54132000000: resolucao: 8191
+ERROR: T#54133000000: Porcentagem: 25
+ERROR: T#54133000000: duty calc: 204775
+ERROR: T#54133000000: duty: 0
+ERROR: T#54232000000: resolucao: 8191
+ERROR: T#54233000000: Porcentagem: 25
+ERROR: T#54233000000: duty calc: 204775
+ERROR: T#54233000000: duty: 0
+ERROR: T#54332000000: resolucao: 8191
+ERROR: T#54333000000: Porcentagem: 25
+ERROR: T#54333000000: duty calc: 204775
+ERROR: T#54333000000: duty: 0
+ERROR: T#54432000000: resolucao: 8191
+ERROR: T#54433000000: Porcentagem: 25
+ERROR: T#54433000000: duty calc: 204775
+ERROR: T#54433000000: duty: 0
+ERROR: T#54532000000: resolucao: 8191
+ERROR: T#54533000000: Porcentagem: 25
+ERROR: T#54533000000: duty calc: 204775
+ERROR: T#54533000000: duty: 0
+ERROR: T#54633000000: resolucao: 8191
+ERROR: T#54633000000: Porcentagem: 25
+ERROR: T#54633000000: duty calc: 204775
+ERROR: T#54633000000: duty: 0
+ERROR: T#54732000000: resolucao: 8191
+ERROR: T#54733000000: Porcentagem: 25
+ERROR: T#54733000000: duty calc: 204775
+ERROR: T#54733000000: duty: 0
+ERROR: T#54832000000: resolucao: 8191
+ERROR: T#54833000000: Porcentagem: 25
+ERROR: T#54833000000: duty calc: 204775
+ERROR: T#54833000000: duty: 0
+ERROR: T#54932000000: resolucao: 8191
+ERROR: T#54933000000: Porcentagem: 25
+ERROR: T#54933000000: duty calc: 204775
+ERROR: T#54933000000: duty: 0
+ERROR: T#55032000000: resolucao: 8191
+ERROR: T#55033000000: Porcentagem: 25
+ERROR: T#55033000000: duty calc: 204775
+ERROR: T#55033000000: duty: 0
+ERROR: T#55132000000: resolucao: 8191
+ERROR: T#55133000000: Porcentagem: 25
+ERROR: T#55133000000: duty calc: 204775
+ERROR: T#55133000000: duty: 0
+ERROR: T#55232000000: resolucao: 8191
+ERROR: T#55233000000: Porcentagem: 25
+ERROR: T#55233000000: duty calc: 204775
+ERROR: T#55233000000: duty: 0
+ERROR: T#55332000000: resolucao: 8191
+ERROR: T#55333000000: Porcentagem: 25
+ERROR: T#55333000000: duty calc: 204775
+ERROR: T#55333000000: duty: 0
+ERROR: T#55432000000: resolucao: 8191
+ERROR: T#55433000000: Porcentagem: 25
+ERROR: T#55433000000: duty calc: 204775
+ERROR: T#55433000000: duty: 0
+ERROR: T#55532000000: resolucao: 8191
+ERROR: T#55533000000: Porcentagem: 25
+ERROR: T#55533000000: duty calc: 204775
+ERROR: T#55533000000: duty: 0
+ERROR: T#55632000000: resolucao: 8191
+ERROR: T#55633000000: Porcentagem: 25
+ERROR: T#55633000000: duty calc: 204775
+ERROR: T#55633000000: duty: 0
+ERROR: T#55732000000: resolucao: 8191
+ERROR: T#55733000000: Porcentagem: 25
+ERROR: T#55733000000: duty calc: 204775
+ERROR: T#55733000000: duty: 0
+ERROR: T#55832000000: resolucao: 8191
+ERROR: T#55833000000: Porcentagem: 25
+ERROR: T#55833000000: duty calc: 204775
+ERROR: T#55833000000: duty: 0
+ERROR: T#55932000000: resolucao: 8191
+ERROR: T#55933000000: Porcentagem: 25
+ERROR: T#55933000000: duty calc: 204775
+ERROR: T#55933000000: duty: 0
+ERROR: T#56032000000: resolucao: 8191
+ERROR: T#56033000000: Porcentagem: 25
+ERROR: T#56033000000: duty calc: 204775
+ERROR: T#56033000000: duty: 0
+ERROR: T#56132000000: resolucao: 8191
+ERROR: T#56133000000: Porcentagem: 25
+ERROR: T#56133000000: duty calc: 204775
+ERROR: T#56133000000: duty: 0
+ERROR: T#56232000000: resolucao: 8191
+ERROR: T#56233000000: Porcentagem: 25
+ERROR: T#56233000000: duty calc: 204775
+ERROR: T#56233000000: duty: 0
+ERROR: T#56332000000: resolucao: 8191
+ERROR: T#56333000000: Porcentagem: 25
+ERROR: T#56333000000: duty calc: 204775
+ERROR: T#56333000000: duty: 0
+ERROR: T#56432000000: resolucao: 8191
+ERROR: T#56433000000: Porcentagem: 25
+ERROR: T#56433000000: duty calc: 204775
+ERROR: T#56433000000: duty: 0
+ERROR: T#56532000000: resolucao: 8191
+ERROR: T#56533000000: Porcentagem: 25
+ERROR: T#56533000000: duty calc: 204775
+ERROR: T#56533000000: duty: 0
+ERROR: T#56632000000: resolucao: 8191
+ERROR: T#56633000000: Porcentagem: 25
+ERROR: T#56633000000: duty calc: 204775
+ERROR: T#56633000000: duty: 0
+ERROR: T#56732000000: resolucao: 8191
+ERROR: T#56733000000: Porcentagem: 25
+ERROR: T#56733000000: duty calc: 204775
+ERROR: T#56733000000: duty: 0
+ERROR: T#56832000000: resolucao: 8191
+ERROR: T#56833000000: Porcentagem: 25
+ERROR: T#56833000000: duty calc: 204775
+ERROR: T#56833000000: duty: 0
+ERROR: T#56932000000: resolucao: 8191
+ERROR: T#56933000000: Porcentagem: 25
+ERROR: T#56933000000: duty calc: 204775
+ERROR: T#56933000000: duty: 0
+ERROR: T#57032000000: resolucao: 8191
+ERROR: T#57033000000: Porcentagem: 25
+ERROR: T#57033000000: duty calc: 204775
+ERROR: T#57033000000: duty: 0
+ERROR: T#57132000000: resolucao: 8191
+ERROR: T#57133000000: Porcentagem: 25
+ERROR: T#57133000000: duty calc: 204775
+ERROR: T#57133000000: duty: 0
+ERROR: T#57232000000: resolucao: 8191
+ERROR: T#57233000000: Porcentagem: 25
+ERROR: T#57233000000: duty calc: 204775
+ERROR: T#57233000000: duty: 0
+ERROR: T#57332000000: resolucao: 8191
+ERROR: T#57333000000: Porcentagem: 25
+ERROR: T#57333000000: duty calc: 204775
+ERROR: T#57333000000: duty: 0
+ERROR: T#57432000000: resolucao: 8191
+ERROR: T#57433000000: Porcentagem: 25
+ERROR: T#57433000000: duty calc: 204775
+ERROR: T#57433000000: duty: 0
+ERROR: T#57532000000: resolucao: 8191
+ERROR: T#57533000000: Porcentagem: 25
+ERROR: T#57533000000: duty calc: 204775
+ERROR: T#57533000000: duty: 0
+ERROR: T#57632000000: resolucao: 8191
+ERROR: T#57633000000: Porcentagem: 25
+ERROR: T#57633000000: duty calc: 204775
+ERROR: T#57633000000: duty: 0
+ERROR: T#57732000000: resolucao: 8191
+ERROR: T#57733000000: Porcentagem: 25
+ERROR: T#57733000000: duty calc: 204775
+ERROR: T#57733000000: duty: 0
+ERROR: T#57832000000: resolucao: 8191
+ERROR: T#57833000000: Porcentagem: 25
+ERROR: T#57833000000: duty calc: 204775
+ERROR: T#57833000000: duty: 0
+ERROR: T#57932000000: resolucao: 8191
+ERROR: T#57933000000: Porcentagem: 25
+ERROR: T#57933000000: duty calc: 204775
+ERROR: T#57933000000: duty: 0
+ERROR: T#58032000000: resolucao: 8191
+ERROR: T#58033000000: Porcentagem: 25
+ERROR: T#58033000000: duty calc: 204775
+ERROR: T#58033000000: duty: 0
+ERROR: T#58132000000: resolucao: 8191
+ERROR: T#58133000000: Porcentagem: 25
+ERROR: T#58133000000: duty calc: 204775
+ERROR: T#58133000000: duty: 0
+ERROR: T#58232000000: resolucao: 8191
+ERROR: T#58233000000: Porcentagem: 25
+ERROR: T#58233000000: duty calc: 204775
+ERROR: T#58233000000: duty: 0
+ERROR: T#58332000000: resolucao: 8191
+ERROR: T#58333000000: Porcentagem: 25
+ERROR: T#58333000000: duty calc: 204775
+ERROR: T#58333000000: duty: 0
+ERROR: T#58432000000: resolucao: 8191
+ERROR: T#58433000000: Porcentagem: 25
+ERROR: T#58433000000: duty calc: 204775
+ERROR: T#58433000000: duty: 0
+ERROR: T#58532000000: resolucao: 8191
+ERROR: T#58533000000: Porcentagem: 25
+ERROR: T#58533000000: duty calc: 204775
+ERROR: T#58533000000: duty: 0
+ERROR: T#58632000000: resolucao: 8191
+ERROR: T#58633000000: Porcentagem: 25
+ERROR: T#58633000000: duty calc: 204775
+ERROR: T#58633000000: duty: 0
+ERROR: T#58732000000: resolucao: 8191
+ERROR: T#58733000000: Porcentagem: 25
+ERROR: T#58733000000: duty calc: 204775
+ERROR: T#58733000000: duty: 0
+ERROR: T#58832000000: resolucao: 8191
+ERROR: T#58833000000: Porcentagem: 25
+ERROR: T#58833000000: duty calc: 204775
+ERROR: T#58833000000: duty: 0
+ERROR: T#58932000000: resolucao: 8191
+ERROR: T#58933000000: Porcentagem: 25
+ERROR: T#58933000000: duty calc: 204775
+ERROR: T#58933000000: duty: 0
+ERROR: T#59032000000: resolucao: 8191
+ERROR: T#59033000000: Porcentagem: 25
+ERROR: T#59033000000: duty calc: 204775
+ERROR: T#59033000000: duty: 0
+ERROR: T#59132000000: resolucao: 8191
+ERROR: T#59133000000: Porcentagem: 25
+ERROR: T#59133000000: duty calc: 204775
+ERROR: T#59133000000: duty: 0
+ERROR: T#59232000000: resolucao: 8191
+ERROR: T#59233000000: Porcentagem: 25
+ERROR: T#59233000000: duty calc: 204775
+ERROR: T#59233000000: duty: 0
+ERROR: T#59332000000: resolucao: 8191
+ERROR: T#59333000000: Porcentagem: 25
+ERROR: T#59333000000: duty calc: 204775
+ERROR: T#59333000000: duty: 0
+ERROR: T#59432000000: resolucao: 8191
+ERROR: T#59433000000: Porcentagem: 25
+ERROR: T#59433000000: duty calc: 204775
+ERROR: T#59433000000: duty: 0
+ERROR: T#59532000000: resolucao: 8191
+ERROR: T#59533000000: Porcentagem: 25
+ERROR: T#59533000000: duty calc: 204775
+ERROR: T#59533000000: duty: 0
+ERROR: T#59632000000: resolucao: 8191
+ERROR: T#59633000000: Porcentagem: 25
+ERROR: T#59633000000: duty calc: 204775
+ERROR: T#59633000000: duty: 0
+ERROR: T#59732000000: resolucao: 8191
+ERROR: T#59733000000: Porcentagem: 25
+ERROR: T#59733000000: duty calc: 204775
+ERROR: T#59733000000: duty: 0
+ERROR: T#59832000000: resolucao: 8191
+ERROR: T#59833000000: Porcentagem: 25
+ERROR: T#59833000000: duty calc: 204775
+ERROR: T#59833000000: duty: 0
+ERROR: T#59933000000: resolucao: 8191
+ERROR: T#59933000000: Porcentagem: 25
+ERROR: T#59933000000: duty calc: 204775
+ERROR: T#59933000000: duty: 0
+ERROR: T#60033000000: resolucao: 8191
+ERROR: T#60033000000: Porcentagem: 25
+ERROR: T#60033000000: duty calc: 204775
+ERROR: T#60033000000: duty: 0
+ERROR: T#60132000000: resolucao: 8191
+ERROR: T#60133000000: Porcentagem: 25
+ERROR: T#60133000000: duty calc: 204775
+ERROR: T#60133000000: duty: 0
+ERROR: T#60232000000: resolucao: 8191
+ERROR: T#60233000000: Porcentagem: 25
+ERROR: T#60233000000: duty calc: 204775
+ERROR: T#60233000000: duty: 0
+ERROR: T#60332000000: resolucao: 8191
+ERROR: T#60333000000: Porcentagem: 25
+ERROR: T#60333000000: duty calc: 204775
+ERROR: T#60333000000: duty: 0
+ERROR: T#60432000000: resolucao: 8191
+ERROR: T#60433000000: Porcentagem: 25
+ERROR: T#60433000000: duty calc: 204775
+ERROR: T#60433000000: duty: 0
+ERROR: T#60532000000: resolucao: 8191
+ERROR: T#60533000000: Porcentagem: 25
+ERROR: T#60533000000: duty calc: 204775
+ERROR: T#60533000000: duty: 0
+ERROR: T#60632000000: resolucao: 8191
+ERROR: T#60633000000: Porcentagem: 25
+ERROR: T#60633000000: duty calc: 204775
+ERROR: T#60633000000: duty: 0
+ERROR: T#60732000000: resolucao: 8191
+ERROR: T#60733000000: Porcentagem: 25
+ERROR: T#60733000000: duty calc: 204775
+ERROR: T#60733000000: duty: 0
+ERROR: T#60832000000: resolucao: 8191
+ERROR: T#60833000000: Porcenta
