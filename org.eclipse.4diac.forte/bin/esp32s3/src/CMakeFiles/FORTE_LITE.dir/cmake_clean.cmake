@@ -259,6 +259,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.obj.d"
   "CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.obj"
   "CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.obj.d"
+  "CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_OUT_fbt.cpp.obj"
+  "CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_OUT_fbt.cpp.obj.d"
   "CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.obj"
   "CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.obj.d"
   "CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.obj"

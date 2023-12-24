@@ -1,4 +1,4 @@
-# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/core
+# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/core/cominfra/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/core/datatypes/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/core/utils/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/core/io/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/core/fmi/cmake_install.cmake")
-  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/core/lua/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/core/cominfra/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/core/datatypes/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/core/utils/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/core/io/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/core/fmi/cmake_install.cmake")
+  include("/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/core/lua/cmake_install.cmake")
 
 endif()
 

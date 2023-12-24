@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte
+CMAKE_SOURCE_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3
+CMAKE_BINARY_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -E cmake_progress_start /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src//CMakeFiles/progress.marks
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles 0
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -E cmake_progress_start /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src//CMakeFiles/progress.marks
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,23 +148,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -P /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/VerifyGlobs.cmake
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -P /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/VerifyGlobs.cmake
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/FORTE_LITE.dir/rule:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FORTE_LITE.dir/rule
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/FORTE_LITE.dir/rule
 .PHONY : src/CMakeFiles/FORTE_LITE.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ FORTE_LITE: src/CMakeFiles/FORTE_LITE.dir/rule
 
 # fast build rule for target.
 FORTE_LITE/fast:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/build
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/build
 .PHONY : FORTE_LITE/fast
 
 # Convenience name for target.
 src/CMakeFiles/forte-static.dir/rule:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte-static.dir/rule
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte-static.dir/rule
 .PHONY : src/CMakeFiles/forte-static.dir/rule
 
 # Convenience name for target.
@@ -187,12 +187,12 @@ forte-static: src/CMakeFiles/forte-static.dir/rule
 
 # fast build rule for target.
 forte-static/fast:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte-static.dir/build.make src/CMakeFiles/forte-static.dir/build
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte-static.dir/build.make src/CMakeFiles/forte-static.dir/build
 .PHONY : forte-static/fast
 
 # Convenience name for target.
 src/CMakeFiles/forte_init_generator.dir/rule:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte_init_generator.dir/rule
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte_init_generator.dir/rule
 .PHONY : src/CMakeFiles/forte_init_generator.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ forte_init_generator: src/CMakeFiles/forte_init_generator.dir/rule
 
 # fast build rule for target.
 forte_init_generator/fast:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte_init_generator.dir/build.make src/CMakeFiles/forte_init_generator.dir/build
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte_init_generator.dir/build.make src/CMakeFiles/forte_init_generator.dir/build
 .PHONY : forte_init_generator/fast
 
 # Convenience name for target.
 src/CMakeFiles/forte_generate_modules_cmake_files.dir/rule:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte_generate_modules_cmake_files.dir/rule
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte_generate_modules_cmake_files.dir/rule
 .PHONY : src/CMakeFiles/forte_generate_modules_cmake_files.dir/rule
 
 # Convenience name for target.
@@ -215,12 +215,12 @@ forte_generate_modules_cmake_files: src/CMakeFiles/forte_generate_modules_cmake_
 
 # fast build rule for target.
 forte_generate_modules_cmake_files/fast:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte_generate_modules_cmake_files.dir/build.make src/CMakeFiles/forte_generate_modules_cmake_files.dir/build
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte_generate_modules_cmake_files.dir/build.make src/CMakeFiles/forte_generate_modules_cmake_files.dir/build
 .PHONY : forte_generate_modules_cmake_files/fast
 
 # Convenience name for target.
 src/CMakeFiles/forte_stringlist_generator.dir/rule:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte_stringlist_generator.dir/rule
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/forte_stringlist_generator.dir/rule
 .PHONY : src/CMakeFiles/forte_stringlist_generator.dir/rule
 
 # Convenience name for target.
@@ -229,7 +229,7 @@ forte_stringlist_generator: src/CMakeFiles/forte_stringlist_generator.dir/rule
 
 # fast build rule for target.
 forte_stringlist_generator/fast:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte_stringlist_generator.dir/build.make src/CMakeFiles/forte_stringlist_generator.dir/build
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/forte_stringlist_generator.dir/build.make src/CMakeFiles/forte_stringlist_generator.dir/build
 .PHONY : forte_stringlist_generator/fast
 
 __/core/cominfra/comlayersmanager.obj: __/core/cominfra/comlayersmanager.cpp.obj
@@ -237,7 +237,7 @@ __/core/cominfra/comlayersmanager.obj: __/core/cominfra/comlayersmanager.cpp.obj
 
 # target to build an object file
 __/core/cominfra/comlayersmanager.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/cominfra/comlayersmanager.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/cominfra/comlayersmanager.cpp.obj
 .PHONY : __/core/cominfra/comlayersmanager.cpp.obj
 
 __/core/cominfra/comlayersmanager.i: __/core/cominfra/comlayersmanager.cpp.i
@@ -245,7 +245,7 @@ __/core/cominfra/comlayersmanager.i: __/core/cominfra/comlayersmanager.cpp.i
 
 # target to preprocess a source file
 __/core/cominfra/comlayersmanager.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/cominfra/comlayersmanager.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/cominfra/comlayersmanager.cpp.i
 .PHONY : __/core/cominfra/comlayersmanager.cpp.i
 
 __/core/cominfra/comlayersmanager.s: __/core/cominfra/comlayersmanager.cpp.s
@@ -253,7 +253,7 @@ __/core/cominfra/comlayersmanager.s: __/core/cominfra/comlayersmanager.cpp.s
 
 # target to generate assembly for a file
 __/core/cominfra/comlayersmanager.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/cominfra/comlayersmanager.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/cominfra/comlayersmanager.cpp.s
 .PHONY : __/core/cominfra/comlayersmanager.cpp.s
 
 __/core/deviceExecutionHandlers.obj: __/core/deviceExecutionHandlers.cpp.obj
@@ -261,7 +261,7 @@ __/core/deviceExecutionHandlers.obj: __/core/deviceExecutionHandlers.cpp.obj
 
 # target to build an object file
 __/core/deviceExecutionHandlers.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/deviceExecutionHandlers.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/deviceExecutionHandlers.cpp.obj
 .PHONY : __/core/deviceExecutionHandlers.cpp.obj
 
 __/core/deviceExecutionHandlers.i: __/core/deviceExecutionHandlers.cpp.i
@@ -269,7 +269,7 @@ __/core/deviceExecutionHandlers.i: __/core/deviceExecutionHandlers.cpp.i
 
 # target to preprocess a source file
 __/core/deviceExecutionHandlers.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/deviceExecutionHandlers.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/deviceExecutionHandlers.cpp.i
 .PHONY : __/core/deviceExecutionHandlers.cpp.i
 
 __/core/deviceExecutionHandlers.s: __/core/deviceExecutionHandlers.cpp.s
@@ -277,7 +277,7 @@ __/core/deviceExecutionHandlers.s: __/core/deviceExecutionHandlers.cpp.s
 
 # target to generate assembly for a file
 __/core/deviceExecutionHandlers.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/deviceExecutionHandlers.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/core/deviceExecutionHandlers.cpp.s
 .PHONY : __/core/deviceExecutionHandlers.cpp.s
 
 __/forteinit.obj: __/forteinit.cpp.obj
@@ -285,7 +285,7 @@ __/forteinit.obj: __/forteinit.cpp.obj
 
 # target to build an object file
 __/forteinit.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/forteinit.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/forteinit.cpp.obj
 .PHONY : __/forteinit.cpp.obj
 
 __/forteinit.i: __/forteinit.cpp.i
@@ -293,7 +293,7 @@ __/forteinit.i: __/forteinit.cpp.i
 
 # target to preprocess a source file
 __/forteinit.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/forteinit.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/forteinit.cpp.i
 .PHONY : __/forteinit.cpp.i
 
 __/forteinit.s: __/forteinit.cpp.s
@@ -301,7 +301,7 @@ __/forteinit.s: __/forteinit.cpp.s
 
 # target to generate assembly for a file
 __/forteinit.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/forteinit.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/forteinit.cpp.s
 .PHONY : __/forteinit.cpp.s
 
 __/src_gen/startuphook.obj: __/src_gen/startuphook.cpp.obj
@@ -309,7 +309,7 @@ __/src_gen/startuphook.obj: __/src_gen/startuphook.cpp.obj
 
 # target to build an object file
 __/src_gen/startuphook.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/src_gen/startuphook.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/src_gen/startuphook.cpp.obj
 .PHONY : __/src_gen/startuphook.cpp.obj
 
 __/src_gen/startuphook.i: __/src_gen/startuphook.cpp.i
@@ -317,7 +317,7 @@ __/src_gen/startuphook.i: __/src_gen/startuphook.cpp.i
 
 # target to preprocess a source file
 __/src_gen/startuphook.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/src_gen/startuphook.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/src_gen/startuphook.cpp.i
 .PHONY : __/src_gen/startuphook.cpp.i
 
 __/src_gen/startuphook.s: __/src_gen/startuphook.cpp.s
@@ -325,7 +325,7 @@ __/src_gen/startuphook.s: __/src_gen/startuphook.cpp.s
 
 # target to generate assembly for a file
 __/src_gen/startuphook.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/src_gen/startuphook.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/src_gen/startuphook.cpp.s
 .PHONY : __/src_gen/startuphook.cpp.s
 
 __/stringlist.obj: __/stringlist.cpp.obj
@@ -333,7 +333,7 @@ __/stringlist.obj: __/stringlist.cpp.obj
 
 # target to build an object file
 __/stringlist.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/stringlist.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/stringlist.cpp.obj
 .PHONY : __/stringlist.cpp.obj
 
 __/stringlist.i: __/stringlist.cpp.i
@@ -341,7 +341,7 @@ __/stringlist.i: __/stringlist.cpp.i
 
 # target to preprocess a source file
 __/stringlist.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/stringlist.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/stringlist.cpp.i
 .PHONY : __/stringlist.cpp.i
 
 __/stringlist.s: __/stringlist.cpp.s
@@ -349,7 +349,7 @@ __/stringlist.s: __/stringlist.cpp.s
 
 # target to generate assembly for a file
 __/stringlist.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/stringlist.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/__/stringlist.cpp.s
 .PHONY : __/stringlist.cpp.s
 
 arch/bsdsocketinterf.obj: arch/bsdsocketinterf.cpp.obj
@@ -357,7 +357,7 @@ arch/bsdsocketinterf.obj: arch/bsdsocketinterf.cpp.obj
 
 # target to build an object file
 arch/bsdsocketinterf.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/bsdsocketinterf.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/bsdsocketinterf.cpp.obj
 .PHONY : arch/bsdsocketinterf.cpp.obj
 
 arch/bsdsocketinterf.i: arch/bsdsocketinterf.cpp.i
@@ -365,7 +365,7 @@ arch/bsdsocketinterf.i: arch/bsdsocketinterf.cpp.i
 
 # target to preprocess a source file
 arch/bsdsocketinterf.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/bsdsocketinterf.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/bsdsocketinterf.cpp.i
 .PHONY : arch/bsdsocketinterf.cpp.i
 
 arch/bsdsocketinterf.s: arch/bsdsocketinterf.cpp.s
@@ -373,7 +373,7 @@ arch/bsdsocketinterf.s: arch/bsdsocketinterf.cpp.s
 
 # target to generate assembly for a file
 arch/bsdsocketinterf.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/bsdsocketinterf.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/bsdsocketinterf.cpp.s
 .PHONY : arch/bsdsocketinterf.cpp.s
 
 arch/devlog.obj: arch/devlog.cpp.obj
@@ -381,7 +381,7 @@ arch/devlog.obj: arch/devlog.cpp.obj
 
 # target to build an object file
 arch/devlog.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/devlog.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/devlog.cpp.obj
 .PHONY : arch/devlog.cpp.obj
 
 arch/devlog.i: arch/devlog.cpp.i
@@ -389,7 +389,7 @@ arch/devlog.i: arch/devlog.cpp.i
 
 # target to preprocess a source file
 arch/devlog.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/devlog.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/devlog.cpp.i
 .PHONY : arch/devlog.cpp.i
 
 arch/devlog.s: arch/devlog.cpp.s
@@ -397,7 +397,7 @@ arch/devlog.s: arch/devlog.cpp.s
 
 # target to generate assembly for a file
 arch/devlog.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/devlog.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/devlog.cpp.s
 .PHONY : arch/devlog.cpp.s
 
 arch/fdselecthand.obj: arch/fdselecthand.cpp.obj
@@ -405,7 +405,7 @@ arch/fdselecthand.obj: arch/fdselecthand.cpp.obj
 
 # target to build an object file
 arch/fdselecthand.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/fdselecthand.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/fdselecthand.cpp.obj
 .PHONY : arch/fdselecthand.cpp.obj
 
 arch/fdselecthand.i: arch/fdselecthand.cpp.i
@@ -413,7 +413,7 @@ arch/fdselecthand.i: arch/fdselecthand.cpp.i
 
 # target to preprocess a source file
 arch/fdselecthand.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/fdselecthand.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/fdselecthand.cpp.i
 .PHONY : arch/fdselecthand.cpp.i
 
 arch/fdselecthand.s: arch/fdselecthand.cpp.s
@@ -421,7 +421,7 @@ arch/fdselecthand.s: arch/fdselecthand.cpp.s
 
 # target to generate assembly for a file
 arch/fdselecthand.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/fdselecthand.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/fdselecthand.cpp.s
 .PHONY : arch/fdselecthand.cpp.s
 
 arch/freeRTOS/forte_Init.obj: arch/freeRTOS/forte_Init.cpp.obj
@@ -429,7 +429,7 @@ arch/freeRTOS/forte_Init.obj: arch/freeRTOS/forte_Init.cpp.obj
 
 # target to build an object file
 arch/freeRTOS/forte_Init.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_Init.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_Init.cpp.obj
 .PHONY : arch/freeRTOS/forte_Init.cpp.obj
 
 arch/freeRTOS/forte_Init.i: arch/freeRTOS/forte_Init.cpp.i
@@ -437,7 +437,7 @@ arch/freeRTOS/forte_Init.i: arch/freeRTOS/forte_Init.cpp.i
 
 # target to preprocess a source file
 arch/freeRTOS/forte_Init.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_Init.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_Init.cpp.i
 .PHONY : arch/freeRTOS/forte_Init.cpp.i
 
 arch/freeRTOS/forte_Init.s: arch/freeRTOS/forte_Init.cpp.s
@@ -445,7 +445,7 @@ arch/freeRTOS/forte_Init.s: arch/freeRTOS/forte_Init.cpp.s
 
 # target to generate assembly for a file
 arch/freeRTOS/forte_Init.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_Init.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_Init.cpp.s
 .PHONY : arch/freeRTOS/forte_Init.cpp.s
 
 arch/freeRTOS/forte_architecture.obj: arch/freeRTOS/forte_architecture.cpp.obj
@@ -453,7 +453,7 @@ arch/freeRTOS/forte_architecture.obj: arch/freeRTOS/forte_architecture.cpp.obj
 
 # target to build an object file
 arch/freeRTOS/forte_architecture.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture.cpp.obj
 .PHONY : arch/freeRTOS/forte_architecture.cpp.obj
 
 arch/freeRTOS/forte_architecture.i: arch/freeRTOS/forte_architecture.cpp.i
@@ -461,7 +461,7 @@ arch/freeRTOS/forte_architecture.i: arch/freeRTOS/forte_architecture.cpp.i
 
 # target to preprocess a source file
 arch/freeRTOS/forte_architecture.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture.cpp.i
 .PHONY : arch/freeRTOS/forte_architecture.cpp.i
 
 arch/freeRTOS/forte_architecture.s: arch/freeRTOS/forte_architecture.cpp.s
@@ -469,7 +469,7 @@ arch/freeRTOS/forte_architecture.s: arch/freeRTOS/forte_architecture.cpp.s
 
 # target to generate assembly for a file
 arch/freeRTOS/forte_architecture.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture.cpp.s
 .PHONY : arch/freeRTOS/forte_architecture.cpp.s
 
 arch/freeRTOS/forte_architecture_time.obj: arch/freeRTOS/forte_architecture_time.cpp.obj
@@ -477,7 +477,7 @@ arch/freeRTOS/forte_architecture_time.obj: arch/freeRTOS/forte_architecture_time
 
 # target to build an object file
 arch/freeRTOS/forte_architecture_time.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture_time.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture_time.cpp.obj
 .PHONY : arch/freeRTOS/forte_architecture_time.cpp.obj
 
 arch/freeRTOS/forte_architecture_time.i: arch/freeRTOS/forte_architecture_time.cpp.i
@@ -485,7 +485,7 @@ arch/freeRTOS/forte_architecture_time.i: arch/freeRTOS/forte_architecture_time.c
 
 # target to preprocess a source file
 arch/freeRTOS/forte_architecture_time.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture_time.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture_time.cpp.i
 .PHONY : arch/freeRTOS/forte_architecture_time.cpp.i
 
 arch/freeRTOS/forte_architecture_time.s: arch/freeRTOS/forte_architecture_time.cpp.s
@@ -493,7 +493,7 @@ arch/freeRTOS/forte_architecture_time.s: arch/freeRTOS/forte_architecture_time.c
 
 # target to generate assembly for a file
 arch/freeRTOS/forte_architecture_time.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture_time.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_architecture_time.cpp.s
 .PHONY : arch/freeRTOS/forte_architecture_time.cpp.s
 
 arch/freeRTOS/forte_sem.obj: arch/freeRTOS/forte_sem.cpp.obj
@@ -501,7 +501,7 @@ arch/freeRTOS/forte_sem.obj: arch/freeRTOS/forte_sem.cpp.obj
 
 # target to build an object file
 arch/freeRTOS/forte_sem.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sem.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sem.cpp.obj
 .PHONY : arch/freeRTOS/forte_sem.cpp.obj
 
 arch/freeRTOS/forte_sem.i: arch/freeRTOS/forte_sem.cpp.i
@@ -509,7 +509,7 @@ arch/freeRTOS/forte_sem.i: arch/freeRTOS/forte_sem.cpp.i
 
 # target to preprocess a source file
 arch/freeRTOS/forte_sem.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sem.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sem.cpp.i
 .PHONY : arch/freeRTOS/forte_sem.cpp.i
 
 arch/freeRTOS/forte_sem.s: arch/freeRTOS/forte_sem.cpp.s
@@ -517,7 +517,7 @@ arch/freeRTOS/forte_sem.s: arch/freeRTOS/forte_sem.cpp.s
 
 # target to generate assembly for a file
 arch/freeRTOS/forte_sem.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sem.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sem.cpp.s
 .PHONY : arch/freeRTOS/forte_sem.cpp.s
 
 arch/freeRTOS/forte_sync.obj: arch/freeRTOS/forte_sync.cpp.obj
@@ -525,7 +525,7 @@ arch/freeRTOS/forte_sync.obj: arch/freeRTOS/forte_sync.cpp.obj
 
 # target to build an object file
 arch/freeRTOS/forte_sync.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sync.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sync.cpp.obj
 .PHONY : arch/freeRTOS/forte_sync.cpp.obj
 
 arch/freeRTOS/forte_sync.i: arch/freeRTOS/forte_sync.cpp.i
@@ -533,7 +533,7 @@ arch/freeRTOS/forte_sync.i: arch/freeRTOS/forte_sync.cpp.i
 
 # target to preprocess a source file
 arch/freeRTOS/forte_sync.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sync.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sync.cpp.i
 .PHONY : arch/freeRTOS/forte_sync.cpp.i
 
 arch/freeRTOS/forte_sync.s: arch/freeRTOS/forte_sync.cpp.s
@@ -541,7 +541,7 @@ arch/freeRTOS/forte_sync.s: arch/freeRTOS/forte_sync.cpp.s
 
 # target to generate assembly for a file
 arch/freeRTOS/forte_sync.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sync.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_sync.cpp.s
 .PHONY : arch/freeRTOS/forte_sync.cpp.s
 
 arch/freeRTOS/forte_thread.obj: arch/freeRTOS/forte_thread.cpp.obj
@@ -549,7 +549,7 @@ arch/freeRTOS/forte_thread.obj: arch/freeRTOS/forte_thread.cpp.obj
 
 # target to build an object file
 arch/freeRTOS/forte_thread.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_thread.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_thread.cpp.obj
 .PHONY : arch/freeRTOS/forte_thread.cpp.obj
 
 arch/freeRTOS/forte_thread.i: arch/freeRTOS/forte_thread.cpp.i
@@ -557,7 +557,7 @@ arch/freeRTOS/forte_thread.i: arch/freeRTOS/forte_thread.cpp.i
 
 # target to preprocess a source file
 arch/freeRTOS/forte_thread.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_thread.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_thread.cpp.i
 .PHONY : arch/freeRTOS/forte_thread.cpp.i
 
 arch/freeRTOS/forte_thread.s: arch/freeRTOS/forte_thread.cpp.s
@@ -565,7 +565,7 @@ arch/freeRTOS/forte_thread.s: arch/freeRTOS/forte_thread.cpp.s
 
 # target to generate assembly for a file
 arch/freeRTOS/forte_thread.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_thread.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/forte_thread.cpp.s
 .PHONY : arch/freeRTOS/forte_thread.cpp.s
 
 arch/freeRTOS/freertostiha.obj: arch/freeRTOS/freertostiha.cpp.obj
@@ -573,7 +573,7 @@ arch/freeRTOS/freertostiha.obj: arch/freeRTOS/freertostiha.cpp.obj
 
 # target to build an object file
 arch/freeRTOS/freertostiha.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj
 .PHONY : arch/freeRTOS/freertostiha.cpp.obj
 
 arch/freeRTOS/freertostiha.i: arch/freeRTOS/freertostiha.cpp.i
@@ -581,7 +581,7 @@ arch/freeRTOS/freertostiha.i: arch/freeRTOS/freertostiha.cpp.i
 
 # target to preprocess a source file
 arch/freeRTOS/freertostiha.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.i
 .PHONY : arch/freeRTOS/freertostiha.cpp.i
 
 arch/freeRTOS/freertostiha.s: arch/freeRTOS/freertostiha.cpp.s
@@ -589,7 +589,7 @@ arch/freeRTOS/freertostiha.s: arch/freeRTOS/freertostiha.cpp.s
 
 # target to generate assembly for a file
 arch/freeRTOS/freertostiha.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.s
 .PHONY : arch/freeRTOS/freertostiha.cpp.s
 
 arch/genforte_printer.obj: arch/genforte_printer.cpp.obj
@@ -597,7 +597,7 @@ arch/genforte_printer.obj: arch/genforte_printer.cpp.obj
 
 # target to build an object file
 arch/genforte_printer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.obj
 .PHONY : arch/genforte_printer.cpp.obj
 
 arch/genforte_printer.i: arch/genforte_printer.cpp.i
@@ -605,7 +605,7 @@ arch/genforte_printer.i: arch/genforte_printer.cpp.i
 
 # target to preprocess a source file
 arch/genforte_printer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.i
 .PHONY : arch/genforte_printer.cpp.i
 
 arch/genforte_printer.s: arch/genforte_printer.cpp.s
@@ -613,7 +613,7 @@ arch/genforte_printer.s: arch/genforte_printer.cpp.s
 
 # target to generate assembly for a file
 arch/genforte_printer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.s
 .PHONY : arch/genforte_printer.cpp.s
 
 arch/genforte_realFunctions.obj: arch/genforte_realFunctions.cpp.obj
@@ -621,7 +621,7 @@ arch/genforte_realFunctions.obj: arch/genforte_realFunctions.cpp.obj
 
 # target to build an object file
 arch/genforte_realFunctions.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_realFunctions.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_realFunctions.cpp.obj
 .PHONY : arch/genforte_realFunctions.cpp.obj
 
 arch/genforte_realFunctions.i: arch/genforte_realFunctions.cpp.i
@@ -629,7 +629,7 @@ arch/genforte_realFunctions.i: arch/genforte_realFunctions.cpp.i
 
 # target to preprocess a source file
 arch/genforte_realFunctions.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_realFunctions.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_realFunctions.cpp.i
 .PHONY : arch/genforte_realFunctions.cpp.i
 
 arch/genforte_realFunctions.s: arch/genforte_realFunctions.cpp.s
@@ -637,7 +637,7 @@ arch/genforte_realFunctions.s: arch/genforte_realFunctions.cpp.s
 
 # target to generate assembly for a file
 arch/genforte_realFunctions.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_realFunctions.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/genforte_realFunctions.cpp.s
 .PHONY : arch/genforte_realFunctions.cpp.s
 
 arch/timerha.obj: arch/timerha.cpp.obj
@@ -645,7 +645,7 @@ arch/timerha.obj: arch/timerha.cpp.obj
 
 # target to build an object file
 arch/timerha.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/timerha.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/timerha.cpp.obj
 .PHONY : arch/timerha.cpp.obj
 
 arch/timerha.i: arch/timerha.cpp.i
@@ -653,7 +653,7 @@ arch/timerha.i: arch/timerha.cpp.i
 
 # target to preprocess a source file
 arch/timerha.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/timerha.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/timerha.cpp.i
 .PHONY : arch/timerha.cpp.i
 
 arch/timerha.s: arch/timerha.cpp.s
@@ -661,7 +661,7 @@ arch/timerha.s: arch/timerha.cpp.s
 
 # target to generate assembly for a file
 arch/timerha.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/timerha.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/timerha.cpp.s
 .PHONY : arch/timerha.cpp.s
 
 arch/utils/mainparam_utils.obj: arch/utils/mainparam_utils.cpp.obj
@@ -669,7 +669,7 @@ arch/utils/mainparam_utils.obj: arch/utils/mainparam_utils.cpp.obj
 
 # target to build an object file
 arch/utils/mainparam_utils.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/utils/mainparam_utils.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/utils/mainparam_utils.cpp.obj
 .PHONY : arch/utils/mainparam_utils.cpp.obj
 
 arch/utils/mainparam_utils.i: arch/utils/mainparam_utils.cpp.i
@@ -677,7 +677,7 @@ arch/utils/mainparam_utils.i: arch/utils/mainparam_utils.cpp.i
 
 # target to preprocess a source file
 arch/utils/mainparam_utils.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/utils/mainparam_utils.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/utils/mainparam_utils.cpp.i
 .PHONY : arch/utils/mainparam_utils.cpp.i
 
 arch/utils/mainparam_utils.s: arch/utils/mainparam_utils.cpp.s
@@ -685,7 +685,7 @@ arch/utils/mainparam_utils.s: arch/utils/mainparam_utils.cpp.s
 
 # target to generate assembly for a file
 arch/utils/mainparam_utils.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/utils/mainparam_utils.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/arch/utils/mainparam_utils.cpp.s
 .PHONY : arch/utils/mainparam_utils.cpp.s
 
 core/adapter.obj: core/adapter.cpp.obj
@@ -693,7 +693,7 @@ core/adapter.obj: core/adapter.cpp.obj
 
 # target to build an object file
 core/adapter.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapter.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapter.cpp.obj
 .PHONY : core/adapter.cpp.obj
 
 core/adapter.i: core/adapter.cpp.i
@@ -701,7 +701,7 @@ core/adapter.i: core/adapter.cpp.i
 
 # target to preprocess a source file
 core/adapter.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapter.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapter.cpp.i
 .PHONY : core/adapter.cpp.i
 
 core/adapter.s: core/adapter.cpp.s
@@ -709,7 +709,7 @@ core/adapter.s: core/adapter.cpp.s
 
 # target to generate assembly for a file
 core/adapter.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapter.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapter.cpp.s
 .PHONY : core/adapter.cpp.s
 
 core/adapterconn.obj: core/adapterconn.cpp.obj
@@ -717,7 +717,7 @@ core/adapterconn.obj: core/adapterconn.cpp.obj
 
 # target to build an object file
 core/adapterconn.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapterconn.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapterconn.cpp.obj
 .PHONY : core/adapterconn.cpp.obj
 
 core/adapterconn.i: core/adapterconn.cpp.i
@@ -725,7 +725,7 @@ core/adapterconn.i: core/adapterconn.cpp.i
 
 # target to preprocess a source file
 core/adapterconn.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapterconn.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapterconn.cpp.i
 .PHONY : core/adapterconn.cpp.i
 
 core/adapterconn.s: core/adapterconn.cpp.s
@@ -733,7 +733,7 @@ core/adapterconn.s: core/adapterconn.cpp.s
 
 # target to generate assembly for a file
 core/adapterconn.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapterconn.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/adapterconn.cpp.s
 .PHONY : core/adapterconn.cpp.s
 
 core/anyadapter.obj: core/anyadapter.cpp.obj
@@ -741,7 +741,7 @@ core/anyadapter.obj: core/anyadapter.cpp.obj
 
 # target to build an object file
 core/anyadapter.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/anyadapter.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/anyadapter.cpp.obj
 .PHONY : core/anyadapter.cpp.obj
 
 core/anyadapter.i: core/anyadapter.cpp.i
@@ -749,7 +749,7 @@ core/anyadapter.i: core/anyadapter.cpp.i
 
 # target to preprocess a source file
 core/anyadapter.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/anyadapter.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/anyadapter.cpp.i
 .PHONY : core/anyadapter.cpp.i
 
 core/anyadapter.s: core/anyadapter.cpp.s
@@ -757,7 +757,7 @@ core/anyadapter.s: core/anyadapter.cpp.s
 
 # target to generate assembly for a file
 core/anyadapter.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/anyadapter.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/anyadapter.cpp.s
 .PHONY : core/anyadapter.cpp.s
 
 core/basicfb.obj: core/basicfb.cpp.obj
@@ -765,7 +765,7 @@ core/basicfb.obj: core/basicfb.cpp.obj
 
 # target to build an object file
 core/basicfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/basicfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/basicfb.cpp.obj
 .PHONY : core/basicfb.cpp.obj
 
 core/basicfb.i: core/basicfb.cpp.i
@@ -773,7 +773,7 @@ core/basicfb.i: core/basicfb.cpp.i
 
 # target to preprocess a source file
 core/basicfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/basicfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/basicfb.cpp.i
 .PHONY : core/basicfb.cpp.i
 
 core/basicfb.s: core/basicfb.cpp.s
@@ -781,7 +781,7 @@ core/basicfb.s: core/basicfb.cpp.s
 
 # target to generate assembly for a file
 core/basicfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/basicfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/basicfb.cpp.s
 .PHONY : core/basicfb.cpp.s
 
 core/cfb.obj: core/cfb.cpp.obj
@@ -789,7 +789,7 @@ core/cfb.obj: core/cfb.cpp.obj
 
 # target to build an object file
 core/cfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cfb.cpp.obj
 .PHONY : core/cfb.cpp.obj
 
 core/cfb.i: core/cfb.cpp.i
@@ -797,7 +797,7 @@ core/cfb.i: core/cfb.cpp.i
 
 # target to preprocess a source file
 core/cfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cfb.cpp.i
 .PHONY : core/cfb.cpp.i
 
 core/cfb.s: core/cfb.cpp.s
@@ -805,7 +805,7 @@ core/cfb.s: core/cfb.cpp.s
 
 # target to generate assembly for a file
 core/cfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cfb.cpp.s
 .PHONY : core/cfb.cpp.s
 
 core/cominfra/basecommfb.obj: core/cominfra/basecommfb.cpp.obj
@@ -813,7 +813,7 @@ core/cominfra/basecommfb.obj: core/cominfra/basecommfb.cpp.obj
 
 # target to build an object file
 core/cominfra/basecommfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/basecommfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/basecommfb.cpp.obj
 .PHONY : core/cominfra/basecommfb.cpp.obj
 
 core/cominfra/basecommfb.i: core/cominfra/basecommfb.cpp.i
@@ -821,7 +821,7 @@ core/cominfra/basecommfb.i: core/cominfra/basecommfb.cpp.i
 
 # target to preprocess a source file
 core/cominfra/basecommfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/basecommfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/basecommfb.cpp.i
 .PHONY : core/cominfra/basecommfb.cpp.i
 
 core/cominfra/basecommfb.s: core/cominfra/basecommfb.cpp.s
@@ -829,7 +829,7 @@ core/cominfra/basecommfb.s: core/cominfra/basecommfb.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/basecommfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/basecommfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/basecommfb.cpp.s
 .PHONY : core/cominfra/basecommfb.cpp.s
 
 core/cominfra/comlayer.obj: core/cominfra/comlayer.cpp.obj
@@ -837,7 +837,7 @@ core/cominfra/comlayer.obj: core/cominfra/comlayer.cpp.obj
 
 # target to build an object file
 core/cominfra/comlayer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/comlayer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/comlayer.cpp.obj
 .PHONY : core/cominfra/comlayer.cpp.obj
 
 core/cominfra/comlayer.i: core/cominfra/comlayer.cpp.i
@@ -845,7 +845,7 @@ core/cominfra/comlayer.i: core/cominfra/comlayer.cpp.i
 
 # target to preprocess a source file
 core/cominfra/comlayer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/comlayer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/comlayer.cpp.i
 .PHONY : core/cominfra/comlayer.cpp.i
 
 core/cominfra/comlayer.s: core/cominfra/comlayer.cpp.s
@@ -853,7 +853,7 @@ core/cominfra/comlayer.s: core/cominfra/comlayer.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/comlayer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/comlayer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/comlayer.cpp.s
 .PHONY : core/cominfra/comlayer.cpp.s
 
 core/cominfra/commfb.obj: core/cominfra/commfb.cpp.obj
@@ -861,7 +861,7 @@ core/cominfra/commfb.obj: core/cominfra/commfb.cpp.obj
 
 # target to build an object file
 core/cominfra/commfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/commfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/commfb.cpp.obj
 .PHONY : core/cominfra/commfb.cpp.obj
 
 core/cominfra/commfb.i: core/cominfra/commfb.cpp.i
@@ -869,7 +869,7 @@ core/cominfra/commfb.i: core/cominfra/commfb.cpp.i
 
 # target to preprocess a source file
 core/cominfra/commfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/commfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/commfb.cpp.i
 .PHONY : core/cominfra/commfb.cpp.i
 
 core/cominfra/commfb.s: core/cominfra/commfb.cpp.s
@@ -877,7 +877,7 @@ core/cominfra/commfb.s: core/cominfra/commfb.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/commfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/commfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/commfb.cpp.s
 .PHONY : core/cominfra/commfb.cpp.s
 
 core/cominfra/fbdkasn1layer.obj: core/cominfra/fbdkasn1layer.cpp.obj
@@ -885,7 +885,7 @@ core/cominfra/fbdkasn1layer.obj: core/cominfra/fbdkasn1layer.cpp.obj
 
 # target to build an object file
 core/cominfra/fbdkasn1layer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/fbdkasn1layer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/fbdkasn1layer.cpp.obj
 .PHONY : core/cominfra/fbdkasn1layer.cpp.obj
 
 core/cominfra/fbdkasn1layer.i: core/cominfra/fbdkasn1layer.cpp.i
@@ -893,7 +893,7 @@ core/cominfra/fbdkasn1layer.i: core/cominfra/fbdkasn1layer.cpp.i
 
 # target to preprocess a source file
 core/cominfra/fbdkasn1layer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/fbdkasn1layer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/fbdkasn1layer.cpp.i
 .PHONY : core/cominfra/fbdkasn1layer.cpp.i
 
 core/cominfra/fbdkasn1layer.s: core/cominfra/fbdkasn1layer.cpp.s
@@ -901,7 +901,7 @@ core/cominfra/fbdkasn1layer.s: core/cominfra/fbdkasn1layer.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/fbdkasn1layer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/fbdkasn1layer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/fbdkasn1layer.cpp.s
 .PHONY : core/cominfra/fbdkasn1layer.cpp.s
 
 core/cominfra/ipcomlayer.obj: core/cominfra/ipcomlayer.cpp.obj
@@ -909,7 +909,7 @@ core/cominfra/ipcomlayer.obj: core/cominfra/ipcomlayer.cpp.obj
 
 # target to build an object file
 core/cominfra/ipcomlayer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/ipcomlayer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/ipcomlayer.cpp.obj
 .PHONY : core/cominfra/ipcomlayer.cpp.obj
 
 core/cominfra/ipcomlayer.i: core/cominfra/ipcomlayer.cpp.i
@@ -917,7 +917,7 @@ core/cominfra/ipcomlayer.i: core/cominfra/ipcomlayer.cpp.i
 
 # target to preprocess a source file
 core/cominfra/ipcomlayer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/ipcomlayer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/ipcomlayer.cpp.i
 .PHONY : core/cominfra/ipcomlayer.cpp.i
 
 core/cominfra/ipcomlayer.s: core/cominfra/ipcomlayer.cpp.s
@@ -925,7 +925,7 @@ core/cominfra/ipcomlayer.s: core/cominfra/ipcomlayer.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/ipcomlayer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/ipcomlayer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/ipcomlayer.cpp.s
 .PHONY : core/cominfra/ipcomlayer.cpp.s
 
 core/cominfra/localcomlayer.obj: core/cominfra/localcomlayer.cpp.obj
@@ -933,7 +933,7 @@ core/cominfra/localcomlayer.obj: core/cominfra/localcomlayer.cpp.obj
 
 # target to build an object file
 core/cominfra/localcomlayer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/localcomlayer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/localcomlayer.cpp.obj
 .PHONY : core/cominfra/localcomlayer.cpp.obj
 
 core/cominfra/localcomlayer.i: core/cominfra/localcomlayer.cpp.i
@@ -941,7 +941,7 @@ core/cominfra/localcomlayer.i: core/cominfra/localcomlayer.cpp.i
 
 # target to preprocess a source file
 core/cominfra/localcomlayer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/localcomlayer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/localcomlayer.cpp.i
 .PHONY : core/cominfra/localcomlayer.cpp.i
 
 core/cominfra/localcomlayer.s: core/cominfra/localcomlayer.cpp.s
@@ -949,7 +949,7 @@ core/cominfra/localcomlayer.s: core/cominfra/localcomlayer.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/localcomlayer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/localcomlayer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/localcomlayer.cpp.s
 .PHONY : core/cominfra/localcomlayer.cpp.s
 
 core/cominfra/rawdatacomlayer.obj: core/cominfra/rawdatacomlayer.cpp.obj
@@ -957,7 +957,7 @@ core/cominfra/rawdatacomlayer.obj: core/cominfra/rawdatacomlayer.cpp.obj
 
 # target to build an object file
 core/cominfra/rawdatacomlayer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/rawdatacomlayer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/rawdatacomlayer.cpp.obj
 .PHONY : core/cominfra/rawdatacomlayer.cpp.obj
 
 core/cominfra/rawdatacomlayer.i: core/cominfra/rawdatacomlayer.cpp.i
@@ -965,7 +965,7 @@ core/cominfra/rawdatacomlayer.i: core/cominfra/rawdatacomlayer.cpp.i
 
 # target to preprocess a source file
 core/cominfra/rawdatacomlayer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/rawdatacomlayer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/rawdatacomlayer.cpp.i
 .PHONY : core/cominfra/rawdatacomlayer.cpp.i
 
 core/cominfra/rawdatacomlayer.s: core/cominfra/rawdatacomlayer.cpp.s
@@ -973,7 +973,7 @@ core/cominfra/rawdatacomlayer.s: core/cominfra/rawdatacomlayer.cpp.s
 
 # target to generate assembly for a file
 core/cominfra/rawdatacomlayer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/rawdatacomlayer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/cominfra/rawdatacomlayer.cpp.s
 .PHONY : core/cominfra/rawdatacomlayer.cpp.s
 
 core/conn.obj: core/conn.cpp.obj
@@ -981,7 +981,7 @@ core/conn.obj: core/conn.cpp.obj
 
 # target to build an object file
 core/conn.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/conn.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/conn.cpp.obj
 .PHONY : core/conn.cpp.obj
 
 core/conn.i: core/conn.cpp.i
@@ -989,7 +989,7 @@ core/conn.i: core/conn.cpp.i
 
 # target to preprocess a source file
 core/conn.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/conn.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/conn.cpp.i
 .PHONY : core/conn.cpp.i
 
 core/conn.s: core/conn.cpp.s
@@ -997,7 +997,7 @@ core/conn.s: core/conn.cpp.s
 
 # target to generate assembly for a file
 core/conn.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/conn.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/conn.cpp.s
 .PHONY : core/conn.cpp.s
 
 core/dataconn.obj: core/dataconn.cpp.obj
@@ -1005,7 +1005,7 @@ core/dataconn.obj: core/dataconn.cpp.obj
 
 # target to build an object file
 core/dataconn.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/dataconn.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/dataconn.cpp.obj
 .PHONY : core/dataconn.cpp.obj
 
 core/dataconn.i: core/dataconn.cpp.i
@@ -1013,7 +1013,7 @@ core/dataconn.i: core/dataconn.cpp.i
 
 # target to preprocess a source file
 core/dataconn.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/dataconn.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/dataconn.cpp.i
 .PHONY : core/dataconn.cpp.i
 
 core/dataconn.s: core/dataconn.cpp.s
@@ -1021,7 +1021,7 @@ core/dataconn.s: core/dataconn.cpp.s
 
 # target to generate assembly for a file
 core/dataconn.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/dataconn.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/dataconn.cpp.s
 .PHONY : core/dataconn.cpp.s
 
 core/datatypes/forte_any.obj: core/datatypes/forte_any.cpp.obj
@@ -1029,7 +1029,7 @@ core/datatypes/forte_any.obj: core/datatypes/forte_any.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_any.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any.cpp.obj
 .PHONY : core/datatypes/forte_any.cpp.obj
 
 core/datatypes/forte_any.i: core/datatypes/forte_any.cpp.i
@@ -1037,7 +1037,7 @@ core/datatypes/forte_any.i: core/datatypes/forte_any.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any.cpp.i
 .PHONY : core/datatypes/forte_any.cpp.i
 
 core/datatypes/forte_any.s: core/datatypes/forte_any.cpp.s
@@ -1045,7 +1045,7 @@ core/datatypes/forte_any.s: core/datatypes/forte_any.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any.cpp.s
 .PHONY : core/datatypes/forte_any.cpp.s
 
 core/datatypes/forte_any_bit_variant.obj: core/datatypes/forte_any_bit_variant.cpp.obj
@@ -1053,7 +1053,7 @@ core/datatypes/forte_any_bit_variant.obj: core/datatypes/forte_any_bit_variant.c
 
 # target to build an object file
 core/datatypes/forte_any_bit_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_bit_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_bit_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_bit_variant.cpp.obj
 
 core/datatypes/forte_any_bit_variant.i: core/datatypes/forte_any_bit_variant.cpp.i
@@ -1061,7 +1061,7 @@ core/datatypes/forte_any_bit_variant.i: core/datatypes/forte_any_bit_variant.cpp
 
 # target to preprocess a source file
 core/datatypes/forte_any_bit_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_bit_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_bit_variant.cpp.i
 .PHONY : core/datatypes/forte_any_bit_variant.cpp.i
 
 core/datatypes/forte_any_bit_variant.s: core/datatypes/forte_any_bit_variant.cpp.s
@@ -1069,7 +1069,7 @@ core/datatypes/forte_any_bit_variant.s: core/datatypes/forte_any_bit_variant.cpp
 
 # target to generate assembly for a file
 core/datatypes/forte_any_bit_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_bit_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_bit_variant.cpp.s
 .PHONY : core/datatypes/forte_any_bit_variant.cpp.s
 
 core/datatypes/forte_any_char_variant.obj: core/datatypes/forte_any_char_variant.cpp.obj
@@ -1077,7 +1077,7 @@ core/datatypes/forte_any_char_variant.obj: core/datatypes/forte_any_char_variant
 
 # target to build an object file
 core/datatypes/forte_any_char_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_char_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_char_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_char_variant.cpp.obj
 
 core/datatypes/forte_any_char_variant.i: core/datatypes/forte_any_char_variant.cpp.i
@@ -1085,7 +1085,7 @@ core/datatypes/forte_any_char_variant.i: core/datatypes/forte_any_char_variant.c
 
 # target to preprocess a source file
 core/datatypes/forte_any_char_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_char_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_char_variant.cpp.i
 .PHONY : core/datatypes/forte_any_char_variant.cpp.i
 
 core/datatypes/forte_any_char_variant.s: core/datatypes/forte_any_char_variant.cpp.s
@@ -1093,7 +1093,7 @@ core/datatypes/forte_any_char_variant.s: core/datatypes/forte_any_char_variant.c
 
 # target to generate assembly for a file
 core/datatypes/forte_any_char_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_char_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_char_variant.cpp.s
 .PHONY : core/datatypes/forte_any_char_variant.cpp.s
 
 core/datatypes/forte_any_chars_variant.obj: core/datatypes/forte_any_chars_variant.cpp.obj
@@ -1101,7 +1101,7 @@ core/datatypes/forte_any_chars_variant.obj: core/datatypes/forte_any_chars_varia
 
 # target to build an object file
 core/datatypes/forte_any_chars_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_chars_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_chars_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_chars_variant.cpp.obj
 
 core/datatypes/forte_any_chars_variant.i: core/datatypes/forte_any_chars_variant.cpp.i
@@ -1109,7 +1109,7 @@ core/datatypes/forte_any_chars_variant.i: core/datatypes/forte_any_chars_variant
 
 # target to preprocess a source file
 core/datatypes/forte_any_chars_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_chars_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_chars_variant.cpp.i
 .PHONY : core/datatypes/forte_any_chars_variant.cpp.i
 
 core/datatypes/forte_any_chars_variant.s: core/datatypes/forte_any_chars_variant.cpp.s
@@ -1117,7 +1117,7 @@ core/datatypes/forte_any_chars_variant.s: core/datatypes/forte_any_chars_variant
 
 # target to generate assembly for a file
 core/datatypes/forte_any_chars_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_chars_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_chars_variant.cpp.s
 .PHONY : core/datatypes/forte_any_chars_variant.cpp.s
 
 core/datatypes/forte_any_date.obj: core/datatypes/forte_any_date.cpp.obj
@@ -1125,7 +1125,7 @@ core/datatypes/forte_any_date.obj: core/datatypes/forte_any_date.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_any_date.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date.cpp.obj
 .PHONY : core/datatypes/forte_any_date.cpp.obj
 
 core/datatypes/forte_any_date.i: core/datatypes/forte_any_date.cpp.i
@@ -1133,7 +1133,7 @@ core/datatypes/forte_any_date.i: core/datatypes/forte_any_date.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any_date.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date.cpp.i
 .PHONY : core/datatypes/forte_any_date.cpp.i
 
 core/datatypes/forte_any_date.s: core/datatypes/forte_any_date.cpp.s
@@ -1141,7 +1141,7 @@ core/datatypes/forte_any_date.s: core/datatypes/forte_any_date.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any_date.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date.cpp.s
 .PHONY : core/datatypes/forte_any_date.cpp.s
 
 core/datatypes/forte_any_date_variant.obj: core/datatypes/forte_any_date_variant.cpp.obj
@@ -1149,7 +1149,7 @@ core/datatypes/forte_any_date_variant.obj: core/datatypes/forte_any_date_variant
 
 # target to build an object file
 core/datatypes/forte_any_date_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_date_variant.cpp.obj
 
 core/datatypes/forte_any_date_variant.i: core/datatypes/forte_any_date_variant.cpp.i
@@ -1157,7 +1157,7 @@ core/datatypes/forte_any_date_variant.i: core/datatypes/forte_any_date_variant.c
 
 # target to preprocess a source file
 core/datatypes/forte_any_date_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date_variant.cpp.i
 .PHONY : core/datatypes/forte_any_date_variant.cpp.i
 
 core/datatypes/forte_any_date_variant.s: core/datatypes/forte_any_date_variant.cpp.s
@@ -1165,7 +1165,7 @@ core/datatypes/forte_any_date_variant.s: core/datatypes/forte_any_date_variant.c
 
 # target to generate assembly for a file
 core/datatypes/forte_any_date_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_date_variant.cpp.s
 .PHONY : core/datatypes/forte_any_date_variant.cpp.s
 
 core/datatypes/forte_any_duration.obj: core/datatypes/forte_any_duration.cpp.obj
@@ -1173,7 +1173,7 @@ core/datatypes/forte_any_duration.obj: core/datatypes/forte_any_duration.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_any_duration.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration.cpp.obj
 .PHONY : core/datatypes/forte_any_duration.cpp.obj
 
 core/datatypes/forte_any_duration.i: core/datatypes/forte_any_duration.cpp.i
@@ -1181,7 +1181,7 @@ core/datatypes/forte_any_duration.i: core/datatypes/forte_any_duration.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any_duration.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration.cpp.i
 .PHONY : core/datatypes/forte_any_duration.cpp.i
 
 core/datatypes/forte_any_duration.s: core/datatypes/forte_any_duration.cpp.s
@@ -1189,7 +1189,7 @@ core/datatypes/forte_any_duration.s: core/datatypes/forte_any_duration.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any_duration.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration.cpp.s
 .PHONY : core/datatypes/forte_any_duration.cpp.s
 
 core/datatypes/forte_any_duration_variant.obj: core/datatypes/forte_any_duration_variant.cpp.obj
@@ -1197,7 +1197,7 @@ core/datatypes/forte_any_duration_variant.obj: core/datatypes/forte_any_duration
 
 # target to build an object file
 core/datatypes/forte_any_duration_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_duration_variant.cpp.obj
 
 core/datatypes/forte_any_duration_variant.i: core/datatypes/forte_any_duration_variant.cpp.i
@@ -1205,7 +1205,7 @@ core/datatypes/forte_any_duration_variant.i: core/datatypes/forte_any_duration_v
 
 # target to preprocess a source file
 core/datatypes/forte_any_duration_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration_variant.cpp.i
 .PHONY : core/datatypes/forte_any_duration_variant.cpp.i
 
 core/datatypes/forte_any_duration_variant.s: core/datatypes/forte_any_duration_variant.cpp.s
@@ -1213,7 +1213,7 @@ core/datatypes/forte_any_duration_variant.s: core/datatypes/forte_any_duration_v
 
 # target to generate assembly for a file
 core/datatypes/forte_any_duration_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_duration_variant.cpp.s
 .PHONY : core/datatypes/forte_any_duration_variant.cpp.s
 
 core/datatypes/forte_any_elementary.obj: core/datatypes/forte_any_elementary.cpp.obj
@@ -1221,7 +1221,7 @@ core/datatypes/forte_any_elementary.obj: core/datatypes/forte_any_elementary.cpp
 
 # target to build an object file
 core/datatypes/forte_any_elementary.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary.cpp.obj
 .PHONY : core/datatypes/forte_any_elementary.cpp.obj
 
 core/datatypes/forte_any_elementary.i: core/datatypes/forte_any_elementary.cpp.i
@@ -1229,7 +1229,7 @@ core/datatypes/forte_any_elementary.i: core/datatypes/forte_any_elementary.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any_elementary.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary.cpp.i
 .PHONY : core/datatypes/forte_any_elementary.cpp.i
 
 core/datatypes/forte_any_elementary.s: core/datatypes/forte_any_elementary.cpp.s
@@ -1237,7 +1237,7 @@ core/datatypes/forte_any_elementary.s: core/datatypes/forte_any_elementary.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any_elementary.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary.cpp.s
 .PHONY : core/datatypes/forte_any_elementary.cpp.s
 
 core/datatypes/forte_any_elementary_variant.obj: core/datatypes/forte_any_elementary_variant.cpp.obj
@@ -1245,7 +1245,7 @@ core/datatypes/forte_any_elementary_variant.obj: core/datatypes/forte_any_elemen
 
 # target to build an object file
 core/datatypes/forte_any_elementary_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_elementary_variant.cpp.obj
 
 core/datatypes/forte_any_elementary_variant.i: core/datatypes/forte_any_elementary_variant.cpp.i
@@ -1253,7 +1253,7 @@ core/datatypes/forte_any_elementary_variant.i: core/datatypes/forte_any_elementa
 
 # target to preprocess a source file
 core/datatypes/forte_any_elementary_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary_variant.cpp.i
 .PHONY : core/datatypes/forte_any_elementary_variant.cpp.i
 
 core/datatypes/forte_any_elementary_variant.s: core/datatypes/forte_any_elementary_variant.cpp.s
@@ -1261,7 +1261,7 @@ core/datatypes/forte_any_elementary_variant.s: core/datatypes/forte_any_elementa
 
 # target to generate assembly for a file
 core/datatypes/forte_any_elementary_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_elementary_variant.cpp.s
 .PHONY : core/datatypes/forte_any_elementary_variant.cpp.s
 
 core/datatypes/forte_any_int_variant.obj: core/datatypes/forte_any_int_variant.cpp.obj
@@ -1269,7 +1269,7 @@ core/datatypes/forte_any_int_variant.obj: core/datatypes/forte_any_int_variant.c
 
 # target to build an object file
 core/datatypes/forte_any_int_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_int_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_int_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_int_variant.cpp.obj
 
 core/datatypes/forte_any_int_variant.i: core/datatypes/forte_any_int_variant.cpp.i
@@ -1277,7 +1277,7 @@ core/datatypes/forte_any_int_variant.i: core/datatypes/forte_any_int_variant.cpp
 
 # target to preprocess a source file
 core/datatypes/forte_any_int_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_int_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_int_variant.cpp.i
 .PHONY : core/datatypes/forte_any_int_variant.cpp.i
 
 core/datatypes/forte_any_int_variant.s: core/datatypes/forte_any_int_variant.cpp.s
@@ -1285,7 +1285,7 @@ core/datatypes/forte_any_int_variant.s: core/datatypes/forte_any_int_variant.cpp
 
 # target to generate assembly for a file
 core/datatypes/forte_any_int_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_int_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_int_variant.cpp.s
 .PHONY : core/datatypes/forte_any_int_variant.cpp.s
 
 core/datatypes/forte_any_magnitude_variant.obj: core/datatypes/forte_any_magnitude_variant.cpp.obj
@@ -1293,7 +1293,7 @@ core/datatypes/forte_any_magnitude_variant.obj: core/datatypes/forte_any_magnitu
 
 # target to build an object file
 core/datatypes/forte_any_magnitude_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_magnitude_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_magnitude_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_magnitude_variant.cpp.obj
 
 core/datatypes/forte_any_magnitude_variant.i: core/datatypes/forte_any_magnitude_variant.cpp.i
@@ -1301,7 +1301,7 @@ core/datatypes/forte_any_magnitude_variant.i: core/datatypes/forte_any_magnitude
 
 # target to preprocess a source file
 core/datatypes/forte_any_magnitude_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_magnitude_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_magnitude_variant.cpp.i
 .PHONY : core/datatypes/forte_any_magnitude_variant.cpp.i
 
 core/datatypes/forte_any_magnitude_variant.s: core/datatypes/forte_any_magnitude_variant.cpp.s
@@ -1309,7 +1309,7 @@ core/datatypes/forte_any_magnitude_variant.s: core/datatypes/forte_any_magnitude
 
 # target to generate assembly for a file
 core/datatypes/forte_any_magnitude_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_magnitude_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_magnitude_variant.cpp.s
 .PHONY : core/datatypes/forte_any_magnitude_variant.cpp.s
 
 core/datatypes/forte_any_num_variant.obj: core/datatypes/forte_any_num_variant.cpp.obj
@@ -1317,7 +1317,7 @@ core/datatypes/forte_any_num_variant.obj: core/datatypes/forte_any_num_variant.c
 
 # target to build an object file
 core/datatypes/forte_any_num_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_num_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_num_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_num_variant.cpp.obj
 
 core/datatypes/forte_any_num_variant.i: core/datatypes/forte_any_num_variant.cpp.i
@@ -1325,7 +1325,7 @@ core/datatypes/forte_any_num_variant.i: core/datatypes/forte_any_num_variant.cpp
 
 # target to preprocess a source file
 core/datatypes/forte_any_num_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_num_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_num_variant.cpp.i
 .PHONY : core/datatypes/forte_any_num_variant.cpp.i
 
 core/datatypes/forte_any_num_variant.s: core/datatypes/forte_any_num_variant.cpp.s
@@ -1333,7 +1333,7 @@ core/datatypes/forte_any_num_variant.s: core/datatypes/forte_any_num_variant.cpp
 
 # target to generate assembly for a file
 core/datatypes/forte_any_num_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_num_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_num_variant.cpp.s
 .PHONY : core/datatypes/forte_any_num_variant.cpp.s
 
 core/datatypes/forte_any_real.obj: core/datatypes/forte_any_real.cpp.obj
@@ -1341,7 +1341,7 @@ core/datatypes/forte_any_real.obj: core/datatypes/forte_any_real.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_any_real.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real.cpp.obj
 .PHONY : core/datatypes/forte_any_real.cpp.obj
 
 core/datatypes/forte_any_real.i: core/datatypes/forte_any_real.cpp.i
@@ -1349,7 +1349,7 @@ core/datatypes/forte_any_real.i: core/datatypes/forte_any_real.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any_real.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real.cpp.i
 .PHONY : core/datatypes/forte_any_real.cpp.i
 
 core/datatypes/forte_any_real.s: core/datatypes/forte_any_real.cpp.s
@@ -1357,7 +1357,7 @@ core/datatypes/forte_any_real.s: core/datatypes/forte_any_real.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any_real.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real.cpp.s
 .PHONY : core/datatypes/forte_any_real.cpp.s
 
 core/datatypes/forte_any_real_variant.obj: core/datatypes/forte_any_real_variant.cpp.obj
@@ -1365,7 +1365,7 @@ core/datatypes/forte_any_real_variant.obj: core/datatypes/forte_any_real_variant
 
 # target to build an object file
 core/datatypes/forte_any_real_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_real_variant.cpp.obj
 
 core/datatypes/forte_any_real_variant.i: core/datatypes/forte_any_real_variant.cpp.i
@@ -1373,7 +1373,7 @@ core/datatypes/forte_any_real_variant.i: core/datatypes/forte_any_real_variant.c
 
 # target to preprocess a source file
 core/datatypes/forte_any_real_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real_variant.cpp.i
 .PHONY : core/datatypes/forte_any_real_variant.cpp.i
 
 core/datatypes/forte_any_real_variant.s: core/datatypes/forte_any_real_variant.cpp.s
@@ -1381,7 +1381,7 @@ core/datatypes/forte_any_real_variant.s: core/datatypes/forte_any_real_variant.c
 
 # target to generate assembly for a file
 core/datatypes/forte_any_real_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_real_variant.cpp.s
 .PHONY : core/datatypes/forte_any_real_variant.cpp.s
 
 core/datatypes/forte_any_signed_variant.obj: core/datatypes/forte_any_signed_variant.cpp.obj
@@ -1389,7 +1389,7 @@ core/datatypes/forte_any_signed_variant.obj: core/datatypes/forte_any_signed_var
 
 # target to build an object file
 core/datatypes/forte_any_signed_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_signed_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_signed_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_signed_variant.cpp.obj
 
 core/datatypes/forte_any_signed_variant.i: core/datatypes/forte_any_signed_variant.cpp.i
@@ -1397,7 +1397,7 @@ core/datatypes/forte_any_signed_variant.i: core/datatypes/forte_any_signed_varia
 
 # target to preprocess a source file
 core/datatypes/forte_any_signed_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_signed_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_signed_variant.cpp.i
 .PHONY : core/datatypes/forte_any_signed_variant.cpp.i
 
 core/datatypes/forte_any_signed_variant.s: core/datatypes/forte_any_signed_variant.cpp.s
@@ -1405,7 +1405,7 @@ core/datatypes/forte_any_signed_variant.s: core/datatypes/forte_any_signed_varia
 
 # target to generate assembly for a file
 core/datatypes/forte_any_signed_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_signed_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_signed_variant.cpp.s
 .PHONY : core/datatypes/forte_any_signed_variant.cpp.s
 
 core/datatypes/forte_any_string.obj: core/datatypes/forte_any_string.cpp.obj
@@ -1413,7 +1413,7 @@ core/datatypes/forte_any_string.obj: core/datatypes/forte_any_string.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_any_string.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string.cpp.obj
 .PHONY : core/datatypes/forte_any_string.cpp.obj
 
 core/datatypes/forte_any_string.i: core/datatypes/forte_any_string.cpp.i
@@ -1421,7 +1421,7 @@ core/datatypes/forte_any_string.i: core/datatypes/forte_any_string.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any_string.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string.cpp.i
 .PHONY : core/datatypes/forte_any_string.cpp.i
 
 core/datatypes/forte_any_string.s: core/datatypes/forte_any_string.cpp.s
@@ -1429,7 +1429,7 @@ core/datatypes/forte_any_string.s: core/datatypes/forte_any_string.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any_string.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string.cpp.s
 .PHONY : core/datatypes/forte_any_string.cpp.s
 
 core/datatypes/forte_any_string_variant.obj: core/datatypes/forte_any_string_variant.cpp.obj
@@ -1437,7 +1437,7 @@ core/datatypes/forte_any_string_variant.obj: core/datatypes/forte_any_string_var
 
 # target to build an object file
 core/datatypes/forte_any_string_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_string_variant.cpp.obj
 
 core/datatypes/forte_any_string_variant.i: core/datatypes/forte_any_string_variant.cpp.i
@@ -1445,7 +1445,7 @@ core/datatypes/forte_any_string_variant.i: core/datatypes/forte_any_string_varia
 
 # target to preprocess a source file
 core/datatypes/forte_any_string_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string_variant.cpp.i
 .PHONY : core/datatypes/forte_any_string_variant.cpp.i
 
 core/datatypes/forte_any_string_variant.s: core/datatypes/forte_any_string_variant.cpp.s
@@ -1453,7 +1453,7 @@ core/datatypes/forte_any_string_variant.s: core/datatypes/forte_any_string_varia
 
 # target to generate assembly for a file
 core/datatypes/forte_any_string_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_string_variant.cpp.s
 .PHONY : core/datatypes/forte_any_string_variant.cpp.s
 
 core/datatypes/forte_any_unsigned_variant.obj: core/datatypes/forte_any_unsigned_variant.cpp.obj
@@ -1461,7 +1461,7 @@ core/datatypes/forte_any_unsigned_variant.obj: core/datatypes/forte_any_unsigned
 
 # target to build an object file
 core/datatypes/forte_any_unsigned_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_unsigned_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_unsigned_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_unsigned_variant.cpp.obj
 
 core/datatypes/forte_any_unsigned_variant.i: core/datatypes/forte_any_unsigned_variant.cpp.i
@@ -1469,7 +1469,7 @@ core/datatypes/forte_any_unsigned_variant.i: core/datatypes/forte_any_unsigned_v
 
 # target to preprocess a source file
 core/datatypes/forte_any_unsigned_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_unsigned_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_unsigned_variant.cpp.i
 .PHONY : core/datatypes/forte_any_unsigned_variant.cpp.i
 
 core/datatypes/forte_any_unsigned_variant.s: core/datatypes/forte_any_unsigned_variant.cpp.s
@@ -1477,7 +1477,7 @@ core/datatypes/forte_any_unsigned_variant.s: core/datatypes/forte_any_unsigned_v
 
 # target to generate assembly for a file
 core/datatypes/forte_any_unsigned_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_unsigned_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_unsigned_variant.cpp.s
 .PHONY : core/datatypes/forte_any_unsigned_variant.cpp.s
 
 core/datatypes/forte_any_variant.obj: core/datatypes/forte_any_variant.cpp.obj
@@ -1485,7 +1485,7 @@ core/datatypes/forte_any_variant.obj: core/datatypes/forte_any_variant.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_any_variant.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_variant.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_variant.cpp.obj
 .PHONY : core/datatypes/forte_any_variant.cpp.obj
 
 core/datatypes/forte_any_variant.i: core/datatypes/forte_any_variant.cpp.i
@@ -1493,7 +1493,7 @@ core/datatypes/forte_any_variant.i: core/datatypes/forte_any_variant.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_any_variant.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_variant.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_variant.cpp.i
 .PHONY : core/datatypes/forte_any_variant.cpp.i
 
 core/datatypes/forte_any_variant.s: core/datatypes/forte_any_variant.cpp.s
@@ -1501,7 +1501,7 @@ core/datatypes/forte_any_variant.s: core/datatypes/forte_any_variant.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_any_variant.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_variant.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_any_variant.cpp.s
 .PHONY : core/datatypes/forte_any_variant.cpp.s
 
 core/datatypes/forte_array.obj: core/datatypes/forte_array.cpp.obj
@@ -1509,7 +1509,7 @@ core/datatypes/forte_array.obj: core/datatypes/forte_array.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_array.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array.cpp.obj
 .PHONY : core/datatypes/forte_array.cpp.obj
 
 core/datatypes/forte_array.i: core/datatypes/forte_array.cpp.i
@@ -1517,7 +1517,7 @@ core/datatypes/forte_array.i: core/datatypes/forte_array.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_array.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array.cpp.i
 .PHONY : core/datatypes/forte_array.cpp.i
 
 core/datatypes/forte_array.s: core/datatypes/forte_array.cpp.s
@@ -1525,7 +1525,7 @@ core/datatypes/forte_array.s: core/datatypes/forte_array.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_array.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array.cpp.s
 .PHONY : core/datatypes/forte_array.cpp.s
 
 core/datatypes/forte_array_dynamic.obj: core/datatypes/forte_array_dynamic.cpp.obj
@@ -1533,7 +1533,7 @@ core/datatypes/forte_array_dynamic.obj: core/datatypes/forte_array_dynamic.cpp.o
 
 # target to build an object file
 core/datatypes/forte_array_dynamic.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array_dynamic.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array_dynamic.cpp.obj
 .PHONY : core/datatypes/forte_array_dynamic.cpp.obj
 
 core/datatypes/forte_array_dynamic.i: core/datatypes/forte_array_dynamic.cpp.i
@@ -1541,7 +1541,7 @@ core/datatypes/forte_array_dynamic.i: core/datatypes/forte_array_dynamic.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_array_dynamic.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array_dynamic.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array_dynamic.cpp.i
 .PHONY : core/datatypes/forte_array_dynamic.cpp.i
 
 core/datatypes/forte_array_dynamic.s: core/datatypes/forte_array_dynamic.cpp.s
@@ -1549,7 +1549,7 @@ core/datatypes/forte_array_dynamic.s: core/datatypes/forte_array_dynamic.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_array_dynamic.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array_dynamic.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_array_dynamic.cpp.s
 .PHONY : core/datatypes/forte_array_dynamic.cpp.s
 
 core/datatypes/forte_bool.obj: core/datatypes/forte_bool.cpp.obj
@@ -1557,7 +1557,7 @@ core/datatypes/forte_bool.obj: core/datatypes/forte_bool.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_bool.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_bool.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_bool.cpp.obj
 .PHONY : core/datatypes/forte_bool.cpp.obj
 
 core/datatypes/forte_bool.i: core/datatypes/forte_bool.cpp.i
@@ -1565,7 +1565,7 @@ core/datatypes/forte_bool.i: core/datatypes/forte_bool.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_bool.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_bool.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_bool.cpp.i
 .PHONY : core/datatypes/forte_bool.cpp.i
 
 core/datatypes/forte_bool.s: core/datatypes/forte_bool.cpp.s
@@ -1573,7 +1573,7 @@ core/datatypes/forte_bool.s: core/datatypes/forte_bool.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_bool.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_bool.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_bool.cpp.s
 .PHONY : core/datatypes/forte_bool.cpp.s
 
 core/datatypes/forte_byte.obj: core/datatypes/forte_byte.cpp.obj
@@ -1581,7 +1581,7 @@ core/datatypes/forte_byte.obj: core/datatypes/forte_byte.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_byte.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_byte.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_byte.cpp.obj
 .PHONY : core/datatypes/forte_byte.cpp.obj
 
 core/datatypes/forte_byte.i: core/datatypes/forte_byte.cpp.i
@@ -1589,7 +1589,7 @@ core/datatypes/forte_byte.i: core/datatypes/forte_byte.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_byte.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_byte.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_byte.cpp.i
 .PHONY : core/datatypes/forte_byte.cpp.i
 
 core/datatypes/forte_byte.s: core/datatypes/forte_byte.cpp.s
@@ -1597,7 +1597,7 @@ core/datatypes/forte_byte.s: core/datatypes/forte_byte.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_byte.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_byte.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_byte.cpp.s
 .PHONY : core/datatypes/forte_byte.cpp.s
 
 core/datatypes/forte_char.obj: core/datatypes/forte_char.cpp.obj
@@ -1605,7 +1605,7 @@ core/datatypes/forte_char.obj: core/datatypes/forte_char.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_char.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_char.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_char.cpp.obj
 .PHONY : core/datatypes/forte_char.cpp.obj
 
 core/datatypes/forte_char.i: core/datatypes/forte_char.cpp.i
@@ -1613,7 +1613,7 @@ core/datatypes/forte_char.i: core/datatypes/forte_char.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_char.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_char.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_char.cpp.i
 .PHONY : core/datatypes/forte_char.cpp.i
 
 core/datatypes/forte_char.s: core/datatypes/forte_char.cpp.s
@@ -1621,7 +1621,7 @@ core/datatypes/forte_char.s: core/datatypes/forte_char.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_char.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_char.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_char.cpp.s
 .PHONY : core/datatypes/forte_char.cpp.s
 
 core/datatypes/forte_date.obj: core/datatypes/forte_date.cpp.obj
@@ -1629,7 +1629,7 @@ core/datatypes/forte_date.obj: core/datatypes/forte_date.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_date.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date.cpp.obj
 .PHONY : core/datatypes/forte_date.cpp.obj
 
 core/datatypes/forte_date.i: core/datatypes/forte_date.cpp.i
@@ -1637,7 +1637,7 @@ core/datatypes/forte_date.i: core/datatypes/forte_date.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_date.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date.cpp.i
 .PHONY : core/datatypes/forte_date.cpp.i
 
 core/datatypes/forte_date.s: core/datatypes/forte_date.cpp.s
@@ -1645,7 +1645,7 @@ core/datatypes/forte_date.s: core/datatypes/forte_date.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_date.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date.cpp.s
 .PHONY : core/datatypes/forte_date.cpp.s
 
 core/datatypes/forte_date_and_time.obj: core/datatypes/forte_date_and_time.cpp.obj
@@ -1653,7 +1653,7 @@ core/datatypes/forte_date_and_time.obj: core/datatypes/forte_date_and_time.cpp.o
 
 # target to build an object file
 core/datatypes/forte_date_and_time.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date_and_time.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date_and_time.cpp.obj
 .PHONY : core/datatypes/forte_date_and_time.cpp.obj
 
 core/datatypes/forte_date_and_time.i: core/datatypes/forte_date_and_time.cpp.i
@@ -1661,7 +1661,7 @@ core/datatypes/forte_date_and_time.i: core/datatypes/forte_date_and_time.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_date_and_time.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date_and_time.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date_and_time.cpp.i
 .PHONY : core/datatypes/forte_date_and_time.cpp.i
 
 core/datatypes/forte_date_and_time.s: core/datatypes/forte_date_and_time.cpp.s
@@ -1669,7 +1669,7 @@ core/datatypes/forte_date_and_time.s: core/datatypes/forte_date_and_time.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_date_and_time.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date_and_time.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_date_and_time.cpp.s
 .PHONY : core/datatypes/forte_date_and_time.cpp.s
 
 core/datatypes/forte_dint.obj: core/datatypes/forte_dint.cpp.obj
@@ -1677,7 +1677,7 @@ core/datatypes/forte_dint.obj: core/datatypes/forte_dint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_dint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dint.cpp.obj
 .PHONY : core/datatypes/forte_dint.cpp.obj
 
 core/datatypes/forte_dint.i: core/datatypes/forte_dint.cpp.i
@@ -1685,7 +1685,7 @@ core/datatypes/forte_dint.i: core/datatypes/forte_dint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_dint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dint.cpp.i
 .PHONY : core/datatypes/forte_dint.cpp.i
 
 core/datatypes/forte_dint.s: core/datatypes/forte_dint.cpp.s
@@ -1693,7 +1693,7 @@ core/datatypes/forte_dint.s: core/datatypes/forte_dint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_dint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dint.cpp.s
 .PHONY : core/datatypes/forte_dint.cpp.s
 
 core/datatypes/forte_dword.obj: core/datatypes/forte_dword.cpp.obj
@@ -1701,7 +1701,7 @@ core/datatypes/forte_dword.obj: core/datatypes/forte_dword.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_dword.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dword.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dword.cpp.obj
 .PHONY : core/datatypes/forte_dword.cpp.obj
 
 core/datatypes/forte_dword.i: core/datatypes/forte_dword.cpp.i
@@ -1709,7 +1709,7 @@ core/datatypes/forte_dword.i: core/datatypes/forte_dword.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_dword.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dword.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dword.cpp.i
 .PHONY : core/datatypes/forte_dword.cpp.i
 
 core/datatypes/forte_dword.s: core/datatypes/forte_dword.cpp.s
@@ -1717,7 +1717,7 @@ core/datatypes/forte_dword.s: core/datatypes/forte_dword.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_dword.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dword.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_dword.cpp.s
 .PHONY : core/datatypes/forte_dword.cpp.s
 
 core/datatypes/forte_int.obj: core/datatypes/forte_int.cpp.obj
@@ -1725,7 +1725,7 @@ core/datatypes/forte_int.obj: core/datatypes/forte_int.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_int.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_int.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_int.cpp.obj
 .PHONY : core/datatypes/forte_int.cpp.obj
 
 core/datatypes/forte_int.i: core/datatypes/forte_int.cpp.i
@@ -1733,7 +1733,7 @@ core/datatypes/forte_int.i: core/datatypes/forte_int.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_int.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_int.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_int.cpp.i
 .PHONY : core/datatypes/forte_int.cpp.i
 
 core/datatypes/forte_int.s: core/datatypes/forte_int.cpp.s
@@ -1741,7 +1741,7 @@ core/datatypes/forte_int.s: core/datatypes/forte_int.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_int.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_int.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_int.cpp.s
 .PHONY : core/datatypes/forte_int.cpp.s
 
 core/datatypes/forte_ldate.obj: core/datatypes/forte_ldate.cpp.obj
@@ -1749,7 +1749,7 @@ core/datatypes/forte_ldate.obj: core/datatypes/forte_ldate.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_ldate.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate.cpp.obj
 .PHONY : core/datatypes/forte_ldate.cpp.obj
 
 core/datatypes/forte_ldate.i: core/datatypes/forte_ldate.cpp.i
@@ -1757,7 +1757,7 @@ core/datatypes/forte_ldate.i: core/datatypes/forte_ldate.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_ldate.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate.cpp.i
 .PHONY : core/datatypes/forte_ldate.cpp.i
 
 core/datatypes/forte_ldate.s: core/datatypes/forte_ldate.cpp.s
@@ -1765,7 +1765,7 @@ core/datatypes/forte_ldate.s: core/datatypes/forte_ldate.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_ldate.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate.cpp.s
 .PHONY : core/datatypes/forte_ldate.cpp.s
 
 core/datatypes/forte_ldate_and_time.obj: core/datatypes/forte_ldate_and_time.cpp.obj
@@ -1773,7 +1773,7 @@ core/datatypes/forte_ldate_and_time.obj: core/datatypes/forte_ldate_and_time.cpp
 
 # target to build an object file
 core/datatypes/forte_ldate_and_time.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate_and_time.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate_and_time.cpp.obj
 .PHONY : core/datatypes/forte_ldate_and_time.cpp.obj
 
 core/datatypes/forte_ldate_and_time.i: core/datatypes/forte_ldate_and_time.cpp.i
@@ -1781,7 +1781,7 @@ core/datatypes/forte_ldate_and_time.i: core/datatypes/forte_ldate_and_time.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_ldate_and_time.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate_and_time.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate_and_time.cpp.i
 .PHONY : core/datatypes/forte_ldate_and_time.cpp.i
 
 core/datatypes/forte_ldate_and_time.s: core/datatypes/forte_ldate_and_time.cpp.s
@@ -1789,7 +1789,7 @@ core/datatypes/forte_ldate_and_time.s: core/datatypes/forte_ldate_and_time.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_ldate_and_time.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate_and_time.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ldate_and_time.cpp.s
 .PHONY : core/datatypes/forte_ldate_and_time.cpp.s
 
 core/datatypes/forte_lint.obj: core/datatypes/forte_lint.cpp.obj
@@ -1797,7 +1797,7 @@ core/datatypes/forte_lint.obj: core/datatypes/forte_lint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_lint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lint.cpp.obj
 .PHONY : core/datatypes/forte_lint.cpp.obj
 
 core/datatypes/forte_lint.i: core/datatypes/forte_lint.cpp.i
@@ -1805,7 +1805,7 @@ core/datatypes/forte_lint.i: core/datatypes/forte_lint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_lint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lint.cpp.i
 .PHONY : core/datatypes/forte_lint.cpp.i
 
 core/datatypes/forte_lint.s: core/datatypes/forte_lint.cpp.s
@@ -1813,7 +1813,7 @@ core/datatypes/forte_lint.s: core/datatypes/forte_lint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_lint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lint.cpp.s
 .PHONY : core/datatypes/forte_lint.cpp.s
 
 core/datatypes/forte_lreal.obj: core/datatypes/forte_lreal.cpp.obj
@@ -1821,7 +1821,7 @@ core/datatypes/forte_lreal.obj: core/datatypes/forte_lreal.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_lreal.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lreal.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lreal.cpp.obj
 .PHONY : core/datatypes/forte_lreal.cpp.obj
 
 core/datatypes/forte_lreal.i: core/datatypes/forte_lreal.cpp.i
@@ -1829,7 +1829,7 @@ core/datatypes/forte_lreal.i: core/datatypes/forte_lreal.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_lreal.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lreal.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lreal.cpp.i
 .PHONY : core/datatypes/forte_lreal.cpp.i
 
 core/datatypes/forte_lreal.s: core/datatypes/forte_lreal.cpp.s
@@ -1837,7 +1837,7 @@ core/datatypes/forte_lreal.s: core/datatypes/forte_lreal.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_lreal.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lreal.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lreal.cpp.s
 .PHONY : core/datatypes/forte_lreal.cpp.s
 
 core/datatypes/forte_ltime.obj: core/datatypes/forte_ltime.cpp.obj
@@ -1845,7 +1845,7 @@ core/datatypes/forte_ltime.obj: core/datatypes/forte_ltime.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_ltime.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime.cpp.obj
 .PHONY : core/datatypes/forte_ltime.cpp.obj
 
 core/datatypes/forte_ltime.i: core/datatypes/forte_ltime.cpp.i
@@ -1853,7 +1853,7 @@ core/datatypes/forte_ltime.i: core/datatypes/forte_ltime.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_ltime.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime.cpp.i
 .PHONY : core/datatypes/forte_ltime.cpp.i
 
 core/datatypes/forte_ltime.s: core/datatypes/forte_ltime.cpp.s
@@ -1861,7 +1861,7 @@ core/datatypes/forte_ltime.s: core/datatypes/forte_ltime.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_ltime.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime.cpp.s
 .PHONY : core/datatypes/forte_ltime.cpp.s
 
 core/datatypes/forte_ltime_of_day.obj: core/datatypes/forte_ltime_of_day.cpp.obj
@@ -1869,7 +1869,7 @@ core/datatypes/forte_ltime_of_day.obj: core/datatypes/forte_ltime_of_day.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_ltime_of_day.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime_of_day.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime_of_day.cpp.obj
 .PHONY : core/datatypes/forte_ltime_of_day.cpp.obj
 
 core/datatypes/forte_ltime_of_day.i: core/datatypes/forte_ltime_of_day.cpp.i
@@ -1877,7 +1877,7 @@ core/datatypes/forte_ltime_of_day.i: core/datatypes/forte_ltime_of_day.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_ltime_of_day.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime_of_day.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime_of_day.cpp.i
 .PHONY : core/datatypes/forte_ltime_of_day.cpp.i
 
 core/datatypes/forte_ltime_of_day.s: core/datatypes/forte_ltime_of_day.cpp.s
@@ -1885,7 +1885,7 @@ core/datatypes/forte_ltime_of_day.s: core/datatypes/forte_ltime_of_day.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_ltime_of_day.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime_of_day.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ltime_of_day.cpp.s
 .PHONY : core/datatypes/forte_ltime_of_day.cpp.s
 
 core/datatypes/forte_lword.obj: core/datatypes/forte_lword.cpp.obj
@@ -1893,7 +1893,7 @@ core/datatypes/forte_lword.obj: core/datatypes/forte_lword.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_lword.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lword.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lword.cpp.obj
 .PHONY : core/datatypes/forte_lword.cpp.obj
 
 core/datatypes/forte_lword.i: core/datatypes/forte_lword.cpp.i
@@ -1901,7 +1901,7 @@ core/datatypes/forte_lword.i: core/datatypes/forte_lword.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_lword.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lword.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lword.cpp.i
 .PHONY : core/datatypes/forte_lword.cpp.i
 
 core/datatypes/forte_lword.s: core/datatypes/forte_lword.cpp.s
@@ -1909,7 +1909,7 @@ core/datatypes/forte_lword.s: core/datatypes/forte_lword.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_lword.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lword.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_lword.cpp.s
 .PHONY : core/datatypes/forte_lword.cpp.s
 
 core/datatypes/forte_real.obj: core/datatypes/forte_real.cpp.obj
@@ -1917,7 +1917,7 @@ core/datatypes/forte_real.obj: core/datatypes/forte_real.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_real.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_real.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_real.cpp.obj
 .PHONY : core/datatypes/forte_real.cpp.obj
 
 core/datatypes/forte_real.i: core/datatypes/forte_real.cpp.i
@@ -1925,7 +1925,7 @@ core/datatypes/forte_real.i: core/datatypes/forte_real.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_real.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_real.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_real.cpp.i
 .PHONY : core/datatypes/forte_real.cpp.i
 
 core/datatypes/forte_real.s: core/datatypes/forte_real.cpp.s
@@ -1933,7 +1933,7 @@ core/datatypes/forte_real.s: core/datatypes/forte_real.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_real.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_real.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_real.cpp.s
 .PHONY : core/datatypes/forte_real.cpp.s
 
 core/datatypes/forte_sint.obj: core/datatypes/forte_sint.cpp.obj
@@ -1941,7 +1941,7 @@ core/datatypes/forte_sint.obj: core/datatypes/forte_sint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_sint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_sint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_sint.cpp.obj
 .PHONY : core/datatypes/forte_sint.cpp.obj
 
 core/datatypes/forte_sint.i: core/datatypes/forte_sint.cpp.i
@@ -1949,7 +1949,7 @@ core/datatypes/forte_sint.i: core/datatypes/forte_sint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_sint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_sint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_sint.cpp.i
 .PHONY : core/datatypes/forte_sint.cpp.i
 
 core/datatypes/forte_sint.s: core/datatypes/forte_sint.cpp.s
@@ -1957,7 +1957,7 @@ core/datatypes/forte_sint.s: core/datatypes/forte_sint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_sint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_sint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_sint.cpp.s
 .PHONY : core/datatypes/forte_sint.cpp.s
 
 core/datatypes/forte_state.obj: core/datatypes/forte_state.cpp.obj
@@ -1965,7 +1965,7 @@ core/datatypes/forte_state.obj: core/datatypes/forte_state.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_state.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_state.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_state.cpp.obj
 .PHONY : core/datatypes/forte_state.cpp.obj
 
 core/datatypes/forte_state.i: core/datatypes/forte_state.cpp.i
@@ -1973,7 +1973,7 @@ core/datatypes/forte_state.i: core/datatypes/forte_state.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_state.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_state.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_state.cpp.i
 .PHONY : core/datatypes/forte_state.cpp.i
 
 core/datatypes/forte_state.s: core/datatypes/forte_state.cpp.s
@@ -1981,7 +1981,7 @@ core/datatypes/forte_state.s: core/datatypes/forte_state.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_state.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_state.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_state.cpp.s
 .PHONY : core/datatypes/forte_state.cpp.s
 
 core/datatypes/forte_string.obj: core/datatypes/forte_string.cpp.obj
@@ -1989,7 +1989,7 @@ core/datatypes/forte_string.obj: core/datatypes/forte_string.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_string.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_string.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_string.cpp.obj
 .PHONY : core/datatypes/forte_string.cpp.obj
 
 core/datatypes/forte_string.i: core/datatypes/forte_string.cpp.i
@@ -1997,7 +1997,7 @@ core/datatypes/forte_string.i: core/datatypes/forte_string.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_string.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_string.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_string.cpp.i
 .PHONY : core/datatypes/forte_string.cpp.i
 
 core/datatypes/forte_string.s: core/datatypes/forte_string.cpp.s
@@ -2005,7 +2005,7 @@ core/datatypes/forte_string.s: core/datatypes/forte_string.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_string.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_string.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_string.cpp.s
 .PHONY : core/datatypes/forte_string.cpp.s
 
 core/datatypes/forte_struct.obj: core/datatypes/forte_struct.cpp.obj
@@ -2013,7 +2013,7 @@ core/datatypes/forte_struct.obj: core/datatypes/forte_struct.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_struct.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_struct.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_struct.cpp.obj
 .PHONY : core/datatypes/forte_struct.cpp.obj
 
 core/datatypes/forte_struct.i: core/datatypes/forte_struct.cpp.i
@@ -2021,7 +2021,7 @@ core/datatypes/forte_struct.i: core/datatypes/forte_struct.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_struct.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_struct.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_struct.cpp.i
 .PHONY : core/datatypes/forte_struct.cpp.i
 
 core/datatypes/forte_struct.s: core/datatypes/forte_struct.cpp.s
@@ -2029,7 +2029,7 @@ core/datatypes/forte_struct.s: core/datatypes/forte_struct.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_struct.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_struct.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_struct.cpp.s
 .PHONY : core/datatypes/forte_struct.cpp.s
 
 core/datatypes/forte_time.obj: core/datatypes/forte_time.cpp.obj
@@ -2037,7 +2037,7 @@ core/datatypes/forte_time.obj: core/datatypes/forte_time.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_time.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time.cpp.obj
 .PHONY : core/datatypes/forte_time.cpp.obj
 
 core/datatypes/forte_time.i: core/datatypes/forte_time.cpp.i
@@ -2045,7 +2045,7 @@ core/datatypes/forte_time.i: core/datatypes/forte_time.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_time.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time.cpp.i
 .PHONY : core/datatypes/forte_time.cpp.i
 
 core/datatypes/forte_time.s: core/datatypes/forte_time.cpp.s
@@ -2053,7 +2053,7 @@ core/datatypes/forte_time.s: core/datatypes/forte_time.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_time.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time.cpp.s
 .PHONY : core/datatypes/forte_time.cpp.s
 
 core/datatypes/forte_time_of_day.obj: core/datatypes/forte_time_of_day.cpp.obj
@@ -2061,7 +2061,7 @@ core/datatypes/forte_time_of_day.obj: core/datatypes/forte_time_of_day.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_time_of_day.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time_of_day.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time_of_day.cpp.obj
 .PHONY : core/datatypes/forte_time_of_day.cpp.obj
 
 core/datatypes/forte_time_of_day.i: core/datatypes/forte_time_of_day.cpp.i
@@ -2069,7 +2069,7 @@ core/datatypes/forte_time_of_day.i: core/datatypes/forte_time_of_day.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_time_of_day.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time_of_day.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time_of_day.cpp.i
 .PHONY : core/datatypes/forte_time_of_day.cpp.i
 
 core/datatypes/forte_time_of_day.s: core/datatypes/forte_time_of_day.cpp.s
@@ -2077,7 +2077,7 @@ core/datatypes/forte_time_of_day.s: core/datatypes/forte_time_of_day.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_time_of_day.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time_of_day.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_time_of_day.cpp.s
 .PHONY : core/datatypes/forte_time_of_day.cpp.s
 
 core/datatypes/forte_udint.obj: core/datatypes/forte_udint.cpp.obj
@@ -2085,7 +2085,7 @@ core/datatypes/forte_udint.obj: core/datatypes/forte_udint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_udint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_udint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_udint.cpp.obj
 .PHONY : core/datatypes/forte_udint.cpp.obj
 
 core/datatypes/forte_udint.i: core/datatypes/forte_udint.cpp.i
@@ -2093,7 +2093,7 @@ core/datatypes/forte_udint.i: core/datatypes/forte_udint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_udint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_udint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_udint.cpp.i
 .PHONY : core/datatypes/forte_udint.cpp.i
 
 core/datatypes/forte_udint.s: core/datatypes/forte_udint.cpp.s
@@ -2101,7 +2101,7 @@ core/datatypes/forte_udint.s: core/datatypes/forte_udint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_udint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_udint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_udint.cpp.s
 .PHONY : core/datatypes/forte_udint.cpp.s
 
 core/datatypes/forte_uint.obj: core/datatypes/forte_uint.cpp.obj
@@ -2109,7 +2109,7 @@ core/datatypes/forte_uint.obj: core/datatypes/forte_uint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_uint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_uint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_uint.cpp.obj
 .PHONY : core/datatypes/forte_uint.cpp.obj
 
 core/datatypes/forte_uint.i: core/datatypes/forte_uint.cpp.i
@@ -2117,7 +2117,7 @@ core/datatypes/forte_uint.i: core/datatypes/forte_uint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_uint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_uint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_uint.cpp.i
 .PHONY : core/datatypes/forte_uint.cpp.i
 
 core/datatypes/forte_uint.s: core/datatypes/forte_uint.cpp.s
@@ -2125,7 +2125,7 @@ core/datatypes/forte_uint.s: core/datatypes/forte_uint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_uint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_uint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_uint.cpp.s
 .PHONY : core/datatypes/forte_uint.cpp.s
 
 core/datatypes/forte_ulint.obj: core/datatypes/forte_ulint.cpp.obj
@@ -2133,7 +2133,7 @@ core/datatypes/forte_ulint.obj: core/datatypes/forte_ulint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_ulint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ulint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ulint.cpp.obj
 .PHONY : core/datatypes/forte_ulint.cpp.obj
 
 core/datatypes/forte_ulint.i: core/datatypes/forte_ulint.cpp.i
@@ -2141,7 +2141,7 @@ core/datatypes/forte_ulint.i: core/datatypes/forte_ulint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_ulint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ulint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ulint.cpp.i
 .PHONY : core/datatypes/forte_ulint.cpp.i
 
 core/datatypes/forte_ulint.s: core/datatypes/forte_ulint.cpp.s
@@ -2149,7 +2149,7 @@ core/datatypes/forte_ulint.s: core/datatypes/forte_ulint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_ulint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ulint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_ulint.cpp.s
 .PHONY : core/datatypes/forte_ulint.cpp.s
 
 core/datatypes/forte_usint.obj: core/datatypes/forte_usint.cpp.obj
@@ -2157,7 +2157,7 @@ core/datatypes/forte_usint.obj: core/datatypes/forte_usint.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_usint.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_usint.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_usint.cpp.obj
 .PHONY : core/datatypes/forte_usint.cpp.obj
 
 core/datatypes/forte_usint.i: core/datatypes/forte_usint.cpp.i
@@ -2165,7 +2165,7 @@ core/datatypes/forte_usint.i: core/datatypes/forte_usint.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_usint.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_usint.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_usint.cpp.i
 .PHONY : core/datatypes/forte_usint.cpp.i
 
 core/datatypes/forte_usint.s: core/datatypes/forte_usint.cpp.s
@@ -2173,7 +2173,7 @@ core/datatypes/forte_usint.s: core/datatypes/forte_usint.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_usint.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_usint.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_usint.cpp.s
 .PHONY : core/datatypes/forte_usint.cpp.s
 
 core/datatypes/forte_wchar.obj: core/datatypes/forte_wchar.cpp.obj
@@ -2181,7 +2181,7 @@ core/datatypes/forte_wchar.obj: core/datatypes/forte_wchar.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_wchar.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wchar.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wchar.cpp.obj
 .PHONY : core/datatypes/forte_wchar.cpp.obj
 
 core/datatypes/forte_wchar.i: core/datatypes/forte_wchar.cpp.i
@@ -2189,7 +2189,7 @@ core/datatypes/forte_wchar.i: core/datatypes/forte_wchar.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_wchar.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wchar.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wchar.cpp.i
 .PHONY : core/datatypes/forte_wchar.cpp.i
 
 core/datatypes/forte_wchar.s: core/datatypes/forte_wchar.cpp.s
@@ -2197,7 +2197,7 @@ core/datatypes/forte_wchar.s: core/datatypes/forte_wchar.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_wchar.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wchar.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wchar.cpp.s
 .PHONY : core/datatypes/forte_wchar.cpp.s
 
 core/datatypes/forte_word.obj: core/datatypes/forte_word.cpp.obj
@@ -2205,7 +2205,7 @@ core/datatypes/forte_word.obj: core/datatypes/forte_word.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_word.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_word.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_word.cpp.obj
 .PHONY : core/datatypes/forte_word.cpp.obj
 
 core/datatypes/forte_word.i: core/datatypes/forte_word.cpp.i
@@ -2213,7 +2213,7 @@ core/datatypes/forte_word.i: core/datatypes/forte_word.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_word.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_word.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_word.cpp.i
 .PHONY : core/datatypes/forte_word.cpp.i
 
 core/datatypes/forte_word.s: core/datatypes/forte_word.cpp.s
@@ -2221,7 +2221,7 @@ core/datatypes/forte_word.s: core/datatypes/forte_word.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_word.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_word.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_word.cpp.s
 .PHONY : core/datatypes/forte_word.cpp.s
 
 core/datatypes/forte_wstring.obj: core/datatypes/forte_wstring.cpp.obj
@@ -2229,7 +2229,7 @@ core/datatypes/forte_wstring.obj: core/datatypes/forte_wstring.cpp.obj
 
 # target to build an object file
 core/datatypes/forte_wstring.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wstring.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wstring.cpp.obj
 .PHONY : core/datatypes/forte_wstring.cpp.obj
 
 core/datatypes/forte_wstring.i: core/datatypes/forte_wstring.cpp.i
@@ -2237,7 +2237,7 @@ core/datatypes/forte_wstring.i: core/datatypes/forte_wstring.cpp.i
 
 # target to preprocess a source file
 core/datatypes/forte_wstring.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wstring.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wstring.cpp.i
 .PHONY : core/datatypes/forte_wstring.cpp.i
 
 core/datatypes/forte_wstring.s: core/datatypes/forte_wstring.cpp.s
@@ -2245,7 +2245,7 @@ core/datatypes/forte_wstring.s: core/datatypes/forte_wstring.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/forte_wstring.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wstring.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/forte_wstring.cpp.s
 .PHONY : core/datatypes/forte_wstring.cpp.s
 
 core/datatypes/unicode_utils.obj: core/datatypes/unicode_utils.cpp.obj
@@ -2253,7 +2253,7 @@ core/datatypes/unicode_utils.obj: core/datatypes/unicode_utils.cpp.obj
 
 # target to build an object file
 core/datatypes/unicode_utils.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/unicode_utils.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/unicode_utils.cpp.obj
 .PHONY : core/datatypes/unicode_utils.cpp.obj
 
 core/datatypes/unicode_utils.i: core/datatypes/unicode_utils.cpp.i
@@ -2261,7 +2261,7 @@ core/datatypes/unicode_utils.i: core/datatypes/unicode_utils.cpp.i
 
 # target to preprocess a source file
 core/datatypes/unicode_utils.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/unicode_utils.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/unicode_utils.cpp.i
 .PHONY : core/datatypes/unicode_utils.cpp.i
 
 core/datatypes/unicode_utils.s: core/datatypes/unicode_utils.cpp.s
@@ -2269,7 +2269,7 @@ core/datatypes/unicode_utils.s: core/datatypes/unicode_utils.cpp.s
 
 # target to generate assembly for a file
 core/datatypes/unicode_utils.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/unicode_utils.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/datatypes/unicode_utils.cpp.s
 .PHONY : core/datatypes/unicode_utils.cpp.s
 
 core/devexec.obj: core/devexec.cpp.obj
@@ -2277,7 +2277,7 @@ core/devexec.obj: core/devexec.cpp.obj
 
 # target to build an object file
 core/devexec.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/devexec.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/devexec.cpp.obj
 .PHONY : core/devexec.cpp.obj
 
 core/devexec.i: core/devexec.cpp.i
@@ -2285,7 +2285,7 @@ core/devexec.i: core/devexec.cpp.i
 
 # target to preprocess a source file
 core/devexec.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/devexec.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/devexec.cpp.i
 .PHONY : core/devexec.cpp.i
 
 core/devexec.s: core/devexec.cpp.s
@@ -2293,7 +2293,7 @@ core/devexec.s: core/devexec.cpp.s
 
 # target to generate assembly for a file
 core/devexec.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/devexec.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/devexec.cpp.s
 .PHONY : core/devexec.cpp.s
 
 core/device.obj: core/device.cpp.obj
@@ -2301,7 +2301,7 @@ core/device.obj: core/device.cpp.obj
 
 # target to build an object file
 core/device.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/device.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/device.cpp.obj
 .PHONY : core/device.cpp.obj
 
 core/device.i: core/device.cpp.i
@@ -2309,7 +2309,7 @@ core/device.i: core/device.cpp.i
 
 # target to preprocess a source file
 core/device.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/device.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/device.cpp.i
 .PHONY : core/device.cpp.i
 
 core/device.s: core/device.cpp.s
@@ -2317,7 +2317,7 @@ core/device.s: core/device.cpp.s
 
 # target to generate assembly for a file
 core/device.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/device.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/device.cpp.s
 .PHONY : core/device.cpp.s
 
 core/ecet.obj: core/ecet.cpp.obj
@@ -2325,7 +2325,7 @@ core/ecet.obj: core/ecet.cpp.obj
 
 # target to build an object file
 core/ecet.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecet.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecet.cpp.obj
 .PHONY : core/ecet.cpp.obj
 
 core/ecet.i: core/ecet.cpp.i
@@ -2333,7 +2333,7 @@ core/ecet.i: core/ecet.cpp.i
 
 # target to preprocess a source file
 core/ecet.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecet.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecet.cpp.i
 .PHONY : core/ecet.cpp.i
 
 core/ecet.s: core/ecet.cpp.s
@@ -2341,7 +2341,7 @@ core/ecet.s: core/ecet.cpp.s
 
 # target to generate assembly for a file
 core/ecet.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecet.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecet.cpp.s
 .PHONY : core/ecet.cpp.s
 
 core/ecetFactory.obj: core/ecetFactory.cpp.obj
@@ -2349,7 +2349,7 @@ core/ecetFactory.obj: core/ecetFactory.cpp.obj
 
 # target to build an object file
 core/ecetFactory.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecetFactory.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecetFactory.cpp.obj
 .PHONY : core/ecetFactory.cpp.obj
 
 core/ecetFactory.i: core/ecetFactory.cpp.i
@@ -2357,7 +2357,7 @@ core/ecetFactory.i: core/ecetFactory.cpp.i
 
 # target to preprocess a source file
 core/ecetFactory.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecetFactory.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecetFactory.cpp.i
 .PHONY : core/ecetFactory.cpp.i
 
 core/ecetFactory.s: core/ecetFactory.cpp.s
@@ -2365,7 +2365,7 @@ core/ecetFactory.s: core/ecetFactory.cpp.s
 
 # target to generate assembly for a file
 core/ecetFactory.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecetFactory.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/ecetFactory.cpp.s
 .PHONY : core/ecetFactory.cpp.s
 
 core/eventconn.obj: core/eventconn.cpp.obj
@@ -2373,7 +2373,7 @@ core/eventconn.obj: core/eventconn.cpp.obj
 
 # target to build an object file
 core/eventconn.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/eventconn.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/eventconn.cpp.obj
 .PHONY : core/eventconn.cpp.obj
 
 core/eventconn.i: core/eventconn.cpp.i
@@ -2381,7 +2381,7 @@ core/eventconn.i: core/eventconn.cpp.i
 
 # target to preprocess a source file
 core/eventconn.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/eventconn.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/eventconn.cpp.i
 .PHONY : core/eventconn.cpp.i
 
 core/eventconn.s: core/eventconn.cpp.s
@@ -2389,7 +2389,7 @@ core/eventconn.s: core/eventconn.cpp.s
 
 # target to generate assembly for a file
 core/eventconn.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/eventconn.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/eventconn.cpp.s
 .PHONY : core/eventconn.cpp.s
 
 core/extevhan.obj: core/extevhan.cpp.obj
@@ -2397,7 +2397,7 @@ core/extevhan.obj: core/extevhan.cpp.obj
 
 # target to build an object file
 core/extevhan.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/extevhan.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/extevhan.cpp.obj
 .PHONY : core/extevhan.cpp.obj
 
 core/extevhan.i: core/extevhan.cpp.i
@@ -2405,7 +2405,7 @@ core/extevhan.i: core/extevhan.cpp.i
 
 # target to preprocess a source file
 core/extevhan.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/extevhan.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/extevhan.cpp.i
 .PHONY : core/extevhan.cpp.i
 
 core/extevhan.s: core/extevhan.cpp.s
@@ -2413,7 +2413,7 @@ core/extevhan.s: core/extevhan.cpp.s
 
 # target to generate assembly for a file
 core/extevhan.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/extevhan.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/extevhan.cpp.s
 .PHONY : core/extevhan.cpp.s
 
 core/fbcontainer.obj: core/fbcontainer.cpp.obj
@@ -2421,7 +2421,7 @@ core/fbcontainer.obj: core/fbcontainer.cpp.obj
 
 # target to build an object file
 core/fbcontainer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/fbcontainer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/fbcontainer.cpp.obj
 .PHONY : core/fbcontainer.cpp.obj
 
 core/fbcontainer.i: core/fbcontainer.cpp.i
@@ -2429,7 +2429,7 @@ core/fbcontainer.i: core/fbcontainer.cpp.i
 
 # target to preprocess a source file
 core/fbcontainer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/fbcontainer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/fbcontainer.cpp.i
 .PHONY : core/fbcontainer.cpp.i
 
 core/fbcontainer.s: core/fbcontainer.cpp.s
@@ -2437,7 +2437,7 @@ core/fbcontainer.s: core/fbcontainer.cpp.s
 
 # target to generate assembly for a file
 core/fbcontainer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/fbcontainer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/fbcontainer.cpp.s
 .PHONY : core/fbcontainer.cpp.s
 
 core/funcbloc.obj: core/funcbloc.cpp.obj
@@ -2445,7 +2445,7 @@ core/funcbloc.obj: core/funcbloc.cpp.obj
 
 # target to build an object file
 core/funcbloc.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/funcbloc.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/funcbloc.cpp.obj
 .PHONY : core/funcbloc.cpp.obj
 
 core/funcbloc.i: core/funcbloc.cpp.i
@@ -2453,7 +2453,7 @@ core/funcbloc.i: core/funcbloc.cpp.i
 
 # target to preprocess a source file
 core/funcbloc.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/funcbloc.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/funcbloc.cpp.i
 .PHONY : core/funcbloc.cpp.i
 
 core/funcbloc.s: core/funcbloc.cpp.s
@@ -2461,7 +2461,7 @@ core/funcbloc.s: core/funcbloc.cpp.s
 
 # target to generate assembly for a file
 core/funcbloc.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/funcbloc.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/funcbloc.cpp.s
 .PHONY : core/funcbloc.cpp.s
 
 core/iec61131_functions.obj: core/iec61131_functions.cpp.obj
@@ -2469,7 +2469,7 @@ core/iec61131_functions.obj: core/iec61131_functions.cpp.obj
 
 # target to build an object file
 core/iec61131_functions.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/iec61131_functions.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/iec61131_functions.cpp.obj
 .PHONY : core/iec61131_functions.cpp.obj
 
 core/iec61131_functions.i: core/iec61131_functions.cpp.i
@@ -2477,7 +2477,7 @@ core/iec61131_functions.i: core/iec61131_functions.cpp.i
 
 # target to preprocess a source file
 core/iec61131_functions.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/iec61131_functions.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/iec61131_functions.cpp.i
 .PHONY : core/iec61131_functions.cpp.i
 
 core/iec61131_functions.s: core/iec61131_functions.cpp.s
@@ -2485,7 +2485,7 @@ core/iec61131_functions.s: core/iec61131_functions.cpp.s
 
 # target to generate assembly for a file
 core/iec61131_functions.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/iec61131_functions.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/iec61131_functions.cpp.s
 .PHONY : core/iec61131_functions.cpp.s
 
 core/if2indco.obj: core/if2indco.cpp.obj
@@ -2493,7 +2493,7 @@ core/if2indco.obj: core/if2indco.cpp.obj
 
 # target to build an object file
 core/if2indco.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/if2indco.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/if2indco.cpp.obj
 .PHONY : core/if2indco.cpp.obj
 
 core/if2indco.i: core/if2indco.cpp.i
@@ -2501,7 +2501,7 @@ core/if2indco.i: core/if2indco.cpp.i
 
 # target to preprocess a source file
 core/if2indco.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/if2indco.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/if2indco.cpp.i
 .PHONY : core/if2indco.cpp.i
 
 core/if2indco.s: core/if2indco.cpp.s
@@ -2509,7 +2509,7 @@ core/if2indco.s: core/if2indco.cpp.s
 
 # target to generate assembly for a file
 core/if2indco.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/if2indco.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/if2indco.cpp.s
 .PHONY : core/if2indco.cpp.s
 
 core/inoutdataconn.obj: core/inoutdataconn.cpp.obj
@@ -2517,7 +2517,7 @@ core/inoutdataconn.obj: core/inoutdataconn.cpp.obj
 
 # target to build an object file
 core/inoutdataconn.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/inoutdataconn.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/inoutdataconn.cpp.obj
 .PHONY : core/inoutdataconn.cpp.obj
 
 core/inoutdataconn.i: core/inoutdataconn.cpp.i
@@ -2525,7 +2525,7 @@ core/inoutdataconn.i: core/inoutdataconn.cpp.i
 
 # target to preprocess a source file
 core/inoutdataconn.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/inoutdataconn.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/inoutdataconn.cpp.i
 .PHONY : core/inoutdataconn.cpp.i
 
 core/inoutdataconn.s: core/inoutdataconn.cpp.s
@@ -2533,7 +2533,7 @@ core/inoutdataconn.s: core/inoutdataconn.cpp.s
 
 # target to generate assembly for a file
 core/inoutdataconn.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/inoutdataconn.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/inoutdataconn.cpp.s
 .PHONY : core/inoutdataconn.cpp.s
 
 core/io/configFB/io_adapter_multi.obj: core/io/configFB/io_adapter_multi.cpp.obj
@@ -2541,7 +2541,7 @@ core/io/configFB/io_adapter_multi.obj: core/io/configFB/io_adapter_multi.cpp.obj
 
 # target to build an object file
 core/io/configFB/io_adapter_multi.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_multi.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_multi.cpp.obj
 .PHONY : core/io/configFB/io_adapter_multi.cpp.obj
 
 core/io/configFB/io_adapter_multi.i: core/io/configFB/io_adapter_multi.cpp.i
@@ -2549,7 +2549,7 @@ core/io/configFB/io_adapter_multi.i: core/io/configFB/io_adapter_multi.cpp.i
 
 # target to preprocess a source file
 core/io/configFB/io_adapter_multi.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_multi.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_multi.cpp.i
 .PHONY : core/io/configFB/io_adapter_multi.cpp.i
 
 core/io/configFB/io_adapter_multi.s: core/io/configFB/io_adapter_multi.cpp.s
@@ -2557,7 +2557,7 @@ core/io/configFB/io_adapter_multi.s: core/io/configFB/io_adapter_multi.cpp.s
 
 # target to generate assembly for a file
 core/io/configFB/io_adapter_multi.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_multi.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_multi.cpp.s
 .PHONY : core/io/configFB/io_adapter_multi.cpp.s
 
 core/io/configFB/io_adapter_split.obj: core/io/configFB/io_adapter_split.cpp.obj
@@ -2565,7 +2565,7 @@ core/io/configFB/io_adapter_split.obj: core/io/configFB/io_adapter_split.cpp.obj
 
 # target to build an object file
 core/io/configFB/io_adapter_split.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_split.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_split.cpp.obj
 .PHONY : core/io/configFB/io_adapter_split.cpp.obj
 
 core/io/configFB/io_adapter_split.i: core/io/configFB/io_adapter_split.cpp.i
@@ -2573,7 +2573,7 @@ core/io/configFB/io_adapter_split.i: core/io/configFB/io_adapter_split.cpp.i
 
 # target to preprocess a source file
 core/io/configFB/io_adapter_split.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_split.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_split.cpp.i
 .PHONY : core/io/configFB/io_adapter_split.cpp.i
 
 core/io/configFB/io_adapter_split.s: core/io/configFB/io_adapter_split.cpp.s
@@ -2581,7 +2581,7 @@ core/io/configFB/io_adapter_split.s: core/io/configFB/io_adapter_split.cpp.s
 
 # target to generate assembly for a file
 core/io/configFB/io_adapter_split.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_split.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_adapter_split.cpp.s
 .PHONY : core/io/configFB/io_adapter_split.cpp.s
 
 core/io/configFB/io_base.obj: core/io/configFB/io_base.cpp.obj
@@ -2589,7 +2589,7 @@ core/io/configFB/io_base.obj: core/io/configFB/io_base.cpp.obj
 
 # target to build an object file
 core/io/configFB/io_base.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_base.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_base.cpp.obj
 .PHONY : core/io/configFB/io_base.cpp.obj
 
 core/io/configFB/io_base.i: core/io/configFB/io_base.cpp.i
@@ -2597,7 +2597,7 @@ core/io/configFB/io_base.i: core/io/configFB/io_base.cpp.i
 
 # target to preprocess a source file
 core/io/configFB/io_base.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_base.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_base.cpp.i
 .PHONY : core/io/configFB/io_base.cpp.i
 
 core/io/configFB/io_base.s: core/io/configFB/io_base.cpp.s
@@ -2605,7 +2605,7 @@ core/io/configFB/io_base.s: core/io/configFB/io_base.cpp.s
 
 # target to generate assembly for a file
 core/io/configFB/io_base.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_base.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_base.cpp.s
 .PHONY : core/io/configFB/io_base.cpp.s
 
 core/io/configFB/io_configFB_controller.obj: core/io/configFB/io_configFB_controller.cpp.obj
@@ -2613,7 +2613,7 @@ core/io/configFB/io_configFB_controller.obj: core/io/configFB/io_configFB_contro
 
 # target to build an object file
 core/io/configFB/io_configFB_controller.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_configFB_controller.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_configFB_controller.cpp.obj
 .PHONY : core/io/configFB/io_configFB_controller.cpp.obj
 
 core/io/configFB/io_configFB_controller.i: core/io/configFB/io_configFB_controller.cpp.i
@@ -2621,7 +2621,7 @@ core/io/configFB/io_configFB_controller.i: core/io/configFB/io_configFB_controll
 
 # target to preprocess a source file
 core/io/configFB/io_configFB_controller.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_configFB_controller.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_configFB_controller.cpp.i
 .PHONY : core/io/configFB/io_configFB_controller.cpp.i
 
 core/io/configFB/io_configFB_controller.s: core/io/configFB/io_configFB_controller.cpp.s
@@ -2629,7 +2629,7 @@ core/io/configFB/io_configFB_controller.s: core/io/configFB/io_configFB_controll
 
 # target to generate assembly for a file
 core/io/configFB/io_configFB_controller.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_configFB_controller.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_configFB_controller.cpp.s
 .PHONY : core/io/configFB/io_configFB_controller.cpp.s
 
 core/io/configFB/io_controller_part.obj: core/io/configFB/io_controller_part.cpp.obj
@@ -2637,7 +2637,7 @@ core/io/configFB/io_controller_part.obj: core/io/configFB/io_controller_part.cpp
 
 # target to build an object file
 core/io/configFB/io_controller_part.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_part.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_part.cpp.obj
 .PHONY : core/io/configFB/io_controller_part.cpp.obj
 
 core/io/configFB/io_controller_part.i: core/io/configFB/io_controller_part.cpp.i
@@ -2645,7 +2645,7 @@ core/io/configFB/io_controller_part.i: core/io/configFB/io_controller_part.cpp.i
 
 # target to preprocess a source file
 core/io/configFB/io_controller_part.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_part.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_part.cpp.i
 .PHONY : core/io/configFB/io_controller_part.cpp.i
 
 core/io/configFB/io_controller_part.s: core/io/configFB/io_controller_part.cpp.s
@@ -2653,7 +2653,7 @@ core/io/configFB/io_controller_part.s: core/io/configFB/io_controller_part.cpp.s
 
 # target to generate assembly for a file
 core/io/configFB/io_controller_part.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_part.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_part.cpp.s
 .PHONY : core/io/configFB/io_controller_part.cpp.s
 
 core/io/configFB/io_controller_split.obj: core/io/configFB/io_controller_split.cpp.obj
@@ -2661,7 +2661,7 @@ core/io/configFB/io_controller_split.obj: core/io/configFB/io_controller_split.c
 
 # target to build an object file
 core/io/configFB/io_controller_split.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_split.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_split.cpp.obj
 .PHONY : core/io/configFB/io_controller_split.cpp.obj
 
 core/io/configFB/io_controller_split.i: core/io/configFB/io_controller_split.cpp.i
@@ -2669,7 +2669,7 @@ core/io/configFB/io_controller_split.i: core/io/configFB/io_controller_split.cpp
 
 # target to preprocess a source file
 core/io/configFB/io_controller_split.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_split.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_split.cpp.i
 .PHONY : core/io/configFB/io_controller_split.cpp.i
 
 core/io/configFB/io_controller_split.s: core/io/configFB/io_controller_split.cpp.s
@@ -2677,7 +2677,7 @@ core/io/configFB/io_controller_split.s: core/io/configFB/io_controller_split.cpp
 
 # target to generate assembly for a file
 core/io/configFB/io_controller_split.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_split.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_controller_split.cpp.s
 .PHONY : core/io/configFB/io_controller_split.cpp.s
 
 core/io/configFB/io_master_multi.obj: core/io/configFB/io_master_multi.cpp.obj
@@ -2685,7 +2685,7 @@ core/io/configFB/io_master_multi.obj: core/io/configFB/io_master_multi.cpp.obj
 
 # target to build an object file
 core/io/configFB/io_master_multi.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_master_multi.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_master_multi.cpp.obj
 .PHONY : core/io/configFB/io_master_multi.cpp.obj
 
 core/io/configFB/io_master_multi.i: core/io/configFB/io_master_multi.cpp.i
@@ -2693,7 +2693,7 @@ core/io/configFB/io_master_multi.i: core/io/configFB/io_master_multi.cpp.i
 
 # target to preprocess a source file
 core/io/configFB/io_master_multi.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_master_multi.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_master_multi.cpp.i
 .PHONY : core/io/configFB/io_master_multi.cpp.i
 
 core/io/configFB/io_master_multi.s: core/io/configFB/io_master_multi.cpp.s
@@ -2701,7 +2701,7 @@ core/io/configFB/io_master_multi.s: core/io/configFB/io_master_multi.cpp.s
 
 # target to generate assembly for a file
 core/io/configFB/io_master_multi.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_master_multi.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_master_multi.cpp.s
 .PHONY : core/io/configFB/io_master_multi.cpp.s
 
 core/io/configFB/io_slave_multi.obj: core/io/configFB/io_slave_multi.cpp.obj
@@ -2709,7 +2709,7 @@ core/io/configFB/io_slave_multi.obj: core/io/configFB/io_slave_multi.cpp.obj
 
 # target to build an object file
 core/io/configFB/io_slave_multi.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_slave_multi.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_slave_multi.cpp.obj
 .PHONY : core/io/configFB/io_slave_multi.cpp.obj
 
 core/io/configFB/io_slave_multi.i: core/io/configFB/io_slave_multi.cpp.i
@@ -2717,7 +2717,7 @@ core/io/configFB/io_slave_multi.i: core/io/configFB/io_slave_multi.cpp.i
 
 # target to preprocess a source file
 core/io/configFB/io_slave_multi.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_slave_multi.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_slave_multi.cpp.i
 .PHONY : core/io/configFB/io_slave_multi.cpp.i
 
 core/io/configFB/io_slave_multi.s: core/io/configFB/io_slave_multi.cpp.s
@@ -2725,7 +2725,7 @@ core/io/configFB/io_slave_multi.s: core/io/configFB/io_slave_multi.cpp.s
 
 # target to generate assembly for a file
 core/io/configFB/io_slave_multi.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_slave_multi.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/configFB/io_slave_multi.cpp.s
 .PHONY : core/io/configFB/io_slave_multi.cpp.s
 
 core/io/device/io_controller.obj: core/io/device/io_controller.cpp.obj
@@ -2733,7 +2733,7 @@ core/io/device/io_controller.obj: core/io/device/io_controller.cpp.obj
 
 # target to build an object file
 core/io/device/io_controller.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller.cpp.obj
 .PHONY : core/io/device/io_controller.cpp.obj
 
 core/io/device/io_controller.i: core/io/device/io_controller.cpp.i
@@ -2741,7 +2741,7 @@ core/io/device/io_controller.i: core/io/device/io_controller.cpp.i
 
 # target to preprocess a source file
 core/io/device/io_controller.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller.cpp.i
 .PHONY : core/io/device/io_controller.cpp.i
 
 core/io/device/io_controller.s: core/io/device/io_controller.cpp.s
@@ -2749,7 +2749,7 @@ core/io/device/io_controller.s: core/io/device/io_controller.cpp.s
 
 # target to generate assembly for a file
 core/io/device/io_controller.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller.cpp.s
 .PHONY : core/io/device/io_controller.cpp.s
 
 core/io/device/io_controller_multi.obj: core/io/device/io_controller_multi.cpp.obj
@@ -2757,7 +2757,7 @@ core/io/device/io_controller_multi.obj: core/io/device/io_controller_multi.cpp.o
 
 # target to build an object file
 core/io/device/io_controller_multi.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_multi.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_multi.cpp.obj
 .PHONY : core/io/device/io_controller_multi.cpp.obj
 
 core/io/device/io_controller_multi.i: core/io/device/io_controller_multi.cpp.i
@@ -2765,7 +2765,7 @@ core/io/device/io_controller_multi.i: core/io/device/io_controller_multi.cpp.i
 
 # target to preprocess a source file
 core/io/device/io_controller_multi.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_multi.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_multi.cpp.i
 .PHONY : core/io/device/io_controller_multi.cpp.i
 
 core/io/device/io_controller_multi.s: core/io/device/io_controller_multi.cpp.s
@@ -2773,7 +2773,7 @@ core/io/device/io_controller_multi.s: core/io/device/io_controller_multi.cpp.s
 
 # target to generate assembly for a file
 core/io/device/io_controller_multi.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_multi.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_multi.cpp.s
 .PHONY : core/io/device/io_controller_multi.cpp.s
 
 core/io/device/io_controller_poll.obj: core/io/device/io_controller_poll.cpp.obj
@@ -2781,7 +2781,7 @@ core/io/device/io_controller_poll.obj: core/io/device/io_controller_poll.cpp.obj
 
 # target to build an object file
 core/io/device/io_controller_poll.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_poll.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_poll.cpp.obj
 .PHONY : core/io/device/io_controller_poll.cpp.obj
 
 core/io/device/io_controller_poll.i: core/io/device/io_controller_poll.cpp.i
@@ -2789,7 +2789,7 @@ core/io/device/io_controller_poll.i: core/io/device/io_controller_poll.cpp.i
 
 # target to preprocess a source file
 core/io/device/io_controller_poll.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_poll.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_poll.cpp.i
 .PHONY : core/io/device/io_controller_poll.cpp.i
 
 core/io/device/io_controller_poll.s: core/io/device/io_controller_poll.cpp.s
@@ -2797,7 +2797,7 @@ core/io/device/io_controller_poll.s: core/io/device/io_controller_poll.cpp.s
 
 # target to generate assembly for a file
 core/io/device/io_controller_poll.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_poll.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/device/io_controller_poll.cpp.s
 .PHONY : core/io/device/io_controller_poll.cpp.s
 
 core/io/mapper/io_handle.obj: core/io/mapper/io_handle.cpp.obj
@@ -2805,7 +2805,7 @@ core/io/mapper/io_handle.obj: core/io/mapper/io_handle.cpp.obj
 
 # target to build an object file
 core/io/mapper/io_handle.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle.cpp.obj
 .PHONY : core/io/mapper/io_handle.cpp.obj
 
 core/io/mapper/io_handle.i: core/io/mapper/io_handle.cpp.i
@@ -2813,7 +2813,7 @@ core/io/mapper/io_handle.i: core/io/mapper/io_handle.cpp.i
 
 # target to preprocess a source file
 core/io/mapper/io_handle.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle.cpp.i
 .PHONY : core/io/mapper/io_handle.cpp.i
 
 core/io/mapper/io_handle.s: core/io/mapper/io_handle.cpp.s
@@ -2821,7 +2821,7 @@ core/io/mapper/io_handle.s: core/io/mapper/io_handle.cpp.s
 
 # target to generate assembly for a file
 core/io/mapper/io_handle.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle.cpp.s
 .PHONY : core/io/mapper/io_handle.cpp.s
 
 core/io/mapper/io_handle_bit.obj: core/io/mapper/io_handle_bit.cpp.obj
@@ -2829,7 +2829,7 @@ core/io/mapper/io_handle_bit.obj: core/io/mapper/io_handle_bit.cpp.obj
 
 # target to build an object file
 core/io/mapper/io_handle_bit.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle_bit.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle_bit.cpp.obj
 .PHONY : core/io/mapper/io_handle_bit.cpp.obj
 
 core/io/mapper/io_handle_bit.i: core/io/mapper/io_handle_bit.cpp.i
@@ -2837,7 +2837,7 @@ core/io/mapper/io_handle_bit.i: core/io/mapper/io_handle_bit.cpp.i
 
 # target to preprocess a source file
 core/io/mapper/io_handle_bit.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle_bit.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle_bit.cpp.i
 .PHONY : core/io/mapper/io_handle_bit.cpp.i
 
 core/io/mapper/io_handle_bit.s: core/io/mapper/io_handle_bit.cpp.s
@@ -2845,7 +2845,7 @@ core/io/mapper/io_handle_bit.s: core/io/mapper/io_handle_bit.cpp.s
 
 # target to generate assembly for a file
 core/io/mapper/io_handle_bit.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle_bit.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_handle_bit.cpp.s
 .PHONY : core/io/mapper/io_handle_bit.cpp.s
 
 core/io/mapper/io_mapper.obj: core/io/mapper/io_mapper.cpp.obj
@@ -2853,7 +2853,7 @@ core/io/mapper/io_mapper.obj: core/io/mapper/io_mapper.cpp.obj
 
 # target to build an object file
 core/io/mapper/io_mapper.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_mapper.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_mapper.cpp.obj
 .PHONY : core/io/mapper/io_mapper.cpp.obj
 
 core/io/mapper/io_mapper.i: core/io/mapper/io_mapper.cpp.i
@@ -2861,7 +2861,7 @@ core/io/mapper/io_mapper.i: core/io/mapper/io_mapper.cpp.i
 
 # target to preprocess a source file
 core/io/mapper/io_mapper.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_mapper.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_mapper.cpp.i
 .PHONY : core/io/mapper/io_mapper.cpp.i
 
 core/io/mapper/io_mapper.s: core/io/mapper/io_mapper.cpp.s
@@ -2869,7 +2869,7 @@ core/io/mapper/io_mapper.s: core/io/mapper/io_mapper.cpp.s
 
 # target to generate assembly for a file
 core/io/mapper/io_mapper.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_mapper.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_mapper.cpp.s
 .PHONY : core/io/mapper/io_mapper.cpp.s
 
 core/io/mapper/io_observer.obj: core/io/mapper/io_observer.cpp.obj
@@ -2877,7 +2877,7 @@ core/io/mapper/io_observer.obj: core/io/mapper/io_observer.cpp.obj
 
 # target to build an object file
 core/io/mapper/io_observer.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_observer.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_observer.cpp.obj
 .PHONY : core/io/mapper/io_observer.cpp.obj
 
 core/io/mapper/io_observer.i: core/io/mapper/io_observer.cpp.i
@@ -2885,7 +2885,7 @@ core/io/mapper/io_observer.i: core/io/mapper/io_observer.cpp.i
 
 # target to preprocess a source file
 core/io/mapper/io_observer.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_observer.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_observer.cpp.i
 .PHONY : core/io/mapper/io_observer.cpp.i
 
 core/io/mapper/io_observer.s: core/io/mapper/io_observer.cpp.s
@@ -2893,7 +2893,7 @@ core/io/mapper/io_observer.s: core/io/mapper/io_observer.cpp.s
 
 # target to generate assembly for a file
 core/io/mapper/io_observer.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_observer.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/mapper/io_observer.cpp.s
 .PHONY : core/io/mapper/io_observer.cpp.s
 
 core/io/processinterface.obj: core/io/processinterface.cpp.obj
@@ -2901,7 +2901,7 @@ core/io/processinterface.obj: core/io/processinterface.cpp.obj
 
 # target to build an object file
 core/io/processinterface.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/processinterface.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/processinterface.cpp.obj
 .PHONY : core/io/processinterface.cpp.obj
 
 core/io/processinterface.i: core/io/processinterface.cpp.i
@@ -2909,7 +2909,7 @@ core/io/processinterface.i: core/io/processinterface.cpp.i
 
 # target to preprocess a source file
 core/io/processinterface.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/processinterface.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/processinterface.cpp.i
 .PHONY : core/io/processinterface.cpp.i
 
 core/io/processinterface.s: core/io/processinterface.cpp.s
@@ -2917,7 +2917,7 @@ core/io/processinterface.s: core/io/processinterface.cpp.s
 
 # target to generate assembly for a file
 core/io/processinterface.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/processinterface.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/io/processinterface.cpp.s
 .PHONY : core/io/processinterface.cpp.s
 
 core/lua/luaadapter.obj: core/lua/luaadapter.cpp.obj
@@ -2925,7 +2925,7 @@ core/lua/luaadapter.obj: core/lua/luaadapter.cpp.obj
 
 # target to build an object file
 core/lua/luaadapter.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadapter.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadapter.cpp.obj
 .PHONY : core/lua/luaadapter.cpp.obj
 
 core/lua/luaadapter.i: core/lua/luaadapter.cpp.i
@@ -2933,7 +2933,7 @@ core/lua/luaadapter.i: core/lua/luaadapter.cpp.i
 
 # target to preprocess a source file
 core/lua/luaadapter.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadapter.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadapter.cpp.i
 .PHONY : core/lua/luaadapter.cpp.i
 
 core/lua/luaadapter.s: core/lua/luaadapter.cpp.s
@@ -2941,7 +2941,7 @@ core/lua/luaadapter.s: core/lua/luaadapter.cpp.s
 
 # target to generate assembly for a file
 core/lua/luaadapter.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadapter.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadapter.cpp.s
 .PHONY : core/lua/luaadapter.cpp.s
 
 core/lua/luaadaptertypeentry.obj: core/lua/luaadaptertypeentry.cpp.obj
@@ -2949,7 +2949,7 @@ core/lua/luaadaptertypeentry.obj: core/lua/luaadaptertypeentry.cpp.obj
 
 # target to build an object file
 core/lua/luaadaptertypeentry.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadaptertypeentry.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadaptertypeentry.cpp.obj
 .PHONY : core/lua/luaadaptertypeentry.cpp.obj
 
 core/lua/luaadaptertypeentry.i: core/lua/luaadaptertypeentry.cpp.i
@@ -2957,7 +2957,7 @@ core/lua/luaadaptertypeentry.i: core/lua/luaadaptertypeentry.cpp.i
 
 # target to preprocess a source file
 core/lua/luaadaptertypeentry.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadaptertypeentry.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadaptertypeentry.cpp.i
 .PHONY : core/lua/luaadaptertypeentry.cpp.i
 
 core/lua/luaadaptertypeentry.s: core/lua/luaadaptertypeentry.cpp.s
@@ -2965,7 +2965,7 @@ core/lua/luaadaptertypeentry.s: core/lua/luaadaptertypeentry.cpp.s
 
 # target to generate assembly for a file
 core/lua/luaadaptertypeentry.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadaptertypeentry.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaadaptertypeentry.cpp.s
 .PHONY : core/lua/luaadaptertypeentry.cpp.s
 
 core/lua/luabfb.obj: core/lua/luabfb.cpp.obj
@@ -2973,7 +2973,7 @@ core/lua/luabfb.obj: core/lua/luabfb.cpp.obj
 
 # target to build an object file
 core/lua/luabfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfb.cpp.obj
 .PHONY : core/lua/luabfb.cpp.obj
 
 core/lua/luabfb.i: core/lua/luabfb.cpp.i
@@ -2981,7 +2981,7 @@ core/lua/luabfb.i: core/lua/luabfb.cpp.i
 
 # target to preprocess a source file
 core/lua/luabfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfb.cpp.i
 .PHONY : core/lua/luabfb.cpp.i
 
 core/lua/luabfb.s: core/lua/luabfb.cpp.s
@@ -2989,7 +2989,7 @@ core/lua/luabfb.s: core/lua/luabfb.cpp.s
 
 # target to generate assembly for a file
 core/lua/luabfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfb.cpp.s
 .PHONY : core/lua/luabfb.cpp.s
 
 core/lua/luabfbtypeentry.obj: core/lua/luabfbtypeentry.cpp.obj
@@ -2997,7 +2997,7 @@ core/lua/luabfbtypeentry.obj: core/lua/luabfbtypeentry.cpp.obj
 
 # target to build an object file
 core/lua/luabfbtypeentry.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfbtypeentry.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfbtypeentry.cpp.obj
 .PHONY : core/lua/luabfbtypeentry.cpp.obj
 
 core/lua/luabfbtypeentry.i: core/lua/luabfbtypeentry.cpp.i
@@ -3005,7 +3005,7 @@ core/lua/luabfbtypeentry.i: core/lua/luabfbtypeentry.cpp.i
 
 # target to preprocess a source file
 core/lua/luabfbtypeentry.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfbtypeentry.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfbtypeentry.cpp.i
 .PHONY : core/lua/luabfbtypeentry.cpp.i
 
 core/lua/luabfbtypeentry.s: core/lua/luabfbtypeentry.cpp.s
@@ -3013,7 +3013,7 @@ core/lua/luabfbtypeentry.s: core/lua/luabfbtypeentry.cpp.s
 
 # target to generate assembly for a file
 core/lua/luabfbtypeentry.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfbtypeentry.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luabfbtypeentry.cpp.s
 .PHONY : core/lua/luabfbtypeentry.cpp.s
 
 core/lua/luacfb.obj: core/lua/luacfb.cpp.obj
@@ -3021,7 +3021,7 @@ core/lua/luacfb.obj: core/lua/luacfb.cpp.obj
 
 # target to build an object file
 core/lua/luacfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfb.cpp.obj
 .PHONY : core/lua/luacfb.cpp.obj
 
 core/lua/luacfb.i: core/lua/luacfb.cpp.i
@@ -3029,7 +3029,7 @@ core/lua/luacfb.i: core/lua/luacfb.cpp.i
 
 # target to preprocess a source file
 core/lua/luacfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfb.cpp.i
 .PHONY : core/lua/luacfb.cpp.i
 
 core/lua/luacfb.s: core/lua/luacfb.cpp.s
@@ -3037,7 +3037,7 @@ core/lua/luacfb.s: core/lua/luacfb.cpp.s
 
 # target to generate assembly for a file
 core/lua/luacfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfb.cpp.s
 .PHONY : core/lua/luacfb.cpp.s
 
 core/lua/luacfbtypeentry.obj: core/lua/luacfbtypeentry.cpp.obj
@@ -3045,7 +3045,7 @@ core/lua/luacfbtypeentry.obj: core/lua/luacfbtypeentry.cpp.obj
 
 # target to build an object file
 core/lua/luacfbtypeentry.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfbtypeentry.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfbtypeentry.cpp.obj
 .PHONY : core/lua/luacfbtypeentry.cpp.obj
 
 core/lua/luacfbtypeentry.i: core/lua/luacfbtypeentry.cpp.i
@@ -3053,7 +3053,7 @@ core/lua/luacfbtypeentry.i: core/lua/luacfbtypeentry.cpp.i
 
 # target to preprocess a source file
 core/lua/luacfbtypeentry.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfbtypeentry.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfbtypeentry.cpp.i
 .PHONY : core/lua/luacfbtypeentry.cpp.i
 
 core/lua/luacfbtypeentry.s: core/lua/luacfbtypeentry.cpp.s
@@ -3061,7 +3061,7 @@ core/lua/luacfbtypeentry.s: core/lua/luacfbtypeentry.cpp.s
 
 # target to generate assembly for a file
 core/lua/luacfbtypeentry.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfbtypeentry.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luacfbtypeentry.cpp.s
 .PHONY : core/lua/luacfbtypeentry.cpp.s
 
 core/lua/luaengine.obj: core/lua/luaengine.cpp.obj
@@ -3069,7 +3069,7 @@ core/lua/luaengine.obj: core/lua/luaengine.cpp.obj
 
 # target to build an object file
 core/lua/luaengine.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaengine.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaengine.cpp.obj
 .PHONY : core/lua/luaengine.cpp.obj
 
 core/lua/luaengine.i: core/lua/luaengine.cpp.i
@@ -3077,7 +3077,7 @@ core/lua/luaengine.i: core/lua/luaengine.cpp.i
 
 # target to preprocess a source file
 core/lua/luaengine.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaengine.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaengine.cpp.i
 .PHONY : core/lua/luaengine.cpp.i
 
 core/lua/luaengine.s: core/lua/luaengine.cpp.s
@@ -3085,7 +3085,7 @@ core/lua/luaengine.s: core/lua/luaengine.cpp.s
 
 # target to generate assembly for a file
 core/lua/luaengine.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaengine.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luaengine.cpp.s
 .PHONY : core/lua/luaengine.cpp.s
 
 core/lua/luatype.obj: core/lua/luatype.cpp.obj
@@ -3093,7 +3093,7 @@ core/lua/luatype.obj: core/lua/luatype.cpp.obj
 
 # target to build an object file
 core/lua/luatype.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luatype.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luatype.cpp.obj
 .PHONY : core/lua/luatype.cpp.obj
 
 core/lua/luatype.i: core/lua/luatype.cpp.i
@@ -3101,7 +3101,7 @@ core/lua/luatype.i: core/lua/luatype.cpp.i
 
 # target to preprocess a source file
 core/lua/luatype.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luatype.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luatype.cpp.i
 .PHONY : core/lua/luatype.cpp.i
 
 core/lua/luatype.s: core/lua/luatype.cpp.s
@@ -3109,7 +3109,7 @@ core/lua/luatype.s: core/lua/luatype.cpp.s
 
 # target to generate assembly for a file
 core/lua/luatype.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luatype.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/lua/luatype.cpp.s
 .PHONY : core/lua/luatype.cpp.s
 
 core/monitoring.obj: core/monitoring.cpp.obj
@@ -3117,7 +3117,7 @@ core/monitoring.obj: core/monitoring.cpp.obj
 
 # target to build an object file
 core/monitoring.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/monitoring.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/monitoring.cpp.obj
 .PHONY : core/monitoring.cpp.obj
 
 core/monitoring.i: core/monitoring.cpp.i
@@ -3125,7 +3125,7 @@ core/monitoring.i: core/monitoring.cpp.i
 
 # target to preprocess a source file
 core/monitoring.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/monitoring.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/monitoring.cpp.i
 .PHONY : core/monitoring.cpp.i
 
 core/monitoring.s: core/monitoring.cpp.s
@@ -3133,7 +3133,7 @@ core/monitoring.s: core/monitoring.cpp.s
 
 # target to generate assembly for a file
 core/monitoring.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/monitoring.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/monitoring.cpp.s
 .PHONY : core/monitoring.cpp.s
 
 core/resource.obj: core/resource.cpp.obj
@@ -3141,7 +3141,7 @@ core/resource.obj: core/resource.cpp.obj
 
 # target to build an object file
 core/resource.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/resource.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/resource.cpp.obj
 .PHONY : core/resource.cpp.obj
 
 core/resource.i: core/resource.cpp.i
@@ -3149,7 +3149,7 @@ core/resource.i: core/resource.cpp.i
 
 # target to preprocess a source file
 core/resource.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/resource.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/resource.cpp.i
 .PHONY : core/resource.cpp.i
 
 core/resource.s: core/resource.cpp.s
@@ -3157,7 +3157,7 @@ core/resource.s: core/resource.cpp.s
 
 # target to generate assembly for a file
 core/resource.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/resource.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/resource.cpp.s
 .PHONY : core/resource.cpp.s
 
 core/stringdict.obj: core/stringdict.cpp.obj
@@ -3165,7 +3165,7 @@ core/stringdict.obj: core/stringdict.cpp.obj
 
 # target to build an object file
 core/stringdict.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/stringdict.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/stringdict.cpp.obj
 .PHONY : core/stringdict.cpp.obj
 
 core/stringdict.i: core/stringdict.cpp.i
@@ -3173,7 +3173,7 @@ core/stringdict.i: core/stringdict.cpp.i
 
 # target to preprocess a source file
 core/stringdict.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/stringdict.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/stringdict.cpp.i
 .PHONY : core/stringdict.cpp.i
 
 core/stringdict.s: core/stringdict.cpp.s
@@ -3181,7 +3181,7 @@ core/stringdict.s: core/stringdict.cpp.s
 
 # target to generate assembly for a file
 core/stringdict.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/stringdict.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/stringdict.cpp.s
 .PHONY : core/stringdict.cpp.s
 
 core/typelib.obj: core/typelib.cpp.obj
@@ -3189,7 +3189,7 @@ core/typelib.obj: core/typelib.cpp.obj
 
 # target to build an object file
 core/typelib.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/typelib.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/typelib.cpp.obj
 .PHONY : core/typelib.cpp.obj
 
 core/typelib.i: core/typelib.cpp.i
@@ -3197,7 +3197,7 @@ core/typelib.i: core/typelib.cpp.i
 
 # target to preprocess a source file
 core/typelib.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/typelib.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/typelib.cpp.i
 .PHONY : core/typelib.cpp.i
 
 core/typelib.s: core/typelib.cpp.s
@@ -3205,7 +3205,7 @@ core/typelib.s: core/typelib.cpp.s
 
 # target to generate assembly for a file
 core/typelib.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/typelib.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/typelib.cpp.s
 .PHONY : core/typelib.cpp.s
 
 core/utils/configFileParser.obj: core/utils/configFileParser.cpp.obj
@@ -3213,7 +3213,7 @@ core/utils/configFileParser.obj: core/utils/configFileParser.cpp.obj
 
 # target to build an object file
 core/utils/configFileParser.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/configFileParser.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/configFileParser.cpp.obj
 .PHONY : core/utils/configFileParser.cpp.obj
 
 core/utils/configFileParser.i: core/utils/configFileParser.cpp.i
@@ -3221,7 +3221,7 @@ core/utils/configFileParser.i: core/utils/configFileParser.cpp.i
 
 # target to preprocess a source file
 core/utils/configFileParser.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/configFileParser.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/configFileParser.cpp.i
 .PHONY : core/utils/configFileParser.cpp.i
 
 core/utils/configFileParser.s: core/utils/configFileParser.cpp.s
@@ -3229,7 +3229,7 @@ core/utils/configFileParser.s: core/utils/configFileParser.cpp.s
 
 # target to generate assembly for a file
 core/utils/configFileParser.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/configFileParser.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/configFileParser.cpp.s
 .PHONY : core/utils/configFileParser.cpp.s
 
 core/utils/ifSpecBuilder.obj: core/utils/ifSpecBuilder.cpp.obj
@@ -3237,7 +3237,7 @@ core/utils/ifSpecBuilder.obj: core/utils/ifSpecBuilder.cpp.obj
 
 # target to build an object file
 core/utils/ifSpecBuilder.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/ifSpecBuilder.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/ifSpecBuilder.cpp.obj
 .PHONY : core/utils/ifSpecBuilder.cpp.obj
 
 core/utils/ifSpecBuilder.i: core/utils/ifSpecBuilder.cpp.i
@@ -3245,7 +3245,7 @@ core/utils/ifSpecBuilder.i: core/utils/ifSpecBuilder.cpp.i
 
 # target to preprocess a source file
 core/utils/ifSpecBuilder.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/ifSpecBuilder.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/ifSpecBuilder.cpp.i
 .PHONY : core/utils/ifSpecBuilder.cpp.i
 
 core/utils/ifSpecBuilder.s: core/utils/ifSpecBuilder.cpp.s
@@ -3253,7 +3253,7 @@ core/utils/ifSpecBuilder.s: core/utils/ifSpecBuilder.cpp.s
 
 # target to generate assembly for a file
 core/utils/ifSpecBuilder.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/ifSpecBuilder.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/ifSpecBuilder.cpp.s
 .PHONY : core/utils/ifSpecBuilder.cpp.s
 
 core/utils/mixedStorage.obj: core/utils/mixedStorage.cpp.obj
@@ -3261,7 +3261,7 @@ core/utils/mixedStorage.obj: core/utils/mixedStorage.cpp.obj
 
 # target to build an object file
 core/utils/mixedStorage.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/mixedStorage.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/mixedStorage.cpp.obj
 .PHONY : core/utils/mixedStorage.cpp.obj
 
 core/utils/mixedStorage.i: core/utils/mixedStorage.cpp.i
@@ -3269,7 +3269,7 @@ core/utils/mixedStorage.i: core/utils/mixedStorage.cpp.i
 
 # target to preprocess a source file
 core/utils/mixedStorage.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/mixedStorage.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/mixedStorage.cpp.i
 .PHONY : core/utils/mixedStorage.cpp.i
 
 core/utils/mixedStorage.s: core/utils/mixedStorage.cpp.s
@@ -3277,7 +3277,7 @@ core/utils/mixedStorage.s: core/utils/mixedStorage.cpp.s
 
 # target to generate assembly for a file
 core/utils/mixedStorage.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/mixedStorage.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/mixedStorage.cpp.s
 .PHONY : core/utils/mixedStorage.cpp.s
 
 core/utils/parameterParser.obj: core/utils/parameterParser.cpp.obj
@@ -3285,7 +3285,7 @@ core/utils/parameterParser.obj: core/utils/parameterParser.cpp.obj
 
 # target to build an object file
 core/utils/parameterParser.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/parameterParser.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/parameterParser.cpp.obj
 .PHONY : core/utils/parameterParser.cpp.obj
 
 core/utils/parameterParser.i: core/utils/parameterParser.cpp.i
@@ -3293,7 +3293,7 @@ core/utils/parameterParser.i: core/utils/parameterParser.cpp.i
 
 # target to preprocess a source file
 core/utils/parameterParser.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/parameterParser.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/parameterParser.cpp.i
 .PHONY : core/utils/parameterParser.cpp.i
 
 core/utils/parameterParser.s: core/utils/parameterParser.cpp.s
@@ -3301,7 +3301,7 @@ core/utils/parameterParser.s: core/utils/parameterParser.cpp.s
 
 # target to generate assembly for a file
 core/utils/parameterParser.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/parameterParser.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/parameterParser.cpp.s
 .PHONY : core/utils/parameterParser.cpp.s
 
 core/utils/string_utils.obj: core/utils/string_utils.cpp.obj
@@ -3309,7 +3309,7 @@ core/utils/string_utils.obj: core/utils/string_utils.cpp.obj
 
 # target to build an object file
 core/utils/string_utils.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.obj
 .PHONY : core/utils/string_utils.cpp.obj
 
 core/utils/string_utils.i: core/utils/string_utils.cpp.i
@@ -3317,7 +3317,7 @@ core/utils/string_utils.i: core/utils/string_utils.cpp.i
 
 # target to preprocess a source file
 core/utils/string_utils.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.i
 .PHONY : core/utils/string_utils.cpp.i
 
 core/utils/string_utils.s: core/utils/string_utils.cpp.s
@@ -3325,7 +3325,7 @@ core/utils/string_utils.s: core/utils/string_utils.cpp.s
 
 # target to generate assembly for a file
 core/utils/string_utils.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/core/utils/string_utils.cpp.s
 .PHONY : core/utils/string_utils.cpp.s
 
 external/ESPIO/A_IN_fbt.obj: external/ESPIO/A_IN_fbt.cpp.obj
@@ -3333,7 +3333,7 @@ external/ESPIO/A_IN_fbt.obj: external/ESPIO/A_IN_fbt.cpp.obj
 
 # target to build an object file
 external/ESPIO/A_IN_fbt.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.obj
 .PHONY : external/ESPIO/A_IN_fbt.cpp.obj
 
 external/ESPIO/A_IN_fbt.i: external/ESPIO/A_IN_fbt.cpp.i
@@ -3341,7 +3341,7 @@ external/ESPIO/A_IN_fbt.i: external/ESPIO/A_IN_fbt.cpp.i
 
 # target to preprocess a source file
 external/ESPIO/A_IN_fbt.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.i
 .PHONY : external/ESPIO/A_IN_fbt.cpp.i
 
 external/ESPIO/A_IN_fbt.s: external/ESPIO/A_IN_fbt.cpp.s
@@ -3349,15 +3349,39 @@ external/ESPIO/A_IN_fbt.s: external/ESPIO/A_IN_fbt.cpp.s
 
 # target to generate assembly for a file
 external/ESPIO/A_IN_fbt.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_IN_fbt.cpp.s
 .PHONY : external/ESPIO/A_IN_fbt.cpp.s
+
+external/ESPIO/A_OUT_fbt.obj: external/ESPIO/A_OUT_fbt.cpp.obj
+.PHONY : external/ESPIO/A_OUT_fbt.obj
+
+# target to build an object file
+external/ESPIO/A_OUT_fbt.cpp.obj:
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_OUT_fbt.cpp.obj
+.PHONY : external/ESPIO/A_OUT_fbt.cpp.obj
+
+external/ESPIO/A_OUT_fbt.i: external/ESPIO/A_OUT_fbt.cpp.i
+.PHONY : external/ESPIO/A_OUT_fbt.i
+
+# target to preprocess a source file
+external/ESPIO/A_OUT_fbt.cpp.i:
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_OUT_fbt.cpp.i
+.PHONY : external/ESPIO/A_OUT_fbt.cpp.i
+
+external/ESPIO/A_OUT_fbt.s: external/ESPIO/A_OUT_fbt.cpp.s
+.PHONY : external/ESPIO/A_OUT_fbt.s
+
+# target to generate assembly for a file
+external/ESPIO/A_OUT_fbt.cpp.s:
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/A_OUT_fbt.cpp.s
+.PHONY : external/ESPIO/A_OUT_fbt.cpp.s
 
 external/ESPIO/D_IN_fbt.obj: external/ESPIO/D_IN_fbt.cpp.obj
 .PHONY : external/ESPIO/D_IN_fbt.obj
 
 # target to build an object file
 external/ESPIO/D_IN_fbt.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.obj
 .PHONY : external/ESPIO/D_IN_fbt.cpp.obj
 
 external/ESPIO/D_IN_fbt.i: external/ESPIO/D_IN_fbt.cpp.i
@@ -3365,7 +3389,7 @@ external/ESPIO/D_IN_fbt.i: external/ESPIO/D_IN_fbt.cpp.i
 
 # target to preprocess a source file
 external/ESPIO/D_IN_fbt.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.i
 .PHONY : external/ESPIO/D_IN_fbt.cpp.i
 
 external/ESPIO/D_IN_fbt.s: external/ESPIO/D_IN_fbt.cpp.s
@@ -3373,7 +3397,7 @@ external/ESPIO/D_IN_fbt.s: external/ESPIO/D_IN_fbt.cpp.s
 
 # target to generate assembly for a file
 external/ESPIO/D_IN_fbt.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_IN_fbt.cpp.s
 .PHONY : external/ESPIO/D_IN_fbt.cpp.s
 
 external/ESPIO/D_OUT_fbt.obj: external/ESPIO/D_OUT_fbt.cpp.obj
@@ -3381,7 +3405,7 @@ external/ESPIO/D_OUT_fbt.obj: external/ESPIO/D_OUT_fbt.cpp.obj
 
 # target to build an object file
 external/ESPIO/D_OUT_fbt.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.obj
 .PHONY : external/ESPIO/D_OUT_fbt.cpp.obj
 
 external/ESPIO/D_OUT_fbt.i: external/ESPIO/D_OUT_fbt.cpp.i
@@ -3389,7 +3413,7 @@ external/ESPIO/D_OUT_fbt.i: external/ESPIO/D_OUT_fbt.cpp.i
 
 # target to preprocess a source file
 external/ESPIO/D_OUT_fbt.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.i
 .PHONY : external/ESPIO/D_OUT_fbt.cpp.i
 
 external/ESPIO/D_OUT_fbt.s: external/ESPIO/D_OUT_fbt.cpp.s
@@ -3397,7 +3421,7 @@ external/ESPIO/D_OUT_fbt.s: external/ESPIO/D_OUT_fbt.cpp.s
 
 # target to generate assembly for a file
 external/ESPIO/D_OUT_fbt.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/external/ESPIO/D_OUT_fbt.cpp.s
 .PHONY : external/ESPIO/D_OUT_fbt.cpp.s
 
 modules/convert/BOOL2BOOL.obj: modules/convert/BOOL2BOOL.cpp.obj
@@ -3405,7 +3429,7 @@ modules/convert/BOOL2BOOL.obj: modules/convert/BOOL2BOOL.cpp.obj
 
 # target to build an object file
 modules/convert/BOOL2BOOL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BOOL2BOOL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BOOL2BOOL.cpp.obj
 .PHONY : modules/convert/BOOL2BOOL.cpp.obj
 
 modules/convert/BOOL2BOOL.i: modules/convert/BOOL2BOOL.cpp.i
@@ -3413,7 +3437,7 @@ modules/convert/BOOL2BOOL.i: modules/convert/BOOL2BOOL.cpp.i
 
 # target to preprocess a source file
 modules/convert/BOOL2BOOL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BOOL2BOOL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BOOL2BOOL.cpp.i
 .PHONY : modules/convert/BOOL2BOOL.cpp.i
 
 modules/convert/BOOL2BOOL.s: modules/convert/BOOL2BOOL.cpp.s
@@ -3421,7 +3445,7 @@ modules/convert/BOOL2BOOL.s: modules/convert/BOOL2BOOL.cpp.s
 
 # target to generate assembly for a file
 modules/convert/BOOL2BOOL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BOOL2BOOL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BOOL2BOOL.cpp.s
 .PHONY : modules/convert/BOOL2BOOL.cpp.s
 
 modules/convert/BYTE2BYTE.obj: modules/convert/BYTE2BYTE.cpp.obj
@@ -3429,7 +3453,7 @@ modules/convert/BYTE2BYTE.obj: modules/convert/BYTE2BYTE.cpp.obj
 
 # target to build an object file
 modules/convert/BYTE2BYTE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BYTE2BYTE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BYTE2BYTE.cpp.obj
 .PHONY : modules/convert/BYTE2BYTE.cpp.obj
 
 modules/convert/BYTE2BYTE.i: modules/convert/BYTE2BYTE.cpp.i
@@ -3437,7 +3461,7 @@ modules/convert/BYTE2BYTE.i: modules/convert/BYTE2BYTE.cpp.i
 
 # target to preprocess a source file
 modules/convert/BYTE2BYTE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BYTE2BYTE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BYTE2BYTE.cpp.i
 .PHONY : modules/convert/BYTE2BYTE.cpp.i
 
 modules/convert/BYTE2BYTE.s: modules/convert/BYTE2BYTE.cpp.s
@@ -3445,7 +3469,7 @@ modules/convert/BYTE2BYTE.s: modules/convert/BYTE2BYTE.cpp.s
 
 # target to generate assembly for a file
 modules/convert/BYTE2BYTE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BYTE2BYTE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/BYTE2BYTE.cpp.s
 .PHONY : modules/convert/BYTE2BYTE.cpp.s
 
 modules/convert/DINT2DINT.obj: modules/convert/DINT2DINT.cpp.obj
@@ -3453,7 +3477,7 @@ modules/convert/DINT2DINT.obj: modules/convert/DINT2DINT.cpp.obj
 
 # target to build an object file
 modules/convert/DINT2DINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DINT2DINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DINT2DINT.cpp.obj
 .PHONY : modules/convert/DINT2DINT.cpp.obj
 
 modules/convert/DINT2DINT.i: modules/convert/DINT2DINT.cpp.i
@@ -3461,7 +3485,7 @@ modules/convert/DINT2DINT.i: modules/convert/DINT2DINT.cpp.i
 
 # target to preprocess a source file
 modules/convert/DINT2DINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DINT2DINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DINT2DINT.cpp.i
 .PHONY : modules/convert/DINT2DINT.cpp.i
 
 modules/convert/DINT2DINT.s: modules/convert/DINT2DINT.cpp.s
@@ -3469,7 +3493,7 @@ modules/convert/DINT2DINT.s: modules/convert/DINT2DINT.cpp.s
 
 # target to generate assembly for a file
 modules/convert/DINT2DINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DINT2DINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DINT2DINT.cpp.s
 .PHONY : modules/convert/DINT2DINT.cpp.s
 
 modules/convert/DWORD2DWORD.obj: modules/convert/DWORD2DWORD.cpp.obj
@@ -3477,7 +3501,7 @@ modules/convert/DWORD2DWORD.obj: modules/convert/DWORD2DWORD.cpp.obj
 
 # target to build an object file
 modules/convert/DWORD2DWORD.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DWORD2DWORD.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DWORD2DWORD.cpp.obj
 .PHONY : modules/convert/DWORD2DWORD.cpp.obj
 
 modules/convert/DWORD2DWORD.i: modules/convert/DWORD2DWORD.cpp.i
@@ -3485,7 +3509,7 @@ modules/convert/DWORD2DWORD.i: modules/convert/DWORD2DWORD.cpp.i
 
 # target to preprocess a source file
 modules/convert/DWORD2DWORD.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DWORD2DWORD.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DWORD2DWORD.cpp.i
 .PHONY : modules/convert/DWORD2DWORD.cpp.i
 
 modules/convert/DWORD2DWORD.s: modules/convert/DWORD2DWORD.cpp.s
@@ -3493,7 +3517,7 @@ modules/convert/DWORD2DWORD.s: modules/convert/DWORD2DWORD.cpp.s
 
 # target to generate assembly for a file
 modules/convert/DWORD2DWORD.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DWORD2DWORD.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/DWORD2DWORD.cpp.s
 .PHONY : modules/convert/DWORD2DWORD.cpp.s
 
 modules/convert/GEN_STRUCT_DEMUX.obj: modules/convert/GEN_STRUCT_DEMUX.cpp.obj
@@ -3501,7 +3525,7 @@ modules/convert/GEN_STRUCT_DEMUX.obj: modules/convert/GEN_STRUCT_DEMUX.cpp.obj
 
 # target to build an object file
 modules/convert/GEN_STRUCT_DEMUX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_DEMUX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_DEMUX.cpp.obj
 .PHONY : modules/convert/GEN_STRUCT_DEMUX.cpp.obj
 
 modules/convert/GEN_STRUCT_DEMUX.i: modules/convert/GEN_STRUCT_DEMUX.cpp.i
@@ -3509,7 +3533,7 @@ modules/convert/GEN_STRUCT_DEMUX.i: modules/convert/GEN_STRUCT_DEMUX.cpp.i
 
 # target to preprocess a source file
 modules/convert/GEN_STRUCT_DEMUX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_DEMUX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_DEMUX.cpp.i
 .PHONY : modules/convert/GEN_STRUCT_DEMUX.cpp.i
 
 modules/convert/GEN_STRUCT_DEMUX.s: modules/convert/GEN_STRUCT_DEMUX.cpp.s
@@ -3517,7 +3541,7 @@ modules/convert/GEN_STRUCT_DEMUX.s: modules/convert/GEN_STRUCT_DEMUX.cpp.s
 
 # target to generate assembly for a file
 modules/convert/GEN_STRUCT_DEMUX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_DEMUX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_DEMUX.cpp.s
 .PHONY : modules/convert/GEN_STRUCT_DEMUX.cpp.s
 
 modules/convert/GEN_STRUCT_MUX.obj: modules/convert/GEN_STRUCT_MUX.cpp.obj
@@ -3525,7 +3549,7 @@ modules/convert/GEN_STRUCT_MUX.obj: modules/convert/GEN_STRUCT_MUX.cpp.obj
 
 # target to build an object file
 modules/convert/GEN_STRUCT_MUX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_MUX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_MUX.cpp.obj
 .PHONY : modules/convert/GEN_STRUCT_MUX.cpp.obj
 
 modules/convert/GEN_STRUCT_MUX.i: modules/convert/GEN_STRUCT_MUX.cpp.i
@@ -3533,7 +3557,7 @@ modules/convert/GEN_STRUCT_MUX.i: modules/convert/GEN_STRUCT_MUX.cpp.i
 
 # target to preprocess a source file
 modules/convert/GEN_STRUCT_MUX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_MUX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_MUX.cpp.i
 .PHONY : modules/convert/GEN_STRUCT_MUX.cpp.i
 
 modules/convert/GEN_STRUCT_MUX.s: modules/convert/GEN_STRUCT_MUX.cpp.s
@@ -3541,7 +3565,7 @@ modules/convert/GEN_STRUCT_MUX.s: modules/convert/GEN_STRUCT_MUX.cpp.s
 
 # target to generate assembly for a file
 modules/convert/GEN_STRUCT_MUX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_MUX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/GEN_STRUCT_MUX.cpp.s
 .PHONY : modules/convert/GEN_STRUCT_MUX.cpp.s
 
 modules/convert/INT2INT.obj: modules/convert/INT2INT.cpp.obj
@@ -3549,7 +3573,7 @@ modules/convert/INT2INT.obj: modules/convert/INT2INT.cpp.obj
 
 # target to build an object file
 modules/convert/INT2INT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/INT2INT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/INT2INT.cpp.obj
 .PHONY : modules/convert/INT2INT.cpp.obj
 
 modules/convert/INT2INT.i: modules/convert/INT2INT.cpp.i
@@ -3557,7 +3581,7 @@ modules/convert/INT2INT.i: modules/convert/INT2INT.cpp.i
 
 # target to preprocess a source file
 modules/convert/INT2INT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/INT2INT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/INT2INT.cpp.i
 .PHONY : modules/convert/INT2INT.cpp.i
 
 modules/convert/INT2INT.s: modules/convert/INT2INT.cpp.s
@@ -3565,7 +3589,7 @@ modules/convert/INT2INT.s: modules/convert/INT2INT.cpp.s
 
 # target to generate assembly for a file
 modules/convert/INT2INT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/INT2INT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/INT2INT.cpp.s
 .PHONY : modules/convert/INT2INT.cpp.s
 
 modules/convert/LREAL2LREAL.obj: modules/convert/LREAL2LREAL.cpp.obj
@@ -3573,7 +3597,7 @@ modules/convert/LREAL2LREAL.obj: modules/convert/LREAL2LREAL.cpp.obj
 
 # target to build an object file
 modules/convert/LREAL2LREAL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/LREAL2LREAL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/LREAL2LREAL.cpp.obj
 .PHONY : modules/convert/LREAL2LREAL.cpp.obj
 
 modules/convert/LREAL2LREAL.i: modules/convert/LREAL2LREAL.cpp.i
@@ -3581,7 +3605,7 @@ modules/convert/LREAL2LREAL.i: modules/convert/LREAL2LREAL.cpp.i
 
 # target to preprocess a source file
 modules/convert/LREAL2LREAL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/LREAL2LREAL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/LREAL2LREAL.cpp.i
 .PHONY : modules/convert/LREAL2LREAL.cpp.i
 
 modules/convert/LREAL2LREAL.s: modules/convert/LREAL2LREAL.cpp.s
@@ -3589,7 +3613,7 @@ modules/convert/LREAL2LREAL.s: modules/convert/LREAL2LREAL.cpp.s
 
 # target to generate assembly for a file
 modules/convert/LREAL2LREAL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/LREAL2LREAL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/LREAL2LREAL.cpp.s
 .PHONY : modules/convert/LREAL2LREAL.cpp.s
 
 modules/convert/REAL2REAL.obj: modules/convert/REAL2REAL.cpp.obj
@@ -3597,7 +3621,7 @@ modules/convert/REAL2REAL.obj: modules/convert/REAL2REAL.cpp.obj
 
 # target to build an object file
 modules/convert/REAL2REAL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/REAL2REAL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/REAL2REAL.cpp.obj
 .PHONY : modules/convert/REAL2REAL.cpp.obj
 
 modules/convert/REAL2REAL.i: modules/convert/REAL2REAL.cpp.i
@@ -3605,7 +3629,7 @@ modules/convert/REAL2REAL.i: modules/convert/REAL2REAL.cpp.i
 
 # target to preprocess a source file
 modules/convert/REAL2REAL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/REAL2REAL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/REAL2REAL.cpp.i
 .PHONY : modules/convert/REAL2REAL.cpp.i
 
 modules/convert/REAL2REAL.s: modules/convert/REAL2REAL.cpp.s
@@ -3613,7 +3637,7 @@ modules/convert/REAL2REAL.s: modules/convert/REAL2REAL.cpp.s
 
 # target to generate assembly for a file
 modules/convert/REAL2REAL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/REAL2REAL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/REAL2REAL.cpp.s
 .PHONY : modules/convert/REAL2REAL.cpp.s
 
 modules/convert/SINT2SINT.obj: modules/convert/SINT2SINT.cpp.obj
@@ -3621,7 +3645,7 @@ modules/convert/SINT2SINT.obj: modules/convert/SINT2SINT.cpp.obj
 
 # target to build an object file
 modules/convert/SINT2SINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/SINT2SINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/SINT2SINT.cpp.obj
 .PHONY : modules/convert/SINT2SINT.cpp.obj
 
 modules/convert/SINT2SINT.i: modules/convert/SINT2SINT.cpp.i
@@ -3629,7 +3653,7 @@ modules/convert/SINT2SINT.i: modules/convert/SINT2SINT.cpp.i
 
 # target to preprocess a source file
 modules/convert/SINT2SINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/SINT2SINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/SINT2SINT.cpp.i
 .PHONY : modules/convert/SINT2SINT.cpp.i
 
 modules/convert/SINT2SINT.s: modules/convert/SINT2SINT.cpp.s
@@ -3637,7 +3661,7 @@ modules/convert/SINT2SINT.s: modules/convert/SINT2SINT.cpp.s
 
 # target to generate assembly for a file
 modules/convert/SINT2SINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/SINT2SINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/SINT2SINT.cpp.s
 .PHONY : modules/convert/SINT2SINT.cpp.s
 
 modules/convert/STRING2STRING.obj: modules/convert/STRING2STRING.cpp.obj
@@ -3645,7 +3669,7 @@ modules/convert/STRING2STRING.obj: modules/convert/STRING2STRING.cpp.obj
 
 # target to build an object file
 modules/convert/STRING2STRING.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/STRING2STRING.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/STRING2STRING.cpp.obj
 .PHONY : modules/convert/STRING2STRING.cpp.obj
 
 modules/convert/STRING2STRING.i: modules/convert/STRING2STRING.cpp.i
@@ -3653,7 +3677,7 @@ modules/convert/STRING2STRING.i: modules/convert/STRING2STRING.cpp.i
 
 # target to preprocess a source file
 modules/convert/STRING2STRING.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/STRING2STRING.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/STRING2STRING.cpp.i
 .PHONY : modules/convert/STRING2STRING.cpp.i
 
 modules/convert/STRING2STRING.s: modules/convert/STRING2STRING.cpp.s
@@ -3661,7 +3685,7 @@ modules/convert/STRING2STRING.s: modules/convert/STRING2STRING.cpp.s
 
 # target to generate assembly for a file
 modules/convert/STRING2STRING.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/STRING2STRING.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/STRING2STRING.cpp.s
 .PHONY : modules/convert/STRING2STRING.cpp.s
 
 modules/convert/TIME2TIME.obj: modules/convert/TIME2TIME.cpp.obj
@@ -3669,7 +3693,7 @@ modules/convert/TIME2TIME.obj: modules/convert/TIME2TIME.cpp.obj
 
 # target to build an object file
 modules/convert/TIME2TIME.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/TIME2TIME.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/TIME2TIME.cpp.obj
 .PHONY : modules/convert/TIME2TIME.cpp.obj
 
 modules/convert/TIME2TIME.i: modules/convert/TIME2TIME.cpp.i
@@ -3677,7 +3701,7 @@ modules/convert/TIME2TIME.i: modules/convert/TIME2TIME.cpp.i
 
 # target to preprocess a source file
 modules/convert/TIME2TIME.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/TIME2TIME.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/TIME2TIME.cpp.i
 .PHONY : modules/convert/TIME2TIME.cpp.i
 
 modules/convert/TIME2TIME.s: modules/convert/TIME2TIME.cpp.s
@@ -3685,7 +3709,7 @@ modules/convert/TIME2TIME.s: modules/convert/TIME2TIME.cpp.s
 
 # target to generate assembly for a file
 modules/convert/TIME2TIME.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/TIME2TIME.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/TIME2TIME.cpp.s
 .PHONY : modules/convert/TIME2TIME.cpp.s
 
 modules/convert/UDINT2UDINT.obj: modules/convert/UDINT2UDINT.cpp.obj
@@ -3693,7 +3717,7 @@ modules/convert/UDINT2UDINT.obj: modules/convert/UDINT2UDINT.cpp.obj
 
 # target to build an object file
 modules/convert/UDINT2UDINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UDINT2UDINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UDINT2UDINT.cpp.obj
 .PHONY : modules/convert/UDINT2UDINT.cpp.obj
 
 modules/convert/UDINT2UDINT.i: modules/convert/UDINT2UDINT.cpp.i
@@ -3701,7 +3725,7 @@ modules/convert/UDINT2UDINT.i: modules/convert/UDINT2UDINT.cpp.i
 
 # target to preprocess a source file
 modules/convert/UDINT2UDINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UDINT2UDINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UDINT2UDINT.cpp.i
 .PHONY : modules/convert/UDINT2UDINT.cpp.i
 
 modules/convert/UDINT2UDINT.s: modules/convert/UDINT2UDINT.cpp.s
@@ -3709,7 +3733,7 @@ modules/convert/UDINT2UDINT.s: modules/convert/UDINT2UDINT.cpp.s
 
 # target to generate assembly for a file
 modules/convert/UDINT2UDINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UDINT2UDINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UDINT2UDINT.cpp.s
 .PHONY : modules/convert/UDINT2UDINT.cpp.s
 
 modules/convert/UINT2UINT.obj: modules/convert/UINT2UINT.cpp.obj
@@ -3717,7 +3741,7 @@ modules/convert/UINT2UINT.obj: modules/convert/UINT2UINT.cpp.obj
 
 # target to build an object file
 modules/convert/UINT2UINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UINT2UINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UINT2UINT.cpp.obj
 .PHONY : modules/convert/UINT2UINT.cpp.obj
 
 modules/convert/UINT2UINT.i: modules/convert/UINT2UINT.cpp.i
@@ -3725,7 +3749,7 @@ modules/convert/UINT2UINT.i: modules/convert/UINT2UINT.cpp.i
 
 # target to preprocess a source file
 modules/convert/UINT2UINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UINT2UINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UINT2UINT.cpp.i
 .PHONY : modules/convert/UINT2UINT.cpp.i
 
 modules/convert/UINT2UINT.s: modules/convert/UINT2UINT.cpp.s
@@ -3733,7 +3757,7 @@ modules/convert/UINT2UINT.s: modules/convert/UINT2UINT.cpp.s
 
 # target to generate assembly for a file
 modules/convert/UINT2UINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UINT2UINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/UINT2UINT.cpp.s
 .PHONY : modules/convert/UINT2UINT.cpp.s
 
 modules/convert/USINT2USINT.obj: modules/convert/USINT2USINT.cpp.obj
@@ -3741,7 +3765,7 @@ modules/convert/USINT2USINT.obj: modules/convert/USINT2USINT.cpp.obj
 
 # target to build an object file
 modules/convert/USINT2USINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/USINT2USINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/USINT2USINT.cpp.obj
 .PHONY : modules/convert/USINT2USINT.cpp.obj
 
 modules/convert/USINT2USINT.i: modules/convert/USINT2USINT.cpp.i
@@ -3749,7 +3773,7 @@ modules/convert/USINT2USINT.i: modules/convert/USINT2USINT.cpp.i
 
 # target to preprocess a source file
 modules/convert/USINT2USINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/USINT2USINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/USINT2USINT.cpp.i
 .PHONY : modules/convert/USINT2USINT.cpp.i
 
 modules/convert/USINT2USINT.s: modules/convert/USINT2USINT.cpp.s
@@ -3757,7 +3781,7 @@ modules/convert/USINT2USINT.s: modules/convert/USINT2USINT.cpp.s
 
 # target to generate assembly for a file
 modules/convert/USINT2USINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/USINT2USINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/USINT2USINT.cpp.s
 .PHONY : modules/convert/USINT2USINT.cpp.s
 
 modules/convert/WORD2WORD.obj: modules/convert/WORD2WORD.cpp.obj
@@ -3765,7 +3789,7 @@ modules/convert/WORD2WORD.obj: modules/convert/WORD2WORD.cpp.obj
 
 # target to build an object file
 modules/convert/WORD2WORD.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WORD2WORD.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WORD2WORD.cpp.obj
 .PHONY : modules/convert/WORD2WORD.cpp.obj
 
 modules/convert/WORD2WORD.i: modules/convert/WORD2WORD.cpp.i
@@ -3773,7 +3797,7 @@ modules/convert/WORD2WORD.i: modules/convert/WORD2WORD.cpp.i
 
 # target to preprocess a source file
 modules/convert/WORD2WORD.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WORD2WORD.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WORD2WORD.cpp.i
 .PHONY : modules/convert/WORD2WORD.cpp.i
 
 modules/convert/WORD2WORD.s: modules/convert/WORD2WORD.cpp.s
@@ -3781,7 +3805,7 @@ modules/convert/WORD2WORD.s: modules/convert/WORD2WORD.cpp.s
 
 # target to generate assembly for a file
 modules/convert/WORD2WORD.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WORD2WORD.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WORD2WORD.cpp.s
 .PHONY : modules/convert/WORD2WORD.cpp.s
 
 modules/convert/WSTRING2WSTRING.obj: modules/convert/WSTRING2WSTRING.cpp.obj
@@ -3789,7 +3813,7 @@ modules/convert/WSTRING2WSTRING.obj: modules/convert/WSTRING2WSTRING.cpp.obj
 
 # target to build an object file
 modules/convert/WSTRING2WSTRING.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WSTRING2WSTRING.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WSTRING2WSTRING.cpp.obj
 .PHONY : modules/convert/WSTRING2WSTRING.cpp.obj
 
 modules/convert/WSTRING2WSTRING.i: modules/convert/WSTRING2WSTRING.cpp.i
@@ -3797,7 +3821,7 @@ modules/convert/WSTRING2WSTRING.i: modules/convert/WSTRING2WSTRING.cpp.i
 
 # target to preprocess a source file
 modules/convert/WSTRING2WSTRING.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WSTRING2WSTRING.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WSTRING2WSTRING.cpp.i
 .PHONY : modules/convert/WSTRING2WSTRING.cpp.i
 
 modules/convert/WSTRING2WSTRING.s: modules/convert/WSTRING2WSTRING.cpp.s
@@ -3805,7 +3829,7 @@ modules/convert/WSTRING2WSTRING.s: modules/convert/WSTRING2WSTRING.cpp.s
 
 # target to generate assembly for a file
 modules/convert/WSTRING2WSTRING.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WSTRING2WSTRING.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/convert/WSTRING2WSTRING.cpp.s
 .PHONY : modules/convert/WSTRING2WSTRING.cpp.s
 
 modules/esp32/nvs/CNVSFunctionBlock.obj: modules/esp32/nvs/CNVSFunctionBlock.cpp.obj
@@ -3813,7 +3837,7 @@ modules/esp32/nvs/CNVSFunctionBlock.obj: modules/esp32/nvs/CNVSFunctionBlock.cpp
 
 # target to build an object file
 modules/esp32/nvs/CNVSFunctionBlock.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/CNVSFunctionBlock.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/CNVSFunctionBlock.cpp.obj
 .PHONY : modules/esp32/nvs/CNVSFunctionBlock.cpp.obj
 
 modules/esp32/nvs/CNVSFunctionBlock.i: modules/esp32/nvs/CNVSFunctionBlock.cpp.i
@@ -3821,7 +3845,7 @@ modules/esp32/nvs/CNVSFunctionBlock.i: modules/esp32/nvs/CNVSFunctionBlock.cpp.i
 
 # target to preprocess a source file
 modules/esp32/nvs/CNVSFunctionBlock.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/CNVSFunctionBlock.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/CNVSFunctionBlock.cpp.i
 .PHONY : modules/esp32/nvs/CNVSFunctionBlock.cpp.i
 
 modules/esp32/nvs/CNVSFunctionBlock.s: modules/esp32/nvs/CNVSFunctionBlock.cpp.s
@@ -3829,7 +3853,7 @@ modules/esp32/nvs/CNVSFunctionBlock.s: modules/esp32/nvs/CNVSFunctionBlock.cpp.s
 
 # target to generate assembly for a file
 modules/esp32/nvs/CNVSFunctionBlock.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/CNVSFunctionBlock.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/CNVSFunctionBlock.cpp.s
 .PHONY : modules/esp32/nvs/CNVSFunctionBlock.cpp.s
 
 modules/esp32/nvs/NVS_UDINT.obj: modules/esp32/nvs/NVS_UDINT.cpp.obj
@@ -3837,7 +3861,7 @@ modules/esp32/nvs/NVS_UDINT.obj: modules/esp32/nvs/NVS_UDINT.cpp.obj
 
 # target to build an object file
 modules/esp32/nvs/NVS_UDINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UDINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UDINT.cpp.obj
 .PHONY : modules/esp32/nvs/NVS_UDINT.cpp.obj
 
 modules/esp32/nvs/NVS_UDINT.i: modules/esp32/nvs/NVS_UDINT.cpp.i
@@ -3845,7 +3869,7 @@ modules/esp32/nvs/NVS_UDINT.i: modules/esp32/nvs/NVS_UDINT.cpp.i
 
 # target to preprocess a source file
 modules/esp32/nvs/NVS_UDINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UDINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UDINT.cpp.i
 .PHONY : modules/esp32/nvs/NVS_UDINT.cpp.i
 
 modules/esp32/nvs/NVS_UDINT.s: modules/esp32/nvs/NVS_UDINT.cpp.s
@@ -3853,7 +3877,7 @@ modules/esp32/nvs/NVS_UDINT.s: modules/esp32/nvs/NVS_UDINT.cpp.s
 
 # target to generate assembly for a file
 modules/esp32/nvs/NVS_UDINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UDINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UDINT.cpp.s
 .PHONY : modules/esp32/nvs/NVS_UDINT.cpp.s
 
 modules/esp32/nvs/NVS_UINT.obj: modules/esp32/nvs/NVS_UINT.cpp.obj
@@ -3861,7 +3885,7 @@ modules/esp32/nvs/NVS_UINT.obj: modules/esp32/nvs/NVS_UINT.cpp.obj
 
 # target to build an object file
 modules/esp32/nvs/NVS_UINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UINT.cpp.obj
 .PHONY : modules/esp32/nvs/NVS_UINT.cpp.obj
 
 modules/esp32/nvs/NVS_UINT.i: modules/esp32/nvs/NVS_UINT.cpp.i
@@ -3869,7 +3893,7 @@ modules/esp32/nvs/NVS_UINT.i: modules/esp32/nvs/NVS_UINT.cpp.i
 
 # target to preprocess a source file
 modules/esp32/nvs/NVS_UINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UINT.cpp.i
 .PHONY : modules/esp32/nvs/NVS_UINT.cpp.i
 
 modules/esp32/nvs/NVS_UINT.s: modules/esp32/nvs/NVS_UINT.cpp.s
@@ -3877,7 +3901,7 @@ modules/esp32/nvs/NVS_UINT.s: modules/esp32/nvs/NVS_UINT.cpp.s
 
 # target to generate assembly for a file
 modules/esp32/nvs/NVS_UINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/esp32/nvs/NVS_UINT.cpp.s
 .PHONY : modules/esp32/nvs/NVS_UINT.cpp.s
 
 modules/utils/E_STOPWATCH.obj: modules/utils/E_STOPWATCH.cpp.obj
@@ -3885,7 +3909,7 @@ modules/utils/E_STOPWATCH.obj: modules/utils/E_STOPWATCH.cpp.obj
 
 # target to build an object file
 modules/utils/E_STOPWATCH.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH.cpp.obj
 .PHONY : modules/utils/E_STOPWATCH.cpp.obj
 
 modules/utils/E_STOPWATCH.i: modules/utils/E_STOPWATCH.cpp.i
@@ -3893,7 +3917,7 @@ modules/utils/E_STOPWATCH.i: modules/utils/E_STOPWATCH.cpp.i
 
 # target to preprocess a source file
 modules/utils/E_STOPWATCH.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH.cpp.i
 .PHONY : modules/utils/E_STOPWATCH.cpp.i
 
 modules/utils/E_STOPWATCH.s: modules/utils/E_STOPWATCH.cpp.s
@@ -3901,7 +3925,7 @@ modules/utils/E_STOPWATCH.s: modules/utils/E_STOPWATCH.cpp.s
 
 # target to generate assembly for a file
 modules/utils/E_STOPWATCH.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH.cpp.s
 .PHONY : modules/utils/E_STOPWATCH.cpp.s
 
 modules/utils/E_STOPWATCH_T.obj: modules/utils/E_STOPWATCH_T.cpp.obj
@@ -3909,7 +3933,7 @@ modules/utils/E_STOPWATCH_T.obj: modules/utils/E_STOPWATCH_T.cpp.obj
 
 # target to build an object file
 modules/utils/E_STOPWATCH_T.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH_T.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH_T.cpp.obj
 .PHONY : modules/utils/E_STOPWATCH_T.cpp.obj
 
 modules/utils/E_STOPWATCH_T.i: modules/utils/E_STOPWATCH_T.cpp.i
@@ -3917,7 +3941,7 @@ modules/utils/E_STOPWATCH_T.i: modules/utils/E_STOPWATCH_T.cpp.i
 
 # target to preprocess a source file
 modules/utils/E_STOPWATCH_T.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH_T.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH_T.cpp.i
 .PHONY : modules/utils/E_STOPWATCH_T.cpp.i
 
 modules/utils/E_STOPWATCH_T.s: modules/utils/E_STOPWATCH_T.cpp.s
@@ -3925,7 +3949,7 @@ modules/utils/E_STOPWATCH_T.s: modules/utils/E_STOPWATCH_T.cpp.s
 
 # target to generate assembly for a file
 modules/utils/E_STOPWATCH_T.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH_T.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/E_STOPWATCH_T.cpp.s
 .PHONY : modules/utils/E_STOPWATCH_T.cpp.s
 
 modules/utils/FB_RANDOM.obj: modules/utils/FB_RANDOM.cpp.obj
@@ -3933,7 +3957,7 @@ modules/utils/FB_RANDOM.obj: modules/utils/FB_RANDOM.cpp.obj
 
 # target to build an object file
 modules/utils/FB_RANDOM.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/FB_RANDOM.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/FB_RANDOM.cpp.obj
 .PHONY : modules/utils/FB_RANDOM.cpp.obj
 
 modules/utils/FB_RANDOM.i: modules/utils/FB_RANDOM.cpp.i
@@ -3941,7 +3965,7 @@ modules/utils/FB_RANDOM.i: modules/utils/FB_RANDOM.cpp.i
 
 # target to preprocess a source file
 modules/utils/FB_RANDOM.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/FB_RANDOM.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/FB_RANDOM.cpp.i
 .PHONY : modules/utils/FB_RANDOM.cpp.i
 
 modules/utils/FB_RANDOM.s: modules/utils/FB_RANDOM.cpp.s
@@ -3949,7 +3973,7 @@ modules/utils/FB_RANDOM.s: modules/utils/FB_RANDOM.cpp.s
 
 # target to generate assembly for a file
 modules/utils/FB_RANDOM.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/FB_RANDOM.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/FB_RANDOM.cpp.s
 .PHONY : modules/utils/FB_RANDOM.cpp.s
 
 modules/utils/GEN_ARRAY2ARRAY.obj: modules/utils/GEN_ARRAY2ARRAY.cpp.obj
@@ -3957,7 +3981,7 @@ modules/utils/GEN_ARRAY2ARRAY.obj: modules/utils/GEN_ARRAY2ARRAY.cpp.obj
 
 # target to build an object file
 modules/utils/GEN_ARRAY2ARRAY.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2ARRAY.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2ARRAY.cpp.obj
 .PHONY : modules/utils/GEN_ARRAY2ARRAY.cpp.obj
 
 modules/utils/GEN_ARRAY2ARRAY.i: modules/utils/GEN_ARRAY2ARRAY.cpp.i
@@ -3965,7 +3989,7 @@ modules/utils/GEN_ARRAY2ARRAY.i: modules/utils/GEN_ARRAY2ARRAY.cpp.i
 
 # target to preprocess a source file
 modules/utils/GEN_ARRAY2ARRAY.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2ARRAY.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2ARRAY.cpp.i
 .PHONY : modules/utils/GEN_ARRAY2ARRAY.cpp.i
 
 modules/utils/GEN_ARRAY2ARRAY.s: modules/utils/GEN_ARRAY2ARRAY.cpp.s
@@ -3973,7 +3997,7 @@ modules/utils/GEN_ARRAY2ARRAY.s: modules/utils/GEN_ARRAY2ARRAY.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GEN_ARRAY2ARRAY.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2ARRAY.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2ARRAY.cpp.s
 .PHONY : modules/utils/GEN_ARRAY2ARRAY.cpp.s
 
 modules/utils/GEN_ARRAY2VALUES.obj: modules/utils/GEN_ARRAY2VALUES.cpp.obj
@@ -3981,7 +4005,7 @@ modules/utils/GEN_ARRAY2VALUES.obj: modules/utils/GEN_ARRAY2VALUES.cpp.obj
 
 # target to build an object file
 modules/utils/GEN_ARRAY2VALUES.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2VALUES.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2VALUES.cpp.obj
 .PHONY : modules/utils/GEN_ARRAY2VALUES.cpp.obj
 
 modules/utils/GEN_ARRAY2VALUES.i: modules/utils/GEN_ARRAY2VALUES.cpp.i
@@ -3989,7 +4013,7 @@ modules/utils/GEN_ARRAY2VALUES.i: modules/utils/GEN_ARRAY2VALUES.cpp.i
 
 # target to preprocess a source file
 modules/utils/GEN_ARRAY2VALUES.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2VALUES.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2VALUES.cpp.i
 .PHONY : modules/utils/GEN_ARRAY2VALUES.cpp.i
 
 modules/utils/GEN_ARRAY2VALUES.s: modules/utils/GEN_ARRAY2VALUES.cpp.s
@@ -3997,7 +4021,7 @@ modules/utils/GEN_ARRAY2VALUES.s: modules/utils/GEN_ARRAY2VALUES.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GEN_ARRAY2VALUES.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2VALUES.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_ARRAY2VALUES.cpp.s
 .PHONY : modules/utils/GEN_ARRAY2VALUES.cpp.s
 
 modules/utils/GEN_CSV_WRITER.obj: modules/utils/GEN_CSV_WRITER.cpp.obj
@@ -4005,7 +4029,7 @@ modules/utils/GEN_CSV_WRITER.obj: modules/utils/GEN_CSV_WRITER.cpp.obj
 
 # target to build an object file
 modules/utils/GEN_CSV_WRITER.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_CSV_WRITER.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_CSV_WRITER.cpp.obj
 .PHONY : modules/utils/GEN_CSV_WRITER.cpp.obj
 
 modules/utils/GEN_CSV_WRITER.i: modules/utils/GEN_CSV_WRITER.cpp.i
@@ -4013,7 +4037,7 @@ modules/utils/GEN_CSV_WRITER.i: modules/utils/GEN_CSV_WRITER.cpp.i
 
 # target to preprocess a source file
 modules/utils/GEN_CSV_WRITER.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_CSV_WRITER.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_CSV_WRITER.cpp.i
 .PHONY : modules/utils/GEN_CSV_WRITER.cpp.i
 
 modules/utils/GEN_CSV_WRITER.s: modules/utils/GEN_CSV_WRITER.cpp.s
@@ -4021,7 +4045,7 @@ modules/utils/GEN_CSV_WRITER.s: modules/utils/GEN_CSV_WRITER.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GEN_CSV_WRITER.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_CSV_WRITER.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_CSV_WRITER.cpp.s
 .PHONY : modules/utils/GEN_CSV_WRITER.cpp.s
 
 modules/utils/GEN_F_MUX.obj: modules/utils/GEN_F_MUX.cpp.obj
@@ -4029,7 +4053,7 @@ modules/utils/GEN_F_MUX.obj: modules/utils/GEN_F_MUX.cpp.obj
 
 # target to build an object file
 modules/utils/GEN_F_MUX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_F_MUX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_F_MUX.cpp.obj
 .PHONY : modules/utils/GEN_F_MUX.cpp.obj
 
 modules/utils/GEN_F_MUX.i: modules/utils/GEN_F_MUX.cpp.i
@@ -4037,7 +4061,7 @@ modules/utils/GEN_F_MUX.i: modules/utils/GEN_F_MUX.cpp.i
 
 # target to preprocess a source file
 modules/utils/GEN_F_MUX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_F_MUX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_F_MUX.cpp.i
 .PHONY : modules/utils/GEN_F_MUX.cpp.i
 
 modules/utils/GEN_F_MUX.s: modules/utils/GEN_F_MUX.cpp.s
@@ -4045,7 +4069,7 @@ modules/utils/GEN_F_MUX.s: modules/utils/GEN_F_MUX.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GEN_F_MUX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_F_MUX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_F_MUX.cpp.s
 .PHONY : modules/utils/GEN_F_MUX.cpp.s
 
 modules/utils/GEN_VALUES2ARRAY.obj: modules/utils/GEN_VALUES2ARRAY.cpp.obj
@@ -4053,7 +4077,7 @@ modules/utils/GEN_VALUES2ARRAY.obj: modules/utils/GEN_VALUES2ARRAY.cpp.obj
 
 # target to build an object file
 modules/utils/GEN_VALUES2ARRAY.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_VALUES2ARRAY.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_VALUES2ARRAY.cpp.obj
 .PHONY : modules/utils/GEN_VALUES2ARRAY.cpp.obj
 
 modules/utils/GEN_VALUES2ARRAY.i: modules/utils/GEN_VALUES2ARRAY.cpp.i
@@ -4061,7 +4085,7 @@ modules/utils/GEN_VALUES2ARRAY.i: modules/utils/GEN_VALUES2ARRAY.cpp.i
 
 # target to preprocess a source file
 modules/utils/GEN_VALUES2ARRAY.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_VALUES2ARRAY.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_VALUES2ARRAY.cpp.i
 .PHONY : modules/utils/GEN_VALUES2ARRAY.cpp.i
 
 modules/utils/GEN_VALUES2ARRAY.s: modules/utils/GEN_VALUES2ARRAY.cpp.s
@@ -4069,7 +4093,7 @@ modules/utils/GEN_VALUES2ARRAY.s: modules/utils/GEN_VALUES2ARRAY.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GEN_VALUES2ARRAY.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_VALUES2ARRAY.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GEN_VALUES2ARRAY.cpp.s
 .PHONY : modules/utils/GEN_VALUES2ARRAY.cpp.s
 
 modules/utils/GET_AT_INDEX.obj: modules/utils/GET_AT_INDEX.cpp.obj
@@ -4077,7 +4101,7 @@ modules/utils/GET_AT_INDEX.obj: modules/utils/GET_AT_INDEX.cpp.obj
 
 # target to build an object file
 modules/utils/GET_AT_INDEX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_AT_INDEX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_AT_INDEX.cpp.obj
 .PHONY : modules/utils/GET_AT_INDEX.cpp.obj
 
 modules/utils/GET_AT_INDEX.i: modules/utils/GET_AT_INDEX.cpp.i
@@ -4085,7 +4109,7 @@ modules/utils/GET_AT_INDEX.i: modules/utils/GET_AT_INDEX.cpp.i
 
 # target to preprocess a source file
 modules/utils/GET_AT_INDEX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_AT_INDEX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_AT_INDEX.cpp.i
 .PHONY : modules/utils/GET_AT_INDEX.cpp.i
 
 modules/utils/GET_AT_INDEX.s: modules/utils/GET_AT_INDEX.cpp.s
@@ -4093,7 +4117,7 @@ modules/utils/GET_AT_INDEX.s: modules/utils/GET_AT_INDEX.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GET_AT_INDEX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_AT_INDEX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_AT_INDEX.cpp.s
 .PHONY : modules/utils/GET_AT_INDEX.cpp.s
 
 modules/utils/GET_STRUCT_VALUE.obj: modules/utils/GET_STRUCT_VALUE.cpp.obj
@@ -4101,7 +4125,7 @@ modules/utils/GET_STRUCT_VALUE.obj: modules/utils/GET_STRUCT_VALUE.cpp.obj
 
 # target to build an object file
 modules/utils/GET_STRUCT_VALUE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_STRUCT_VALUE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_STRUCT_VALUE.cpp.obj
 .PHONY : modules/utils/GET_STRUCT_VALUE.cpp.obj
 
 modules/utils/GET_STRUCT_VALUE.i: modules/utils/GET_STRUCT_VALUE.cpp.i
@@ -4109,7 +4133,7 @@ modules/utils/GET_STRUCT_VALUE.i: modules/utils/GET_STRUCT_VALUE.cpp.i
 
 # target to preprocess a source file
 modules/utils/GET_STRUCT_VALUE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_STRUCT_VALUE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_STRUCT_VALUE.cpp.i
 .PHONY : modules/utils/GET_STRUCT_VALUE.cpp.i
 
 modules/utils/GET_STRUCT_VALUE.s: modules/utils/GET_STRUCT_VALUE.cpp.s
@@ -4117,7 +4141,7 @@ modules/utils/GET_STRUCT_VALUE.s: modules/utils/GET_STRUCT_VALUE.cpp.s
 
 # target to generate assembly for a file
 modules/utils/GET_STRUCT_VALUE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_STRUCT_VALUE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/GET_STRUCT_VALUE.cpp.s
 .PHONY : modules/utils/GET_STRUCT_VALUE.cpp.s
 
 modules/utils/OUT_ANY_CONSOLE.obj: modules/utils/OUT_ANY_CONSOLE.cpp.obj
@@ -4125,7 +4149,7 @@ modules/utils/OUT_ANY_CONSOLE.obj: modules/utils/OUT_ANY_CONSOLE.cpp.obj
 
 # target to build an object file
 modules/utils/OUT_ANY_CONSOLE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/OUT_ANY_CONSOLE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/OUT_ANY_CONSOLE.cpp.obj
 .PHONY : modules/utils/OUT_ANY_CONSOLE.cpp.obj
 
 modules/utils/OUT_ANY_CONSOLE.i: modules/utils/OUT_ANY_CONSOLE.cpp.i
@@ -4133,7 +4157,7 @@ modules/utils/OUT_ANY_CONSOLE.i: modules/utils/OUT_ANY_CONSOLE.cpp.i
 
 # target to preprocess a source file
 modules/utils/OUT_ANY_CONSOLE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/OUT_ANY_CONSOLE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/OUT_ANY_CONSOLE.cpp.i
 .PHONY : modules/utils/OUT_ANY_CONSOLE.cpp.i
 
 modules/utils/OUT_ANY_CONSOLE.s: modules/utils/OUT_ANY_CONSOLE.cpp.s
@@ -4141,7 +4165,7 @@ modules/utils/OUT_ANY_CONSOLE.s: modules/utils/OUT_ANY_CONSOLE.cpp.s
 
 # target to generate assembly for a file
 modules/utils/OUT_ANY_CONSOLE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/OUT_ANY_CONSOLE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/OUT_ANY_CONSOLE.cpp.s
 .PHONY : modules/utils/OUT_ANY_CONSOLE.cpp.s
 
 modules/utils/SET_AT_INDEX.obj: modules/utils/SET_AT_INDEX.cpp.obj
@@ -4149,7 +4173,7 @@ modules/utils/SET_AT_INDEX.obj: modules/utils/SET_AT_INDEX.cpp.obj
 
 # target to build an object file
 modules/utils/SET_AT_INDEX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_AT_INDEX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_AT_INDEX.cpp.obj
 .PHONY : modules/utils/SET_AT_INDEX.cpp.obj
 
 modules/utils/SET_AT_INDEX.i: modules/utils/SET_AT_INDEX.cpp.i
@@ -4157,7 +4181,7 @@ modules/utils/SET_AT_INDEX.i: modules/utils/SET_AT_INDEX.cpp.i
 
 # target to preprocess a source file
 modules/utils/SET_AT_INDEX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_AT_INDEX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_AT_INDEX.cpp.i
 .PHONY : modules/utils/SET_AT_INDEX.cpp.i
 
 modules/utils/SET_AT_INDEX.s: modules/utils/SET_AT_INDEX.cpp.s
@@ -4165,7 +4189,7 @@ modules/utils/SET_AT_INDEX.s: modules/utils/SET_AT_INDEX.cpp.s
 
 # target to generate assembly for a file
 modules/utils/SET_AT_INDEX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_AT_INDEX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_AT_INDEX.cpp.s
 .PHONY : modules/utils/SET_AT_INDEX.cpp.s
 
 modules/utils/SET_STRUCT_VALUE.obj: modules/utils/SET_STRUCT_VALUE.cpp.obj
@@ -4173,7 +4197,7 @@ modules/utils/SET_STRUCT_VALUE.obj: modules/utils/SET_STRUCT_VALUE.cpp.obj
 
 # target to build an object file
 modules/utils/SET_STRUCT_VALUE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_STRUCT_VALUE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_STRUCT_VALUE.cpp.obj
 .PHONY : modules/utils/SET_STRUCT_VALUE.cpp.obj
 
 modules/utils/SET_STRUCT_VALUE.i: modules/utils/SET_STRUCT_VALUE.cpp.i
@@ -4181,7 +4205,7 @@ modules/utils/SET_STRUCT_VALUE.i: modules/utils/SET_STRUCT_VALUE.cpp.i
 
 # target to preprocess a source file
 modules/utils/SET_STRUCT_VALUE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_STRUCT_VALUE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_STRUCT_VALUE.cpp.i
 .PHONY : modules/utils/SET_STRUCT_VALUE.cpp.i
 
 modules/utils/SET_STRUCT_VALUE.s: modules/utils/SET_STRUCT_VALUE.cpp.s
@@ -4189,7 +4213,7 @@ modules/utils/SET_STRUCT_VALUE.s: modules/utils/SET_STRUCT_VALUE.cpp.s
 
 # target to generate assembly for a file
 modules/utils/SET_STRUCT_VALUE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_STRUCT_VALUE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/SET_STRUCT_VALUE.cpp.s
 .PHONY : modules/utils/SET_STRUCT_VALUE.cpp.s
 
 modules/utils/STEST_END.obj: modules/utils/STEST_END.cpp.obj
@@ -4197,7 +4221,7 @@ modules/utils/STEST_END.obj: modules/utils/STEST_END.cpp.obj
 
 # target to build an object file
 modules/utils/STEST_END.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/STEST_END.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/STEST_END.cpp.obj
 .PHONY : modules/utils/STEST_END.cpp.obj
 
 modules/utils/STEST_END.i: modules/utils/STEST_END.cpp.i
@@ -4205,7 +4229,7 @@ modules/utils/STEST_END.i: modules/utils/STEST_END.cpp.i
 
 # target to preprocess a source file
 modules/utils/STEST_END.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/STEST_END.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/STEST_END.cpp.i
 .PHONY : modules/utils/STEST_END.cpp.i
 
 modules/utils/STEST_END.s: modules/utils/STEST_END.cpp.s
@@ -4213,7 +4237,7 @@ modules/utils/STEST_END.s: modules/utils/STEST_END.cpp.s
 
 # target to generate assembly for a file
 modules/utils/STEST_END.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/STEST_END.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/STEST_END.cpp.s
 .PHONY : modules/utils/STEST_END.cpp.s
 
 modules/utils/TEST_CONDITION.obj: modules/utils/TEST_CONDITION.cpp.obj
@@ -4221,7 +4245,7 @@ modules/utils/TEST_CONDITION.obj: modules/utils/TEST_CONDITION.cpp.obj
 
 # target to build an object file
 modules/utils/TEST_CONDITION.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/TEST_CONDITION.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/TEST_CONDITION.cpp.obj
 .PHONY : modules/utils/TEST_CONDITION.cpp.obj
 
 modules/utils/TEST_CONDITION.i: modules/utils/TEST_CONDITION.cpp.i
@@ -4229,7 +4253,7 @@ modules/utils/TEST_CONDITION.i: modules/utils/TEST_CONDITION.cpp.i
 
 # target to preprocess a source file
 modules/utils/TEST_CONDITION.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/TEST_CONDITION.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/TEST_CONDITION.cpp.i
 .PHONY : modules/utils/TEST_CONDITION.cpp.i
 
 modules/utils/TEST_CONDITION.s: modules/utils/TEST_CONDITION.cpp.s
@@ -4237,7 +4261,7 @@ modules/utils/TEST_CONDITION.s: modules/utils/TEST_CONDITION.cpp.s
 
 # target to generate assembly for a file
 modules/utils/TEST_CONDITION.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/TEST_CONDITION.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/modules/utils/TEST_CONDITION.cpp.s
 .PHONY : modules/utils/TEST_CONDITION.cpp.s
 
 stdfblib/events/ARTimeOut.obj: stdfblib/events/ARTimeOut.cpp.obj
@@ -4245,7 +4269,7 @@ stdfblib/events/ARTimeOut.obj: stdfblib/events/ARTimeOut.cpp.obj
 
 # target to build an object file
 stdfblib/events/ARTimeOut.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ARTimeOut.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ARTimeOut.cpp.obj
 .PHONY : stdfblib/events/ARTimeOut.cpp.obj
 
 stdfblib/events/ARTimeOut.i: stdfblib/events/ARTimeOut.cpp.i
@@ -4253,7 +4277,7 @@ stdfblib/events/ARTimeOut.i: stdfblib/events/ARTimeOut.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/ARTimeOut.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ARTimeOut.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ARTimeOut.cpp.i
 .PHONY : stdfblib/events/ARTimeOut.cpp.i
 
 stdfblib/events/ARTimeOut.s: stdfblib/events/ARTimeOut.cpp.s
@@ -4261,7 +4285,7 @@ stdfblib/events/ARTimeOut.s: stdfblib/events/ARTimeOut.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/ARTimeOut.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ARTimeOut.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ARTimeOut.cpp.s
 .PHONY : stdfblib/events/ARTimeOut.cpp.s
 
 stdfblib/events/ATimeOut.obj: stdfblib/events/ATimeOut.cpp.obj
@@ -4269,7 +4293,7 @@ stdfblib/events/ATimeOut.obj: stdfblib/events/ATimeOut.cpp.obj
 
 # target to build an object file
 stdfblib/events/ATimeOut.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ATimeOut.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ATimeOut.cpp.obj
 .PHONY : stdfblib/events/ATimeOut.cpp.obj
 
 stdfblib/events/ATimeOut.i: stdfblib/events/ATimeOut.cpp.i
@@ -4277,7 +4301,7 @@ stdfblib/events/ATimeOut.i: stdfblib/events/ATimeOut.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/ATimeOut.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ATimeOut.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ATimeOut.cpp.i
 .PHONY : stdfblib/events/ATimeOut.cpp.i
 
 stdfblib/events/ATimeOut.s: stdfblib/events/ATimeOut.cpp.s
@@ -4285,7 +4309,7 @@ stdfblib/events/ATimeOut.s: stdfblib/events/ATimeOut.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/ATimeOut.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ATimeOut.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/ATimeOut.cpp.s
 .PHONY : stdfblib/events/ATimeOut.cpp.s
 
 stdfblib/events/E_CTD.obj: stdfblib/events/E_CTD.cpp.obj
@@ -4293,7 +4317,7 @@ stdfblib/events/E_CTD.obj: stdfblib/events/E_CTD.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_CTD.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTD.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTD.cpp.obj
 .PHONY : stdfblib/events/E_CTD.cpp.obj
 
 stdfblib/events/E_CTD.i: stdfblib/events/E_CTD.cpp.i
@@ -4301,7 +4325,7 @@ stdfblib/events/E_CTD.i: stdfblib/events/E_CTD.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_CTD.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTD.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTD.cpp.i
 .PHONY : stdfblib/events/E_CTD.cpp.i
 
 stdfblib/events/E_CTD.s: stdfblib/events/E_CTD.cpp.s
@@ -4309,7 +4333,7 @@ stdfblib/events/E_CTD.s: stdfblib/events/E_CTD.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_CTD.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTD.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTD.cpp.s
 .PHONY : stdfblib/events/E_CTD.cpp.s
 
 stdfblib/events/E_CTU.obj: stdfblib/events/E_CTU.cpp.obj
@@ -4317,7 +4341,7 @@ stdfblib/events/E_CTU.obj: stdfblib/events/E_CTU.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_CTU.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTU.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTU.cpp.obj
 .PHONY : stdfblib/events/E_CTU.cpp.obj
 
 stdfblib/events/E_CTU.i: stdfblib/events/E_CTU.cpp.i
@@ -4325,7 +4349,7 @@ stdfblib/events/E_CTU.i: stdfblib/events/E_CTU.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_CTU.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTU.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTU.cpp.i
 .PHONY : stdfblib/events/E_CTU.cpp.i
 
 stdfblib/events/E_CTU.s: stdfblib/events/E_CTU.cpp.s
@@ -4333,7 +4357,7 @@ stdfblib/events/E_CTU.s: stdfblib/events/E_CTU.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_CTU.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTU.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTU.cpp.s
 .PHONY : stdfblib/events/E_CTU.cpp.s
 
 stdfblib/events/E_CTUD.obj: stdfblib/events/E_CTUD.cpp.obj
@@ -4341,7 +4365,7 @@ stdfblib/events/E_CTUD.obj: stdfblib/events/E_CTUD.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_CTUD.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD.cpp.obj
 .PHONY : stdfblib/events/E_CTUD.cpp.obj
 
 stdfblib/events/E_CTUD.i: stdfblib/events/E_CTUD.cpp.i
@@ -4349,7 +4373,7 @@ stdfblib/events/E_CTUD.i: stdfblib/events/E_CTUD.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_CTUD.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD.cpp.i
 .PHONY : stdfblib/events/E_CTUD.cpp.i
 
 stdfblib/events/E_CTUD.s: stdfblib/events/E_CTUD.cpp.s
@@ -4357,7 +4381,7 @@ stdfblib/events/E_CTUD.s: stdfblib/events/E_CTUD.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_CTUD.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD.cpp.s
 .PHONY : stdfblib/events/E_CTUD.cpp.s
 
 stdfblib/events/E_CTUD_UDINT.obj: stdfblib/events/E_CTUD_UDINT.cpp.obj
@@ -4365,7 +4389,7 @@ stdfblib/events/E_CTUD_UDINT.obj: stdfblib/events/E_CTUD_UDINT.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_CTUD_UDINT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD_UDINT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD_UDINT.cpp.obj
 .PHONY : stdfblib/events/E_CTUD_UDINT.cpp.obj
 
 stdfblib/events/E_CTUD_UDINT.i: stdfblib/events/E_CTUD_UDINT.cpp.i
@@ -4373,7 +4397,7 @@ stdfblib/events/E_CTUD_UDINT.i: stdfblib/events/E_CTUD_UDINT.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_CTUD_UDINT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD_UDINT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD_UDINT.cpp.i
 .PHONY : stdfblib/events/E_CTUD_UDINT.cpp.i
 
 stdfblib/events/E_CTUD_UDINT.s: stdfblib/events/E_CTUD_UDINT.cpp.s
@@ -4381,7 +4405,7 @@ stdfblib/events/E_CTUD_UDINT.s: stdfblib/events/E_CTUD_UDINT.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_CTUD_UDINT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD_UDINT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CTUD_UDINT.cpp.s
 .PHONY : stdfblib/events/E_CTUD_UDINT.cpp.s
 
 stdfblib/events/E_CYCLE.obj: stdfblib/events/E_CYCLE.cpp.obj
@@ -4389,7 +4413,7 @@ stdfblib/events/E_CYCLE.obj: stdfblib/events/E_CYCLE.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_CYCLE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CYCLE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CYCLE.cpp.obj
 .PHONY : stdfblib/events/E_CYCLE.cpp.obj
 
 stdfblib/events/E_CYCLE.i: stdfblib/events/E_CYCLE.cpp.i
@@ -4397,7 +4421,7 @@ stdfblib/events/E_CYCLE.i: stdfblib/events/E_CYCLE.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_CYCLE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CYCLE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CYCLE.cpp.i
 .PHONY : stdfblib/events/E_CYCLE.cpp.i
 
 stdfblib/events/E_CYCLE.s: stdfblib/events/E_CYCLE.cpp.s
@@ -4405,7 +4429,7 @@ stdfblib/events/E_CYCLE.s: stdfblib/events/E_CYCLE.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_CYCLE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CYCLE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_CYCLE.cpp.s
 .PHONY : stdfblib/events/E_CYCLE.cpp.s
 
 stdfblib/events/E_DELAY.obj: stdfblib/events/E_DELAY.cpp.obj
@@ -4413,7 +4437,7 @@ stdfblib/events/E_DELAY.obj: stdfblib/events/E_DELAY.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_DELAY.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DELAY.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DELAY.cpp.obj
 .PHONY : stdfblib/events/E_DELAY.cpp.obj
 
 stdfblib/events/E_DELAY.i: stdfblib/events/E_DELAY.cpp.i
@@ -4421,7 +4445,7 @@ stdfblib/events/E_DELAY.i: stdfblib/events/E_DELAY.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_DELAY.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DELAY.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DELAY.cpp.i
 .PHONY : stdfblib/events/E_DELAY.cpp.i
 
 stdfblib/events/E_DELAY.s: stdfblib/events/E_DELAY.cpp.s
@@ -4429,7 +4453,7 @@ stdfblib/events/E_DELAY.s: stdfblib/events/E_DELAY.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_DELAY.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DELAY.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DELAY.cpp.s
 .PHONY : stdfblib/events/E_DELAY.cpp.s
 
 stdfblib/events/E_DEMUX.obj: stdfblib/events/E_DEMUX.cpp.obj
@@ -4437,7 +4461,7 @@ stdfblib/events/E_DEMUX.obj: stdfblib/events/E_DEMUX.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_DEMUX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DEMUX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DEMUX.cpp.obj
 .PHONY : stdfblib/events/E_DEMUX.cpp.obj
 
 stdfblib/events/E_DEMUX.i: stdfblib/events/E_DEMUX.cpp.i
@@ -4445,7 +4469,7 @@ stdfblib/events/E_DEMUX.i: stdfblib/events/E_DEMUX.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_DEMUX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DEMUX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DEMUX.cpp.i
 .PHONY : stdfblib/events/E_DEMUX.cpp.i
 
 stdfblib/events/E_DEMUX.s: stdfblib/events/E_DEMUX.cpp.s
@@ -4453,7 +4477,7 @@ stdfblib/events/E_DEMUX.s: stdfblib/events/E_DEMUX.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_DEMUX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DEMUX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_DEMUX.cpp.s
 .PHONY : stdfblib/events/E_DEMUX.cpp.s
 
 stdfblib/events/E_D_FF.obj: stdfblib/events/E_D_FF.cpp.obj
@@ -4461,7 +4485,7 @@ stdfblib/events/E_D_FF.obj: stdfblib/events/E_D_FF.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_D_FF.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_D_FF.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_D_FF.cpp.obj
 .PHONY : stdfblib/events/E_D_FF.cpp.obj
 
 stdfblib/events/E_D_FF.i: stdfblib/events/E_D_FF.cpp.i
@@ -4469,7 +4493,7 @@ stdfblib/events/E_D_FF.i: stdfblib/events/E_D_FF.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_D_FF.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_D_FF.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_D_FF.cpp.i
 .PHONY : stdfblib/events/E_D_FF.cpp.i
 
 stdfblib/events/E_D_FF.s: stdfblib/events/E_D_FF.cpp.s
@@ -4477,7 +4501,7 @@ stdfblib/events/E_D_FF.s: stdfblib/events/E_D_FF.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_D_FF.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_D_FF.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_D_FF.cpp.s
 .PHONY : stdfblib/events/E_D_FF.cpp.s
 
 stdfblib/events/E_F_TRIG.obj: stdfblib/events/E_F_TRIG.cpp.obj
@@ -4485,7 +4509,7 @@ stdfblib/events/E_F_TRIG.obj: stdfblib/events/E_F_TRIG.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_F_TRIG.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_F_TRIG.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_F_TRIG.cpp.obj
 .PHONY : stdfblib/events/E_F_TRIG.cpp.obj
 
 stdfblib/events/E_F_TRIG.i: stdfblib/events/E_F_TRIG.cpp.i
@@ -4493,7 +4517,7 @@ stdfblib/events/E_F_TRIG.i: stdfblib/events/E_F_TRIG.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_F_TRIG.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_F_TRIG.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_F_TRIG.cpp.i
 .PHONY : stdfblib/events/E_F_TRIG.cpp.i
 
 stdfblib/events/E_F_TRIG.s: stdfblib/events/E_F_TRIG.cpp.s
@@ -4501,7 +4525,7 @@ stdfblib/events/E_F_TRIG.s: stdfblib/events/E_F_TRIG.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_F_TRIG.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_F_TRIG.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_F_TRIG.cpp.s
 .PHONY : stdfblib/events/E_F_TRIG.cpp.s
 
 stdfblib/events/E_IMPULSE.obj: stdfblib/events/E_IMPULSE.cpp.obj
@@ -4509,7 +4533,7 @@ stdfblib/events/E_IMPULSE.obj: stdfblib/events/E_IMPULSE.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_IMPULSE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_IMPULSE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_IMPULSE.cpp.obj
 .PHONY : stdfblib/events/E_IMPULSE.cpp.obj
 
 stdfblib/events/E_IMPULSE.i: stdfblib/events/E_IMPULSE.cpp.i
@@ -4517,7 +4541,7 @@ stdfblib/events/E_IMPULSE.i: stdfblib/events/E_IMPULSE.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_IMPULSE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_IMPULSE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_IMPULSE.cpp.i
 .PHONY : stdfblib/events/E_IMPULSE.cpp.i
 
 stdfblib/events/E_IMPULSE.s: stdfblib/events/E_IMPULSE.cpp.s
@@ -4525,7 +4549,7 @@ stdfblib/events/E_IMPULSE.s: stdfblib/events/E_IMPULSE.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_IMPULSE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_IMPULSE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_IMPULSE.cpp.s
 .PHONY : stdfblib/events/E_IMPULSE.cpp.s
 
 stdfblib/events/E_MERGE.obj: stdfblib/events/E_MERGE.cpp.obj
@@ -4533,7 +4557,7 @@ stdfblib/events/E_MERGE.obj: stdfblib/events/E_MERGE.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_MERGE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_MERGE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_MERGE.cpp.obj
 .PHONY : stdfblib/events/E_MERGE.cpp.obj
 
 stdfblib/events/E_MERGE.i: stdfblib/events/E_MERGE.cpp.i
@@ -4541,7 +4565,7 @@ stdfblib/events/E_MERGE.i: stdfblib/events/E_MERGE.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_MERGE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_MERGE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_MERGE.cpp.i
 .PHONY : stdfblib/events/E_MERGE.cpp.i
 
 stdfblib/events/E_MERGE.s: stdfblib/events/E_MERGE.cpp.s
@@ -4549,7 +4573,7 @@ stdfblib/events/E_MERGE.s: stdfblib/events/E_MERGE.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_MERGE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_MERGE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_MERGE.cpp.s
 .PHONY : stdfblib/events/E_MERGE.cpp.s
 
 stdfblib/events/E_PERMIT.obj: stdfblib/events/E_PERMIT.cpp.obj
@@ -4557,7 +4581,7 @@ stdfblib/events/E_PERMIT.obj: stdfblib/events/E_PERMIT.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_PERMIT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_PERMIT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_PERMIT.cpp.obj
 .PHONY : stdfblib/events/E_PERMIT.cpp.obj
 
 stdfblib/events/E_PERMIT.i: stdfblib/events/E_PERMIT.cpp.i
@@ -4565,7 +4589,7 @@ stdfblib/events/E_PERMIT.i: stdfblib/events/E_PERMIT.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_PERMIT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_PERMIT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_PERMIT.cpp.i
 .PHONY : stdfblib/events/E_PERMIT.cpp.i
 
 stdfblib/events/E_PERMIT.s: stdfblib/events/E_PERMIT.cpp.s
@@ -4573,7 +4597,7 @@ stdfblib/events/E_PERMIT.s: stdfblib/events/E_PERMIT.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_PERMIT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_PERMIT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_PERMIT.cpp.s
 .PHONY : stdfblib/events/E_PERMIT.cpp.s
 
 stdfblib/events/E_RDELAY.obj: stdfblib/events/E_RDELAY.cpp.obj
@@ -4581,7 +4605,7 @@ stdfblib/events/E_RDELAY.obj: stdfblib/events/E_RDELAY.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_RDELAY.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RDELAY.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RDELAY.cpp.obj
 .PHONY : stdfblib/events/E_RDELAY.cpp.obj
 
 stdfblib/events/E_RDELAY.i: stdfblib/events/E_RDELAY.cpp.i
@@ -4589,7 +4613,7 @@ stdfblib/events/E_RDELAY.i: stdfblib/events/E_RDELAY.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_RDELAY.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RDELAY.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RDELAY.cpp.i
 .PHONY : stdfblib/events/E_RDELAY.cpp.i
 
 stdfblib/events/E_RDELAY.s: stdfblib/events/E_RDELAY.cpp.s
@@ -4597,7 +4621,7 @@ stdfblib/events/E_RDELAY.s: stdfblib/events/E_RDELAY.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_RDELAY.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RDELAY.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RDELAY.cpp.s
 .PHONY : stdfblib/events/E_RDELAY.cpp.s
 
 stdfblib/events/E_REND.obj: stdfblib/events/E_REND.cpp.obj
@@ -4605,7 +4629,7 @@ stdfblib/events/E_REND.obj: stdfblib/events/E_REND.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_REND.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_REND.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_REND.cpp.obj
 .PHONY : stdfblib/events/E_REND.cpp.obj
 
 stdfblib/events/E_REND.i: stdfblib/events/E_REND.cpp.i
@@ -4613,7 +4637,7 @@ stdfblib/events/E_REND.i: stdfblib/events/E_REND.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_REND.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_REND.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_REND.cpp.i
 .PHONY : stdfblib/events/E_REND.cpp.i
 
 stdfblib/events/E_REND.s: stdfblib/events/E_REND.cpp.s
@@ -4621,7 +4645,7 @@ stdfblib/events/E_REND.s: stdfblib/events/E_REND.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_REND.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_REND.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_REND.cpp.s
 .PHONY : stdfblib/events/E_REND.cpp.s
 
 stdfblib/events/E_RESTART.obj: stdfblib/events/E_RESTART.cpp.obj
@@ -4629,7 +4653,7 @@ stdfblib/events/E_RESTART.obj: stdfblib/events/E_RESTART.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_RESTART.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RESTART.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RESTART.cpp.obj
 .PHONY : stdfblib/events/E_RESTART.cpp.obj
 
 stdfblib/events/E_RESTART.i: stdfblib/events/E_RESTART.cpp.i
@@ -4637,7 +4661,7 @@ stdfblib/events/E_RESTART.i: stdfblib/events/E_RESTART.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_RESTART.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RESTART.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RESTART.cpp.i
 .PHONY : stdfblib/events/E_RESTART.cpp.i
 
 stdfblib/events/E_RESTART.s: stdfblib/events/E_RESTART.cpp.s
@@ -4645,7 +4669,7 @@ stdfblib/events/E_RESTART.s: stdfblib/events/E_RESTART.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_RESTART.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RESTART.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RESTART.cpp.s
 .PHONY : stdfblib/events/E_RESTART.cpp.s
 
 stdfblib/events/E_RS.obj: stdfblib/events/E_RS.cpp.obj
@@ -4653,7 +4677,7 @@ stdfblib/events/E_RS.obj: stdfblib/events/E_RS.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_RS.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RS.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RS.cpp.obj
 .PHONY : stdfblib/events/E_RS.cpp.obj
 
 stdfblib/events/E_RS.i: stdfblib/events/E_RS.cpp.i
@@ -4661,7 +4685,7 @@ stdfblib/events/E_RS.i: stdfblib/events/E_RS.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_RS.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RS.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RS.cpp.i
 .PHONY : stdfblib/events/E_RS.cpp.i
 
 stdfblib/events/E_RS.s: stdfblib/events/E_RS.cpp.s
@@ -4669,7 +4693,7 @@ stdfblib/events/E_RS.s: stdfblib/events/E_RS.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_RS.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RS.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RS.cpp.s
 .PHONY : stdfblib/events/E_RS.cpp.s
 
 stdfblib/events/E_RTimeOut.obj: stdfblib/events/E_RTimeOut.cpp.obj
@@ -4677,7 +4701,7 @@ stdfblib/events/E_RTimeOut.obj: stdfblib/events/E_RTimeOut.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_RTimeOut.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RTimeOut.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RTimeOut.cpp.obj
 .PHONY : stdfblib/events/E_RTimeOut.cpp.obj
 
 stdfblib/events/E_RTimeOut.i: stdfblib/events/E_RTimeOut.cpp.i
@@ -4685,7 +4709,7 @@ stdfblib/events/E_RTimeOut.i: stdfblib/events/E_RTimeOut.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_RTimeOut.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RTimeOut.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RTimeOut.cpp.i
 .PHONY : stdfblib/events/E_RTimeOut.cpp.i
 
 stdfblib/events/E_RTimeOut.s: stdfblib/events/E_RTimeOut.cpp.s
@@ -4693,7 +4717,7 @@ stdfblib/events/E_RTimeOut.s: stdfblib/events/E_RTimeOut.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_RTimeOut.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RTimeOut.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_RTimeOut.cpp.s
 .PHONY : stdfblib/events/E_RTimeOut.cpp.s
 
 stdfblib/events/E_R_TRIG.obj: stdfblib/events/E_R_TRIG.cpp.obj
@@ -4701,7 +4725,7 @@ stdfblib/events/E_R_TRIG.obj: stdfblib/events/E_R_TRIG.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_R_TRIG.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_R_TRIG.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_R_TRIG.cpp.obj
 .PHONY : stdfblib/events/E_R_TRIG.cpp.obj
 
 stdfblib/events/E_R_TRIG.i: stdfblib/events/E_R_TRIG.cpp.i
@@ -4709,7 +4733,7 @@ stdfblib/events/E_R_TRIG.i: stdfblib/events/E_R_TRIG.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_R_TRIG.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_R_TRIG.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_R_TRIG.cpp.i
 .PHONY : stdfblib/events/E_R_TRIG.cpp.i
 
 stdfblib/events/E_R_TRIG.s: stdfblib/events/E_R_TRIG.cpp.s
@@ -4717,7 +4741,7 @@ stdfblib/events/E_R_TRIG.s: stdfblib/events/E_R_TRIG.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_R_TRIG.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_R_TRIG.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_R_TRIG.cpp.s
 .PHONY : stdfblib/events/E_R_TRIG.cpp.s
 
 stdfblib/events/E_SELECT.obj: stdfblib/events/E_SELECT.cpp.obj
@@ -4725,7 +4749,7 @@ stdfblib/events/E_SELECT.obj: stdfblib/events/E_SELECT.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_SELECT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SELECT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SELECT.cpp.obj
 .PHONY : stdfblib/events/E_SELECT.cpp.obj
 
 stdfblib/events/E_SELECT.i: stdfblib/events/E_SELECT.cpp.i
@@ -4733,7 +4757,7 @@ stdfblib/events/E_SELECT.i: stdfblib/events/E_SELECT.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_SELECT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SELECT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SELECT.cpp.i
 .PHONY : stdfblib/events/E_SELECT.cpp.i
 
 stdfblib/events/E_SELECT.s: stdfblib/events/E_SELECT.cpp.s
@@ -4741,7 +4765,7 @@ stdfblib/events/E_SELECT.s: stdfblib/events/E_SELECT.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_SELECT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SELECT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SELECT.cpp.s
 .PHONY : stdfblib/events/E_SELECT.cpp.s
 
 stdfblib/events/E_SPLIT.obj: stdfblib/events/E_SPLIT.cpp.obj
@@ -4749,7 +4773,7 @@ stdfblib/events/E_SPLIT.obj: stdfblib/events/E_SPLIT.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_SPLIT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SPLIT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SPLIT.cpp.obj
 .PHONY : stdfblib/events/E_SPLIT.cpp.obj
 
 stdfblib/events/E_SPLIT.i: stdfblib/events/E_SPLIT.cpp.i
@@ -4757,7 +4781,7 @@ stdfblib/events/E_SPLIT.i: stdfblib/events/E_SPLIT.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_SPLIT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SPLIT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SPLIT.cpp.i
 .PHONY : stdfblib/events/E_SPLIT.cpp.i
 
 stdfblib/events/E_SPLIT.s: stdfblib/events/E_SPLIT.cpp.s
@@ -4765,7 +4789,7 @@ stdfblib/events/E_SPLIT.s: stdfblib/events/E_SPLIT.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_SPLIT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SPLIT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SPLIT.cpp.s
 .PHONY : stdfblib/events/E_SPLIT.cpp.s
 
 stdfblib/events/E_SR.obj: stdfblib/events/E_SR.cpp.obj
@@ -4773,7 +4797,7 @@ stdfblib/events/E_SR.obj: stdfblib/events/E_SR.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_SR.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR.cpp.obj
 .PHONY : stdfblib/events/E_SR.cpp.obj
 
 stdfblib/events/E_SR.i: stdfblib/events/E_SR.cpp.i
@@ -4781,7 +4805,7 @@ stdfblib/events/E_SR.i: stdfblib/events/E_SR.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_SR.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR.cpp.i
 .PHONY : stdfblib/events/E_SR.cpp.i
 
 stdfblib/events/E_SR.s: stdfblib/events/E_SR.cpp.s
@@ -4789,7 +4813,7 @@ stdfblib/events/E_SR.s: stdfblib/events/E_SR.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_SR.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR.cpp.s
 .PHONY : stdfblib/events/E_SR.cpp.s
 
 stdfblib/events/E_SR_RETRIG.obj: stdfblib/events/E_SR_RETRIG.cpp.obj
@@ -4797,7 +4821,7 @@ stdfblib/events/E_SR_RETRIG.obj: stdfblib/events/E_SR_RETRIG.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_SR_RETRIG.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR_RETRIG.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR_RETRIG.cpp.obj
 .PHONY : stdfblib/events/E_SR_RETRIG.cpp.obj
 
 stdfblib/events/E_SR_RETRIG.i: stdfblib/events/E_SR_RETRIG.cpp.i
@@ -4805,7 +4829,7 @@ stdfblib/events/E_SR_RETRIG.i: stdfblib/events/E_SR_RETRIG.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_SR_RETRIG.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR_RETRIG.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR_RETRIG.cpp.i
 .PHONY : stdfblib/events/E_SR_RETRIG.cpp.i
 
 stdfblib/events/E_SR_RETRIG.s: stdfblib/events/E_SR_RETRIG.cpp.s
@@ -4813,7 +4837,7 @@ stdfblib/events/E_SR_RETRIG.s: stdfblib/events/E_SR_RETRIG.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_SR_RETRIG.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR_RETRIG.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SR_RETRIG.cpp.s
 .PHONY : stdfblib/events/E_SR_RETRIG.cpp.s
 
 stdfblib/events/E_SWITCH.obj: stdfblib/events/E_SWITCH.cpp.obj
@@ -4821,7 +4845,7 @@ stdfblib/events/E_SWITCH.obj: stdfblib/events/E_SWITCH.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_SWITCH.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SWITCH.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SWITCH.cpp.obj
 .PHONY : stdfblib/events/E_SWITCH.cpp.obj
 
 stdfblib/events/E_SWITCH.i: stdfblib/events/E_SWITCH.cpp.i
@@ -4829,7 +4853,7 @@ stdfblib/events/E_SWITCH.i: stdfblib/events/E_SWITCH.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_SWITCH.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SWITCH.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SWITCH.cpp.i
 .PHONY : stdfblib/events/E_SWITCH.cpp.i
 
 stdfblib/events/E_SWITCH.s: stdfblib/events/E_SWITCH.cpp.s
@@ -4837,7 +4861,7 @@ stdfblib/events/E_SWITCH.s: stdfblib/events/E_SWITCH.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_SWITCH.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SWITCH.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_SWITCH.cpp.s
 .PHONY : stdfblib/events/E_SWITCH.cpp.s
 
 stdfblib/events/E_TRAIN.obj: stdfblib/events/E_TRAIN.cpp.obj
@@ -4845,7 +4869,7 @@ stdfblib/events/E_TRAIN.obj: stdfblib/events/E_TRAIN.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_TRAIN.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TRAIN.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TRAIN.cpp.obj
 .PHONY : stdfblib/events/E_TRAIN.cpp.obj
 
 stdfblib/events/E_TRAIN.i: stdfblib/events/E_TRAIN.cpp.i
@@ -4853,7 +4877,7 @@ stdfblib/events/E_TRAIN.i: stdfblib/events/E_TRAIN.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_TRAIN.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TRAIN.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TRAIN.cpp.i
 .PHONY : stdfblib/events/E_TRAIN.cpp.i
 
 stdfblib/events/E_TRAIN.s: stdfblib/events/E_TRAIN.cpp.s
@@ -4861,7 +4885,7 @@ stdfblib/events/E_TRAIN.s: stdfblib/events/E_TRAIN.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_TRAIN.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TRAIN.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TRAIN.cpp.s
 .PHONY : stdfblib/events/E_TRAIN.cpp.s
 
 stdfblib/events/E_T_FF.obj: stdfblib/events/E_T_FF.cpp.obj
@@ -4869,7 +4893,7 @@ stdfblib/events/E_T_FF.obj: stdfblib/events/E_T_FF.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_T_FF.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_T_FF.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_T_FF.cpp.obj
 .PHONY : stdfblib/events/E_T_FF.cpp.obj
 
 stdfblib/events/E_T_FF.i: stdfblib/events/E_T_FF.cpp.i
@@ -4877,7 +4901,7 @@ stdfblib/events/E_T_FF.i: stdfblib/events/E_T_FF.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_T_FF.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_T_FF.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_T_FF.cpp.i
 .PHONY : stdfblib/events/E_T_FF.cpp.i
 
 stdfblib/events/E_T_FF.s: stdfblib/events/E_T_FF.cpp.s
@@ -4885,7 +4909,7 @@ stdfblib/events/E_T_FF.s: stdfblib/events/E_T_FF.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_T_FF.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_T_FF.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_T_FF.cpp.s
 .PHONY : stdfblib/events/E_T_FF.cpp.s
 
 stdfblib/events/E_TimeOut.obj: stdfblib/events/E_TimeOut.cpp.obj
@@ -4893,7 +4917,7 @@ stdfblib/events/E_TimeOut.obj: stdfblib/events/E_TimeOut.cpp.obj
 
 # target to build an object file
 stdfblib/events/E_TimeOut.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TimeOut.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TimeOut.cpp.obj
 .PHONY : stdfblib/events/E_TimeOut.cpp.obj
 
 stdfblib/events/E_TimeOut.i: stdfblib/events/E_TimeOut.cpp.i
@@ -4901,7 +4925,7 @@ stdfblib/events/E_TimeOut.i: stdfblib/events/E_TimeOut.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/E_TimeOut.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TimeOut.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TimeOut.cpp.i
 .PHONY : stdfblib/events/E_TimeOut.cpp.i
 
 stdfblib/events/E_TimeOut.s: stdfblib/events/E_TimeOut.cpp.s
@@ -4909,7 +4933,7 @@ stdfblib/events/E_TimeOut.s: stdfblib/events/E_TimeOut.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/E_TimeOut.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TimeOut.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/E_TimeOut.cpp.s
 .PHONY : stdfblib/events/E_TimeOut.cpp.s
 
 stdfblib/events/GEN_E_DEMUX.obj: stdfblib/events/GEN_E_DEMUX.cpp.obj
@@ -4917,7 +4941,7 @@ stdfblib/events/GEN_E_DEMUX.obj: stdfblib/events/GEN_E_DEMUX.cpp.obj
 
 # target to build an object file
 stdfblib/events/GEN_E_DEMUX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_DEMUX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_DEMUX.cpp.obj
 .PHONY : stdfblib/events/GEN_E_DEMUX.cpp.obj
 
 stdfblib/events/GEN_E_DEMUX.i: stdfblib/events/GEN_E_DEMUX.cpp.i
@@ -4925,7 +4949,7 @@ stdfblib/events/GEN_E_DEMUX.i: stdfblib/events/GEN_E_DEMUX.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/GEN_E_DEMUX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_DEMUX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_DEMUX.cpp.i
 .PHONY : stdfblib/events/GEN_E_DEMUX.cpp.i
 
 stdfblib/events/GEN_E_DEMUX.s: stdfblib/events/GEN_E_DEMUX.cpp.s
@@ -4933,7 +4957,7 @@ stdfblib/events/GEN_E_DEMUX.s: stdfblib/events/GEN_E_DEMUX.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/GEN_E_DEMUX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_DEMUX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_DEMUX.cpp.s
 .PHONY : stdfblib/events/GEN_E_DEMUX.cpp.s
 
 stdfblib/events/GEN_E_MUX.obj: stdfblib/events/GEN_E_MUX.cpp.obj
@@ -4941,7 +4965,7 @@ stdfblib/events/GEN_E_MUX.obj: stdfblib/events/GEN_E_MUX.cpp.obj
 
 # target to build an object file
 stdfblib/events/GEN_E_MUX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_MUX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_MUX.cpp.obj
 .PHONY : stdfblib/events/GEN_E_MUX.cpp.obj
 
 stdfblib/events/GEN_E_MUX.i: stdfblib/events/GEN_E_MUX.cpp.i
@@ -4949,7 +4973,7 @@ stdfblib/events/GEN_E_MUX.i: stdfblib/events/GEN_E_MUX.cpp.i
 
 # target to preprocess a source file
 stdfblib/events/GEN_E_MUX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_MUX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_MUX.cpp.i
 .PHONY : stdfblib/events/GEN_E_MUX.cpp.i
 
 stdfblib/events/GEN_E_MUX.s: stdfblib/events/GEN_E_MUX.cpp.s
@@ -4957,7 +4981,7 @@ stdfblib/events/GEN_E_MUX.s: stdfblib/events/GEN_E_MUX.cpp.s
 
 # target to generate assembly for a file
 stdfblib/events/GEN_E_MUX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_MUX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/events/GEN_E_MUX.cpp.s
 .PHONY : stdfblib/events/GEN_E_MUX.cpp.s
 
 stdfblib/io/IB.obj: stdfblib/io/IB.cpp.obj
@@ -4965,7 +4989,7 @@ stdfblib/io/IB.obj: stdfblib/io/IB.cpp.obj
 
 # target to build an object file
 stdfblib/io/IB.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IB.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IB.cpp.obj
 .PHONY : stdfblib/io/IB.cpp.obj
 
 stdfblib/io/IB.i: stdfblib/io/IB.cpp.i
@@ -4973,7 +4997,7 @@ stdfblib/io/IB.i: stdfblib/io/IB.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/IB.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IB.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IB.cpp.i
 .PHONY : stdfblib/io/IB.cpp.i
 
 stdfblib/io/IB.s: stdfblib/io/IB.cpp.s
@@ -4981,7 +5005,7 @@ stdfblib/io/IB.s: stdfblib/io/IB.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/IB.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IB.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IB.cpp.s
 .PHONY : stdfblib/io/IB.cpp.s
 
 stdfblib/io/ID.obj: stdfblib/io/ID.cpp.obj
@@ -4989,7 +5013,7 @@ stdfblib/io/ID.obj: stdfblib/io/ID.cpp.obj
 
 # target to build an object file
 stdfblib/io/ID.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/ID.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/ID.cpp.obj
 .PHONY : stdfblib/io/ID.cpp.obj
 
 stdfblib/io/ID.i: stdfblib/io/ID.cpp.i
@@ -4997,7 +5021,7 @@ stdfblib/io/ID.i: stdfblib/io/ID.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/ID.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/ID.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/ID.cpp.i
 .PHONY : stdfblib/io/ID.cpp.i
 
 stdfblib/io/ID.s: stdfblib/io/ID.cpp.s
@@ -5005,7 +5029,7 @@ stdfblib/io/ID.s: stdfblib/io/ID.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/ID.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/ID.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/ID.cpp.s
 .PHONY : stdfblib/io/ID.cpp.s
 
 stdfblib/io/IE.obj: stdfblib/io/IE.cpp.obj
@@ -5013,7 +5037,7 @@ stdfblib/io/IE.obj: stdfblib/io/IE.cpp.obj
 
 # target to build an object file
 stdfblib/io/IE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IE.cpp.obj
 .PHONY : stdfblib/io/IE.cpp.obj
 
 stdfblib/io/IE.i: stdfblib/io/IE.cpp.i
@@ -5021,7 +5045,7 @@ stdfblib/io/IE.i: stdfblib/io/IE.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/IE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IE.cpp.i
 .PHONY : stdfblib/io/IE.cpp.i
 
 stdfblib/io/IE.s: stdfblib/io/IE.cpp.s
@@ -5029,7 +5053,7 @@ stdfblib/io/IE.s: stdfblib/io/IE.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/IE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IE.cpp.s
 .PHONY : stdfblib/io/IE.cpp.s
 
 stdfblib/io/IL.obj: stdfblib/io/IL.cpp.obj
@@ -5037,7 +5061,7 @@ stdfblib/io/IL.obj: stdfblib/io/IL.cpp.obj
 
 # target to build an object file
 stdfblib/io/IL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IL.cpp.obj
 .PHONY : stdfblib/io/IL.cpp.obj
 
 stdfblib/io/IL.i: stdfblib/io/IL.cpp.i
@@ -5045,7 +5069,7 @@ stdfblib/io/IL.i: stdfblib/io/IL.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/IL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IL.cpp.i
 .PHONY : stdfblib/io/IL.cpp.i
 
 stdfblib/io/IL.s: stdfblib/io/IL.cpp.s
@@ -5053,7 +5077,7 @@ stdfblib/io/IL.s: stdfblib/io/IL.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/IL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IL.cpp.s
 .PHONY : stdfblib/io/IL.cpp.s
 
 stdfblib/io/IW.obj: stdfblib/io/IW.cpp.obj
@@ -5061,7 +5085,7 @@ stdfblib/io/IW.obj: stdfblib/io/IW.cpp.obj
 
 # target to build an object file
 stdfblib/io/IW.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IW.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IW.cpp.obj
 .PHONY : stdfblib/io/IW.cpp.obj
 
 stdfblib/io/IW.i: stdfblib/io/IW.cpp.i
@@ -5069,7 +5093,7 @@ stdfblib/io/IW.i: stdfblib/io/IW.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/IW.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IW.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IW.cpp.i
 .PHONY : stdfblib/io/IW.cpp.i
 
 stdfblib/io/IW.s: stdfblib/io/IW.cpp.s
@@ -5077,7 +5101,7 @@ stdfblib/io/IW.s: stdfblib/io/IW.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/IW.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IW.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IW.cpp.s
 .PHONY : stdfblib/io/IW.cpp.s
 
 stdfblib/io/IX.obj: stdfblib/io/IX.cpp.obj
@@ -5085,7 +5109,7 @@ stdfblib/io/IX.obj: stdfblib/io/IX.cpp.obj
 
 # target to build an object file
 stdfblib/io/IX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IX.cpp.obj
 .PHONY : stdfblib/io/IX.cpp.obj
 
 stdfblib/io/IX.i: stdfblib/io/IX.cpp.i
@@ -5093,7 +5117,7 @@ stdfblib/io/IX.i: stdfblib/io/IX.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/IX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IX.cpp.i
 .PHONY : stdfblib/io/IX.cpp.i
 
 stdfblib/io/IX.s: stdfblib/io/IX.cpp.s
@@ -5101,7 +5125,7 @@ stdfblib/io/IX.s: stdfblib/io/IX.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/IX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/IX.cpp.s
 .PHONY : stdfblib/io/IX.cpp.s
 
 stdfblib/io/QB.obj: stdfblib/io/QB.cpp.obj
@@ -5109,7 +5133,7 @@ stdfblib/io/QB.obj: stdfblib/io/QB.cpp.obj
 
 # target to build an object file
 stdfblib/io/QB.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QB.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QB.cpp.obj
 .PHONY : stdfblib/io/QB.cpp.obj
 
 stdfblib/io/QB.i: stdfblib/io/QB.cpp.i
@@ -5117,7 +5141,7 @@ stdfblib/io/QB.i: stdfblib/io/QB.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/QB.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QB.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QB.cpp.i
 .PHONY : stdfblib/io/QB.cpp.i
 
 stdfblib/io/QB.s: stdfblib/io/QB.cpp.s
@@ -5125,7 +5149,7 @@ stdfblib/io/QB.s: stdfblib/io/QB.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/QB.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QB.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QB.cpp.s
 .PHONY : stdfblib/io/QB.cpp.s
 
 stdfblib/io/QD.obj: stdfblib/io/QD.cpp.obj
@@ -5133,7 +5157,7 @@ stdfblib/io/QD.obj: stdfblib/io/QD.cpp.obj
 
 # target to build an object file
 stdfblib/io/QD.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QD.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QD.cpp.obj
 .PHONY : stdfblib/io/QD.cpp.obj
 
 stdfblib/io/QD.i: stdfblib/io/QD.cpp.i
@@ -5141,7 +5165,7 @@ stdfblib/io/QD.i: stdfblib/io/QD.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/QD.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QD.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QD.cpp.i
 .PHONY : stdfblib/io/QD.cpp.i
 
 stdfblib/io/QD.s: stdfblib/io/QD.cpp.s
@@ -5149,7 +5173,7 @@ stdfblib/io/QD.s: stdfblib/io/QD.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/QD.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QD.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QD.cpp.s
 .PHONY : stdfblib/io/QD.cpp.s
 
 stdfblib/io/QL.obj: stdfblib/io/QL.cpp.obj
@@ -5157,7 +5181,7 @@ stdfblib/io/QL.obj: stdfblib/io/QL.cpp.obj
 
 # target to build an object file
 stdfblib/io/QL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QL.cpp.obj
 .PHONY : stdfblib/io/QL.cpp.obj
 
 stdfblib/io/QL.i: stdfblib/io/QL.cpp.i
@@ -5165,7 +5189,7 @@ stdfblib/io/QL.i: stdfblib/io/QL.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/QL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QL.cpp.i
 .PHONY : stdfblib/io/QL.cpp.i
 
 stdfblib/io/QL.s: stdfblib/io/QL.cpp.s
@@ -5173,7 +5197,7 @@ stdfblib/io/QL.s: stdfblib/io/QL.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/QL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QL.cpp.s
 .PHONY : stdfblib/io/QL.cpp.s
 
 stdfblib/io/QW.obj: stdfblib/io/QW.cpp.obj
@@ -5181,7 +5205,7 @@ stdfblib/io/QW.obj: stdfblib/io/QW.cpp.obj
 
 # target to build an object file
 stdfblib/io/QW.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QW.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QW.cpp.obj
 .PHONY : stdfblib/io/QW.cpp.obj
 
 stdfblib/io/QW.i: stdfblib/io/QW.cpp.i
@@ -5189,7 +5213,7 @@ stdfblib/io/QW.i: stdfblib/io/QW.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/QW.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QW.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QW.cpp.i
 .PHONY : stdfblib/io/QW.cpp.i
 
 stdfblib/io/QW.s: stdfblib/io/QW.cpp.s
@@ -5197,7 +5221,7 @@ stdfblib/io/QW.s: stdfblib/io/QW.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/QW.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QW.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QW.cpp.s
 .PHONY : stdfblib/io/QW.cpp.s
 
 stdfblib/io/QX.obj: stdfblib/io/QX.cpp.obj
@@ -5205,7 +5229,7 @@ stdfblib/io/QX.obj: stdfblib/io/QX.cpp.obj
 
 # target to build an object file
 stdfblib/io/QX.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QX.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QX.cpp.obj
 .PHONY : stdfblib/io/QX.cpp.obj
 
 stdfblib/io/QX.i: stdfblib/io/QX.cpp.i
@@ -5213,7 +5237,7 @@ stdfblib/io/QX.i: stdfblib/io/QX.cpp.i
 
 # target to preprocess a source file
 stdfblib/io/QX.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QX.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QX.cpp.i
 .PHONY : stdfblib/io/QX.cpp.i
 
 stdfblib/io/QX.s: stdfblib/io/QX.cpp.s
@@ -5221,7 +5245,7 @@ stdfblib/io/QX.s: stdfblib/io/QX.cpp.s
 
 # target to generate assembly for a file
 stdfblib/io/QX.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QX.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/io/QX.cpp.s
 .PHONY : stdfblib/io/QX.cpp.s
 
 stdfblib/ita/DEV_MGR.obj: stdfblib/ita/DEV_MGR.cpp.obj
@@ -5229,7 +5253,7 @@ stdfblib/ita/DEV_MGR.obj: stdfblib/ita/DEV_MGR.cpp.obj
 
 # target to build an object file
 stdfblib/ita/DEV_MGR.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/DEV_MGR.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/DEV_MGR.cpp.obj
 .PHONY : stdfblib/ita/DEV_MGR.cpp.obj
 
 stdfblib/ita/DEV_MGR.i: stdfblib/ita/DEV_MGR.cpp.i
@@ -5237,7 +5261,7 @@ stdfblib/ita/DEV_MGR.i: stdfblib/ita/DEV_MGR.cpp.i
 
 # target to preprocess a source file
 stdfblib/ita/DEV_MGR.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/DEV_MGR.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/DEV_MGR.cpp.i
 .PHONY : stdfblib/ita/DEV_MGR.cpp.i
 
 stdfblib/ita/DEV_MGR.s: stdfblib/ita/DEV_MGR.cpp.s
@@ -5245,7 +5269,7 @@ stdfblib/ita/DEV_MGR.s: stdfblib/ita/DEV_MGR.cpp.s
 
 # target to generate assembly for a file
 stdfblib/ita/DEV_MGR.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/DEV_MGR.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/DEV_MGR.cpp.s
 .PHONY : stdfblib/ita/DEV_MGR.cpp.s
 
 stdfblib/ita/EMB_RES.obj: stdfblib/ita/EMB_RES.cpp.obj
@@ -5253,7 +5277,7 @@ stdfblib/ita/EMB_RES.obj: stdfblib/ita/EMB_RES.cpp.obj
 
 # target to build an object file
 stdfblib/ita/EMB_RES.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/EMB_RES.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/EMB_RES.cpp.obj
 .PHONY : stdfblib/ita/EMB_RES.cpp.obj
 
 stdfblib/ita/EMB_RES.i: stdfblib/ita/EMB_RES.cpp.i
@@ -5261,7 +5285,7 @@ stdfblib/ita/EMB_RES.i: stdfblib/ita/EMB_RES.cpp.i
 
 # target to preprocess a source file
 stdfblib/ita/EMB_RES.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/EMB_RES.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/EMB_RES.cpp.i
 .PHONY : stdfblib/ita/EMB_RES.cpp.i
 
 stdfblib/ita/EMB_RES.s: stdfblib/ita/EMB_RES.cpp.s
@@ -5269,7 +5293,7 @@ stdfblib/ita/EMB_RES.s: stdfblib/ita/EMB_RES.cpp.s
 
 # target to generate assembly for a file
 stdfblib/ita/EMB_RES.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/EMB_RES.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/EMB_RES.cpp.s
 .PHONY : stdfblib/ita/EMB_RES.cpp.s
 
 stdfblib/ita/ForteBootFileLoader.obj: stdfblib/ita/ForteBootFileLoader.cpp.obj
@@ -5277,7 +5301,7 @@ stdfblib/ita/ForteBootFileLoader.obj: stdfblib/ita/ForteBootFileLoader.cpp.obj
 
 # target to build an object file
 stdfblib/ita/ForteBootFileLoader.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/ForteBootFileLoader.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/ForteBootFileLoader.cpp.obj
 .PHONY : stdfblib/ita/ForteBootFileLoader.cpp.obj
 
 stdfblib/ita/ForteBootFileLoader.i: stdfblib/ita/ForteBootFileLoader.cpp.i
@@ -5285,7 +5309,7 @@ stdfblib/ita/ForteBootFileLoader.i: stdfblib/ita/ForteBootFileLoader.cpp.i
 
 # target to preprocess a source file
 stdfblib/ita/ForteBootFileLoader.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/ForteBootFileLoader.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/ForteBootFileLoader.cpp.i
 .PHONY : stdfblib/ita/ForteBootFileLoader.cpp.i
 
 stdfblib/ita/ForteBootFileLoader.s: stdfblib/ita/ForteBootFileLoader.cpp.s
@@ -5293,7 +5317,7 @@ stdfblib/ita/ForteBootFileLoader.s: stdfblib/ita/ForteBootFileLoader.cpp.s
 
 # target to generate assembly for a file
 stdfblib/ita/ForteBootFileLoader.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/ForteBootFileLoader.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/ForteBootFileLoader.cpp.s
 .PHONY : stdfblib/ita/ForteBootFileLoader.cpp.s
 
 stdfblib/ita/RMT_DEV.obj: stdfblib/ita/RMT_DEV.cpp.obj
@@ -5301,7 +5325,7 @@ stdfblib/ita/RMT_DEV.obj: stdfblib/ita/RMT_DEV.cpp.obj
 
 # target to build an object file
 stdfblib/ita/RMT_DEV.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_DEV.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_DEV.cpp.obj
 .PHONY : stdfblib/ita/RMT_DEV.cpp.obj
 
 stdfblib/ita/RMT_DEV.i: stdfblib/ita/RMT_DEV.cpp.i
@@ -5309,7 +5333,7 @@ stdfblib/ita/RMT_DEV.i: stdfblib/ita/RMT_DEV.cpp.i
 
 # target to preprocess a source file
 stdfblib/ita/RMT_DEV.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_DEV.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_DEV.cpp.i
 .PHONY : stdfblib/ita/RMT_DEV.cpp.i
 
 stdfblib/ita/RMT_DEV.s: stdfblib/ita/RMT_DEV.cpp.s
@@ -5317,7 +5341,7 @@ stdfblib/ita/RMT_DEV.s: stdfblib/ita/RMT_DEV.cpp.s
 
 # target to generate assembly for a file
 stdfblib/ita/RMT_DEV.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_DEV.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_DEV.cpp.s
 .PHONY : stdfblib/ita/RMT_DEV.cpp.s
 
 stdfblib/ita/RMT_RES.obj: stdfblib/ita/RMT_RES.cpp.obj
@@ -5325,7 +5349,7 @@ stdfblib/ita/RMT_RES.obj: stdfblib/ita/RMT_RES.cpp.obj
 
 # target to build an object file
 stdfblib/ita/RMT_RES.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_RES.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_RES.cpp.obj
 .PHONY : stdfblib/ita/RMT_RES.cpp.obj
 
 stdfblib/ita/RMT_RES.i: stdfblib/ita/RMT_RES.cpp.i
@@ -5333,7 +5357,7 @@ stdfblib/ita/RMT_RES.i: stdfblib/ita/RMT_RES.cpp.i
 
 # target to preprocess a source file
 stdfblib/ita/RMT_RES.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_RES.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_RES.cpp.i
 .PHONY : stdfblib/ita/RMT_RES.cpp.i
 
 stdfblib/ita/RMT_RES.s: stdfblib/ita/RMT_RES.cpp.s
@@ -5341,7 +5365,7 @@ stdfblib/ita/RMT_RES.s: stdfblib/ita/RMT_RES.cpp.s
 
 # target to generate assembly for a file
 stdfblib/ita/RMT_RES.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_RES.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/ita/RMT_RES.cpp.s
 .PHONY : stdfblib/ita/RMT_RES.cpp.s
 
 stdfblib/net/GEN_CLIENT.obj: stdfblib/net/GEN_CLIENT.cpp.obj
@@ -5349,7 +5373,7 @@ stdfblib/net/GEN_CLIENT.obj: stdfblib/net/GEN_CLIENT.cpp.obj
 
 # target to build an object file
 stdfblib/net/GEN_CLIENT.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_CLIENT.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_CLIENT.cpp.obj
 .PHONY : stdfblib/net/GEN_CLIENT.cpp.obj
 
 stdfblib/net/GEN_CLIENT.i: stdfblib/net/GEN_CLIENT.cpp.i
@@ -5357,7 +5381,7 @@ stdfblib/net/GEN_CLIENT.i: stdfblib/net/GEN_CLIENT.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/GEN_CLIENT.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_CLIENT.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_CLIENT.cpp.i
 .PHONY : stdfblib/net/GEN_CLIENT.cpp.i
 
 stdfblib/net/GEN_CLIENT.s: stdfblib/net/GEN_CLIENT.cpp.s
@@ -5365,7 +5389,7 @@ stdfblib/net/GEN_CLIENT.s: stdfblib/net/GEN_CLIENT.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/GEN_CLIENT.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_CLIENT.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_CLIENT.cpp.s
 .PHONY : stdfblib/net/GEN_CLIENT.cpp.s
 
 stdfblib/net/GEN_PUBL.obj: stdfblib/net/GEN_PUBL.cpp.obj
@@ -5373,7 +5397,7 @@ stdfblib/net/GEN_PUBL.obj: stdfblib/net/GEN_PUBL.cpp.obj
 
 # target to build an object file
 stdfblib/net/GEN_PUBL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBL.cpp.obj
 .PHONY : stdfblib/net/GEN_PUBL.cpp.obj
 
 stdfblib/net/GEN_PUBL.i: stdfblib/net/GEN_PUBL.cpp.i
@@ -5381,7 +5405,7 @@ stdfblib/net/GEN_PUBL.i: stdfblib/net/GEN_PUBL.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/GEN_PUBL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBL.cpp.i
 .PHONY : stdfblib/net/GEN_PUBL.cpp.i
 
 stdfblib/net/GEN_PUBL.s: stdfblib/net/GEN_PUBL.cpp.s
@@ -5389,7 +5413,7 @@ stdfblib/net/GEN_PUBL.s: stdfblib/net/GEN_PUBL.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/GEN_PUBL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBL.cpp.s
 .PHONY : stdfblib/net/GEN_PUBL.cpp.s
 
 stdfblib/net/GEN_PUBLISH.obj: stdfblib/net/GEN_PUBLISH.cpp.obj
@@ -5397,7 +5421,7 @@ stdfblib/net/GEN_PUBLISH.obj: stdfblib/net/GEN_PUBLISH.cpp.obj
 
 # target to build an object file
 stdfblib/net/GEN_PUBLISH.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBLISH.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBLISH.cpp.obj
 .PHONY : stdfblib/net/GEN_PUBLISH.cpp.obj
 
 stdfblib/net/GEN_PUBLISH.i: stdfblib/net/GEN_PUBLISH.cpp.i
@@ -5405,7 +5429,7 @@ stdfblib/net/GEN_PUBLISH.i: stdfblib/net/GEN_PUBLISH.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/GEN_PUBLISH.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBLISH.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBLISH.cpp.i
 .PHONY : stdfblib/net/GEN_PUBLISH.cpp.i
 
 stdfblib/net/GEN_PUBLISH.s: stdfblib/net/GEN_PUBLISH.cpp.s
@@ -5413,7 +5437,7 @@ stdfblib/net/GEN_PUBLISH.s: stdfblib/net/GEN_PUBLISH.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/GEN_PUBLISH.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBLISH.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_PUBLISH.cpp.s
 .PHONY : stdfblib/net/GEN_PUBLISH.cpp.s
 
 stdfblib/net/GEN_SERVER.obj: stdfblib/net/GEN_SERVER.cpp.obj
@@ -5421,7 +5445,7 @@ stdfblib/net/GEN_SERVER.obj: stdfblib/net/GEN_SERVER.cpp.obj
 
 # target to build an object file
 stdfblib/net/GEN_SERVER.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SERVER.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SERVER.cpp.obj
 .PHONY : stdfblib/net/GEN_SERVER.cpp.obj
 
 stdfblib/net/GEN_SERVER.i: stdfblib/net/GEN_SERVER.cpp.i
@@ -5429,7 +5453,7 @@ stdfblib/net/GEN_SERVER.i: stdfblib/net/GEN_SERVER.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/GEN_SERVER.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SERVER.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SERVER.cpp.i
 .PHONY : stdfblib/net/GEN_SERVER.cpp.i
 
 stdfblib/net/GEN_SERVER.s: stdfblib/net/GEN_SERVER.cpp.s
@@ -5437,7 +5461,7 @@ stdfblib/net/GEN_SERVER.s: stdfblib/net/GEN_SERVER.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/GEN_SERVER.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SERVER.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SERVER.cpp.s
 .PHONY : stdfblib/net/GEN_SERVER.cpp.s
 
 stdfblib/net/GEN_SUBL.obj: stdfblib/net/GEN_SUBL.cpp.obj
@@ -5445,7 +5469,7 @@ stdfblib/net/GEN_SUBL.obj: stdfblib/net/GEN_SUBL.cpp.obj
 
 # target to build an object file
 stdfblib/net/GEN_SUBL.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBL.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBL.cpp.obj
 .PHONY : stdfblib/net/GEN_SUBL.cpp.obj
 
 stdfblib/net/GEN_SUBL.i: stdfblib/net/GEN_SUBL.cpp.i
@@ -5453,7 +5477,7 @@ stdfblib/net/GEN_SUBL.i: stdfblib/net/GEN_SUBL.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/GEN_SUBL.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBL.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBL.cpp.i
 .PHONY : stdfblib/net/GEN_SUBL.cpp.i
 
 stdfblib/net/GEN_SUBL.s: stdfblib/net/GEN_SUBL.cpp.s
@@ -5461,7 +5485,7 @@ stdfblib/net/GEN_SUBL.s: stdfblib/net/GEN_SUBL.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/GEN_SUBL.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBL.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBL.cpp.s
 .PHONY : stdfblib/net/GEN_SUBL.cpp.s
 
 stdfblib/net/GEN_SUBSCRIBE.obj: stdfblib/net/GEN_SUBSCRIBE.cpp.obj
@@ -5469,7 +5493,7 @@ stdfblib/net/GEN_SUBSCRIBE.obj: stdfblib/net/GEN_SUBSCRIBE.cpp.obj
 
 # target to build an object file
 stdfblib/net/GEN_SUBSCRIBE.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBSCRIBE.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBSCRIBE.cpp.obj
 .PHONY : stdfblib/net/GEN_SUBSCRIBE.cpp.obj
 
 stdfblib/net/GEN_SUBSCRIBE.i: stdfblib/net/GEN_SUBSCRIBE.cpp.i
@@ -5477,7 +5501,7 @@ stdfblib/net/GEN_SUBSCRIBE.i: stdfblib/net/GEN_SUBSCRIBE.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/GEN_SUBSCRIBE.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBSCRIBE.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBSCRIBE.cpp.i
 .PHONY : stdfblib/net/GEN_SUBSCRIBE.cpp.i
 
 stdfblib/net/GEN_SUBSCRIBE.s: stdfblib/net/GEN_SUBSCRIBE.cpp.s
@@ -5485,7 +5509,7 @@ stdfblib/net/GEN_SUBSCRIBE.s: stdfblib/net/GEN_SUBSCRIBE.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/GEN_SUBSCRIBE.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBSCRIBE.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/GEN_SUBSCRIBE.cpp.s
 .PHONY : stdfblib/net/GEN_SUBSCRIBE.cpp.s
 
 stdfblib/net/PUBLISH_1.obj: stdfblib/net/PUBLISH_1.cpp.obj
@@ -5493,7 +5517,7 @@ stdfblib/net/PUBLISH_1.obj: stdfblib/net/PUBLISH_1.cpp.obj
 
 # target to build an object file
 stdfblib/net/PUBLISH_1.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/PUBLISH_1.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/PUBLISH_1.cpp.obj
 .PHONY : stdfblib/net/PUBLISH_1.cpp.obj
 
 stdfblib/net/PUBLISH_1.i: stdfblib/net/PUBLISH_1.cpp.i
@@ -5501,7 +5525,7 @@ stdfblib/net/PUBLISH_1.i: stdfblib/net/PUBLISH_1.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/PUBLISH_1.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/PUBLISH_1.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/PUBLISH_1.cpp.i
 .PHONY : stdfblib/net/PUBLISH_1.cpp.i
 
 stdfblib/net/PUBLISH_1.s: stdfblib/net/PUBLISH_1.cpp.s
@@ -5509,7 +5533,7 @@ stdfblib/net/PUBLISH_1.s: stdfblib/net/PUBLISH_1.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/PUBLISH_1.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/PUBLISH_1.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/PUBLISH_1.cpp.s
 .PHONY : stdfblib/net/PUBLISH_1.cpp.s
 
 stdfblib/net/SUBSCRIBE_1.obj: stdfblib/net/SUBSCRIBE_1.cpp.obj
@@ -5517,7 +5541,7 @@ stdfblib/net/SUBSCRIBE_1.obj: stdfblib/net/SUBSCRIBE_1.cpp.obj
 
 # target to build an object file
 stdfblib/net/SUBSCRIBE_1.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/SUBSCRIBE_1.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/SUBSCRIBE_1.cpp.obj
 .PHONY : stdfblib/net/SUBSCRIBE_1.cpp.obj
 
 stdfblib/net/SUBSCRIBE_1.i: stdfblib/net/SUBSCRIBE_1.cpp.i
@@ -5525,7 +5549,7 @@ stdfblib/net/SUBSCRIBE_1.i: stdfblib/net/SUBSCRIBE_1.cpp.i
 
 # target to preprocess a source file
 stdfblib/net/SUBSCRIBE_1.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/SUBSCRIBE_1.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/SUBSCRIBE_1.cpp.i
 .PHONY : stdfblib/net/SUBSCRIBE_1.cpp.i
 
 stdfblib/net/SUBSCRIBE_1.s: stdfblib/net/SUBSCRIBE_1.cpp.s
@@ -5533,7 +5557,7 @@ stdfblib/net/SUBSCRIBE_1.s: stdfblib/net/SUBSCRIBE_1.cpp.s
 
 # target to generate assembly for a file
 stdfblib/net/SUBSCRIBE_1.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/SUBSCRIBE_1.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/net/SUBSCRIBE_1.cpp.s
 .PHONY : stdfblib/net/SUBSCRIBE_1.cpp.s
 
 stdfblib/timedfb.obj: stdfblib/timedfb.cpp.obj
@@ -5541,7 +5565,7 @@ stdfblib/timedfb.obj: stdfblib/timedfb.cpp.obj
 
 # target to build an object file
 stdfblib/timedfb.cpp.obj:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/timedfb.cpp.obj
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/timedfb.cpp.obj
 .PHONY : stdfblib/timedfb.cpp.obj
 
 stdfblib/timedfb.i: stdfblib/timedfb.cpp.i
@@ -5549,7 +5573,7 @@ stdfblib/timedfb.i: stdfblib/timedfb.cpp.i
 
 # target to preprocess a source file
 stdfblib/timedfb.cpp.i:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/timedfb.cpp.i
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/timedfb.cpp.i
 .PHONY : stdfblib/timedfb.cpp.i
 
 stdfblib/timedfb.s: stdfblib/timedfb.cpp.s
@@ -5557,7 +5581,7 @@ stdfblib/timedfb.s: stdfblib/timedfb.cpp.s
 
 # target to generate assembly for a file
 stdfblib/timedfb.cpp.s:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/timedfb.cpp.s
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/FORTE_LITE.dir/build.make src/CMakeFiles/FORTE_LITE.dir/stdfblib/timedfb.cpp.s
 .PHONY : stdfblib/timedfb.cpp.s
 
 # Help Target
@@ -5967,6 +5991,9 @@ help:
 	@echo "... external/ESPIO/A_IN_fbt.obj"
 	@echo "... external/ESPIO/A_IN_fbt.i"
 	@echo "... external/ESPIO/A_IN_fbt.s"
+	@echo "... external/ESPIO/A_OUT_fbt.obj"
+	@echo "... external/ESPIO/A_OUT_fbt.i"
+	@echo "... external/ESPIO/A_OUT_fbt.s"
 	@echo "... external/ESPIO/D_IN_fbt.obj"
 	@echo "... external/ESPIO/D_IN_fbt.i"
 	@echo "... external/ESPIO/D_IN_fbt.s"
@@ -6254,7 +6281,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -P /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/VerifyGlobs.cmake
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -P /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/VerifyGlobs.cmake
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

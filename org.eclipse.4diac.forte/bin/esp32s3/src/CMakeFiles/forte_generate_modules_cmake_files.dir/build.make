@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte
+CMAKE_SOURCE_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3
+CMAKE_BINARY_DIR = /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3
 
 # Utility rule file for forte_generate_modules_cmake_files.
 
@@ -67,7 +67,7 @@ include src/CMakeFiles/forte_generate_modules_cmake_files.dir/compiler_depend.ma
 include src/CMakeFiles/forte_generate_modules_cmake_files.dir/progress.make
 
 src/CMakeFiles/forte_generate_modules_cmake_files:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src && /usr/bin/cmake -DFORTE_MODULE_LIST:LISTS="modules com external" -P /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/buildsupport/generate_modules_cmake_file.cmake
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src && /usr/bin/cmake -DFORTE_MODULE_LIST:LISTS="modules com external" -P /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/buildsupport/generate_modules_cmake_file.cmake
 
 forte_generate_modules_cmake_files: src/CMakeFiles/forte_generate_modules_cmake_files
 forte_generate_modules_cmake_files: src/CMakeFiles/forte_generate_modules_cmake_files.dir/build.make
@@ -78,10 +78,10 @@ src/CMakeFiles/forte_generate_modules_cmake_files.dir/build: forte_generate_modu
 .PHONY : src/CMakeFiles/forte_generate_modules_cmake_files.dir/build
 
 src/CMakeFiles/forte_generate_modules_cmake_files.dir/clean:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src && $(CMAKE_COMMAND) -P CMakeFiles/forte_generate_modules_cmake_files.dir/cmake_clean.cmake
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src && $(CMAKE_COMMAND) -P CMakeFiles/forte_generate_modules_cmake_files.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/forte_generate_modules_cmake_files.dir/clean
 
 src/CMakeFiles/forte_generate_modules_cmake_files.dir/depend:
-	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3 /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/src/CMakeFiles/forte_generate_modules_cmake_files.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3 /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/src/CMakeFiles/forte_generate_modules_cmake_files.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/forte_generate_modules_cmake_files.dir/depend
 

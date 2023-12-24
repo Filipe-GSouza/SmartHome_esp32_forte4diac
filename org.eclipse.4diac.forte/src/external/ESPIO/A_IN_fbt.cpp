@@ -99,6 +99,7 @@ void FORTE_A_IN::setInitialValues() {
 }
 
 bool FORTE_A_IN::initialise() {
+    
     bool retVal =false;
     bool res_1,res_2;
 
@@ -179,6 +180,7 @@ float FORTE_A_IN::read_adc() {
   
   int io_num = std::stoi(var_PARAMS.getValue());
   adc_channel_t pinAI = static_cast<adc_channel_t>(io_num);
+  
 
   bool res_4 = ESP_ERROR_CHECK_WITHOUT_ABORT(adc_oneshot_read(adc1_handle, pinAI, &adc_raw));
   float value = 0;
@@ -197,7 +199,7 @@ float FORTE_A_IN::read_adc() {
 
       //vTaskDelay(pdMS_TO_TICKS(1000));
       //deinitialise();
-      //DEVLOG_ERROR("%f\n",value);
+      
 
   return value;
 }
@@ -209,7 +211,7 @@ void FORTE_A_IN::executeEvent(const TEventID paEIID, CEventChainExecutionThread 
       if (var_QI) {
         var_QO = CIEC_BOOL(initialise()); //initialise as input
       } else {
-        var_QO = CIEC_BOOL(deinitialise());
+        //var_QO = CIEC_BOOL(deinitialise());
       }
       sendOutputEvent(scmEventINITOID, paECET);
       break;
@@ -218,7 +220,7 @@ void FORTE_A_IN::executeEvent(const TEventID paEIID, CEventChainExecutionThread 
        if (var_QI) {
         var_IN = CIEC_REAL(read_adc());
       } else {
-        var_IN = CIEC_REAL(deinitialise());
+        //var_IN = CIEC_REAL(deinitialise());
       }
       sendOutputEvent(scmEventCNFID, paECET);
       break;

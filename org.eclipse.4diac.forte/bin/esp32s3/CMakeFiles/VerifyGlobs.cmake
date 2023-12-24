@@ -3,98 +3,71 @@
 cmake_policy(SET CMP0009 NEW)
 
 # FILES at buildsupport/forte.cmake:314 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
 endif()
 
 # FILES at buildsupport/forte.cmake:314 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/*.cpp")
 set(OLD_GLOB
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.cpp"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.cpp"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_OUT_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
 endif()
 
 # FILES at buildsupport/forte.cmake:314 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/*.h")
 set(OLD_GLOB
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.h"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.h"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_OUT_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
-endif()
-
-# FILES at buildsupport/forte.cmake:314 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/*.c")
-set(OLD_GLOB
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
-endif()
-
-# FILES at buildsupport/forte.cmake:314 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/*.cpp")
-set(OLD_GLOB
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/D_IN_fbt.cpp"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/esp32io.cpp"
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
-endif()
-
-# FILES at buildsupport/forte.cmake:314 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/*.h")
-set(OLD_GLOB
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/D_IN_fbt.h"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/TESTE/esp32io.h"
-  )
-if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
-  message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
 endif()
 
 # FILES at buildsupport/forte.cmake:358 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
 endif()
 
 # FILES at buildsupport/forte.cmake:363 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/*.cpp")
 set(OLD_GLOB
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.cpp"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.cpp"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_OUT_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.cpp"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
 endif()
 
 # FILES at buildsupport/forte.cmake:353 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/*.h")
 set(OLD_GLOB
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.h"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.h"
-  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_IN_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/A_OUT_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_IN_fbt.h"
+  "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external/ESPIO/D_OUT_fbt.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/CMakeFiles/cmake.verify_globs")
 endif()

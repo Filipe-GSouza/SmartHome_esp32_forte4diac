@@ -1,6 +1,6 @@
 src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.obj: \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/genforte_printer.cpp \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/forte_printer.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/genforte_printer.cpp \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/forte_printer.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0/include/stddef.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0/include/stdarg.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/stdio.h \
@@ -20,7 +20,7 @@ src/CMakeFiles/FORTE_LITE.dir/arch/genforte_printer.cpp.obj: \
  /home/filipe/esp/esp-idf/components/newlib/platform_include/sys/lock.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/sys/lock.h \
  /home/filipe/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/config/sdkconfig.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/config/sdkconfig.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/stdlib.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/cstdlib \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/xtensa-esp32s3-elf/no-rtti/bits/c++config.h \

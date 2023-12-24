@@ -64,7 +64,7 @@ if [ -d "$forte_bin_dir" ]; then
     -DFORTE_MODULE_UTILS=ON \
     -DFORTE_MODULE_EXTERNAL_ESPIO=ON \
     //-DFORTE_MODULE_EXTERNAL_TESTE=ON \
-    -DFORTE_EXTERNAL_MODULES_DIRECTORY="/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/external" \
+    -DFORTE_EXTERNAL_MODULES_DIRECTORY="/home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/external" \
     -DFORTE_USE_LUATYPES=Lua \
     -DLUA_INCLUDE_DIR="../../Application/components/lua/src" \
     //-DFORTE_COM_PAHOMQTT=ON \

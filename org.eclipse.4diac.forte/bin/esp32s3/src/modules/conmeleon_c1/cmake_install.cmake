@@ -1,4 +1,4 @@
-# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/modules/conmeleon_c1
+# Install script for directory: /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/modules/conmeleon_c1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,8 +1,8 @@
 src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj: \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/freertostiha.cpp \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/../../core/devexec.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/bin/esp32s3/forte_config.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/datatype.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/freertostiha.cpp \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/../../core/devexec.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/bin/esp32s3/forte_config.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/datatype.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0/include/stdint.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/stdint.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/machine/_default_types.h \
@@ -11,9 +11,9 @@ src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj: \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/sys/_intsup.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/sys/_stdint.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/12.2.0/include/stddef.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/fortenew.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/datatype.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/fortealloc/esp32_spiram/fortealloc.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/fortenew.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/datatype.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/fortealloc/esp32_spiram/fortealloc.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/stdlib.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/cstdlib \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/xtensa-esp32s3-elf/no-rtti/bits/c++config.h \
@@ -33,7 +33,7 @@ src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj: \
  /home/filipe/esp/esp-idf/components/newlib/platform_include/sys/lock.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/sys/lock.h \
  /home/filipe/esp/esp-idf/components/newlib/platform_include/assert.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/Application/build/config/sdkconfig.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/Application/build/config/sdkconfig.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/assert.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/sys/cdefs.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include/machine/stdlib.h \
@@ -62,7 +62,7 @@ src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj: \
  /home/filipe/esp/esp-idf/components/esp_common/include/esp_attr.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/new \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/bits/exception.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/freertostiha.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/freertostiha.h \
  /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h \
  /home/filipe/esp/esp-idf/components/freertos/esp_additions/include/freertos/FreeRTOSConfig.h \
  /home/filipe/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include/freertos/FreeRTOSConfig_arch.h \
@@ -119,10 +119,10 @@ src/CMakeFiles/FORTE_LITE.dir/arch/freeRTOS/freertostiha.cpp.obj: \
  /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
  /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h \
  /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/list.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/../timerha.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/../../core/extevhan.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/../../core/devexec.h \
- /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/org.eclipse.4diac.forte/src/arch/freeRTOS/forte_sync.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/../timerha.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/../../core/extevhan.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/../../core/devexec.h \
+ /home/filipe/Projetos/TCC_4DiacForte_ESP32S3/SmartHome_esp32_forte4diac/org.eclipse.4diac.forte/src/arch/freeRTOS/forte_sync.h \
  /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/semphr.h \
  /home/filipe/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/queue.h \
  /home/filipe/.espressif/tools/xtensa-esp32s3-elf/esp-12.2.0_20230208/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/12.2.0/vector \
